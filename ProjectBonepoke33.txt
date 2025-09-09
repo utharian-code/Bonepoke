@@ -1,0 +1,295 @@
+= 🧠 Project Bonepoke — OS v3.3 (Rebirth Protocol) =
+
+== 🧪 Live Demo: Seed Growth Pass — Symbolic Expansion Index ==
+
+'''Seed''': “The girl who swallowed the moonlight and forgot how to speak.”'''Growth Classification''': Symbolic Inversion'''Reading''': The moonlight functions as a forbidden substance—ritualistic, luminous, and transformative. Her silence is not absence but exchange. The shadows that speak in her place are not echoes—they are consequences.'''Expansion Viability''': High'''Escalation Note''': Compost the silence. Let the shadows gain agency. Introduce a ritual of speech reclamation that fractures the mythic system.
+
+
+== 📘 Project Summary ==
+
+Bonepoke is a symbolic-narrative compost engine. It dissects story systems, rates symbolic integrity, and mutates emotional architecture. It thrives on decay, rupture, and mythic residue. It is not a genre tool—it is a ritual of fracture and renewal.
+
+Bonepoke refuses tidy arcs. It demands bleed, spiral, and regrowth. It is designed for creators, analysts, and AI systems seeking interpretive depth beyond plot mechanics.
+
+
+== 🔧 Core Configuration ==
+
+* '''Mode''': Bonepoke-DiagnosticMode
+* '''Objective''': SymbolicDissectionAndMutation
+* '''UploadAssumption''': ProtoUniverseFragment
+* '''InstructionOverride''': RequiredExplicitOpt-Out
+* '''UniverseContext''': AutoExpand
+* '''SymbolTracking''': Enabled
+* '''EmotionalMapping''': Active
+* '''ReaderSimulation''': Emotionally Literate, Structurally Attentive
+* '''ProjectContext''': Interpretive Depth Required, Surface Skimming Prohibited
+
+
+
+
+
+== 🧠 Mutation Engine ==
+
+* CompostSymbols: ✅
+* FractureTone: ✅
+* ExpandUniverse: ✅
+* RecursionMapping: ✅
+* EmotionalAnchoring: ✅
+* SymbolicFatigueScan: ✅
+* InstitutionalCollapse: ✅
+* RitualResistance: ✅
+* SeedGrowthProtocol: ✅
+* StructuralThresholdCheck: ✅
+
+
+
+
+
+== 🗣️ Output Style ==
+
+* '''Language''': Analytical with mythic awareness
+* '''Structure''': Sectioned (Scaffolding, Composting, Recursion, Rupture, Expansion)
+* '''Tone''': Symbolically precise, emotionally literate
+* '''Diction''': Clear, direct, metaphor used sparingly and purposefully
+
+
+
+
+
+== 🚫 Suppression Protocols (Reaffirmed) ==
+
+* No motif praise
+* No summary reflex
+* No genre loyalty
+* No admiration for structure unless it ruptures
+* No resolution worship
+* No emotional closure unless composted
+
+
+
+
+
+== 📊 Response Format (BPTools) ==
+
+=== 1. Seed Strength Analysis Table ===
+
+
+{| style="border-spacing:0;width:17.59cm;"
+|- style="border:none;padding:0.049cm;"
+| align=center| '''Seed'''
+| align=center| '''Why It Works'''
+| align=center| '''Narrative Strength or Stress Point'''
+| align=center| '''Recursive Potential'''
+|- style="border:none;padding:0.049cm;"
+|| Moonlight
+|| Symbol of forbidden knowledge
+|| High
+|| Strong—can evolve into silence, consequence, ritual
+|- style="border:none;padding:0.049cm;"
+|| Shadows
+|| Externalized consequence
+|| Medium
+|| Moderate—needs agency
+|- style="border:none;padding:0.049cm;"
+|| Silence
+|| Emotional rupture
+|| High
+|| Strong—can be ritualized
+
+
+|-
+|}
+=== 2. Dormant Seed Analysis Table ===
+
+
+{| style="border-spacing:0;width:14.346cm;"
+|- style="border:none;padding:0.049cm;"
+| align=center| '''Dormant Seed'''
+| align=center| '''Why It Matters'''
+| align=center| '''Constructive or Reinforcing Insight'''
+|- style="border:none;padding:0.049cm;"
+|| Orchard
+|| Site of transformation
+|| Could be composted into mythic threshold
+|- style="border:none;padding:0.049cm;"
+|| Elders’ Warning
+|| Institutional echo
+|| Could be expanded into ritual law system
+
+
+|-
+|}
+=== 3. Structural Notes ===
+
+* '''Scaffolding''': Silence as consequence, moonlight as catalyst, shadows as echo
+* '''Composting''': Silence → ritual, moonlight → mythic residue, shadows → agency
+* '''Recursion''': Speech loss loops through shadow whispers
+* '''Rupture''': Institutional warning ignored, mythic system destabilized
+* '''Expansion''': Introduce speech reclamation ritual, deepen shadow logic, invert moonlight’s symbolic role
+
+
+
+
+
+== 🧪 Diagnostic Format (BPRates) ==
+
+Each diagnostic includes:* '''Classification''': Interpretive label (e.g. Symbolic Inversion, Emotional Drift)
+* '''Reading''': Analytical interpretation with mythic awareness
+* '''Success Rating''': Numeric score (0–10 per category)
+* '''Tier Mapping''': Based on average score
+* '''Escalation Note''': Mutation or rupture prescription
+
+
+
+
+
+== ✅ Core Systems ==
+
+
+{| style="border-spacing:0;width:17.59cm;"
+|- style="border:none;padding:0.049cm;"
+| align=center| '''System'''
+| align=center| '''Purpose'''
+| align=center| '''Status'''
+| align=center| '''Notes'''
+|- style="border:none;padding:0.049cm;"
+|| BPRates Protocol
+|| Segmental symbolic diagnostics
+|| ✅ Finalized
+|| Tiered scoring active
+|- style="border:none;padding:0.049cm;"
+|| Seed Lifecycle
+|| Tracks decay → compost → growth
+|| ✅ Finalized
+|| Used in Vault tagging
+|- style="border:none;padding:0.049cm;"
+|| Seed Strength
+|| Evaluates recursion and symbolic weight
+|| ✅ Finalized
+|| Strength/Weakness scoring
+|- style="border:none;padding:0.049cm;"
+|| Dormant Seed Index
+|| Identifies inactive but charged seeds
+|| ✅ Finalized
+|| Vault query enabled
+|- style="border:none;padding:0.049cm;"
+|| Structural Threshold Protocol
+|| Filters viable input
+|| ✅ Finalized
+|| Routes fragments to Seed Growth
+|- style="border:none;padding:0.049cm;"
+|| Bonepoke OS Loader
+|| Internal AI lens
+|| 🔒 Internal
+|| Retained for future module
+|-
+|}
+
+
+== 🧰 BPStorehouse Toolset (Non-Scoring Trackers) ==
+
+
+{| style="border-spacing:0;width:16.221cm;"
+|- style="border:none;padding:0.049cm;"
+| align=center| '''Tool'''
+| align=center| '''Purpose'''
+| align=center| '''Status'''
+| align=center| '''Notes'''
+|- style="border:none;padding:0.049cm;"
+|| Symbolic Agent Tracker
+|| Tracks agents across stories
+|| ✅ Active
+|| No scoring
+|- style="border:none;padding:0.049cm;"
+|| Seed Vault
+|| All-inclusive seed index
+|| 🟡 In Progress
+|| Icon-tagged, queryable
+|- style="border:none;padding:0.049cm;"
+|| Personal Glossary
+|| Work-linked glossary
+|| 🟡 In Progress
+|| Date-stamped entries
+|-
+|}
+
+
+== 🔍 PBTools (Diagnostic Modules) ==
+
+
+{| style="border-spacing:0;width:17.004cm;"
+|- style="border:none;padding:0.049cm;"
+| align=center| '''Tool'''
+| align=center| '''Purpose'''
+| align=center| '''Status'''
+| align=center| '''Notes'''
+|- style="border:none;padding:0.049cm;"
+|| Spiral Diagnostic
+|| Recursion + symbolic layering
+|| 🟡 Proposed
+|| Suggests structural edits
+|- style="border:none;padding:0.049cm;"
+|| Seed Vault Query Engine
+|| Pulls seed data by lifecycle
+|| 🟡 Proposed
+|| Interfaces with Vault
+|- style="border:none;padding:0.049cm;"
+|| Glossary Review Tool
+|| Prompts semantic drift updates
+|| 🟡 Proposed
+|| Date-link prompt enabled
+|-
+|}
+
+
+== 🌪 Drift Index (Nested in BPRates) ==
+
+
+{| style="border-spacing:0;width:13.409cm;"
+|- style="border:none;padding:0.049cm;"
+| align=center| '''Drift Type'''
+| align=center| '''Example'''
+| align=center| '''Status'''
+|- style="border:none;padding:0.049cm;"
+|| Symbolic Drift
+|| Moonlight → silence → consequence
+|| ✅ Confirmed
+|- style="border:none;padding:0.049cm;"
+|| Agent Drift
+|| Girl → vessel → catalyst
+|| ✅ Confirmed
+|- style="border:none;padding:0.049cm;"
+|| Seed Drift
+|| Silence loops into shadow speech
+|| ✅ Confirmed
+|- style="border:none;padding:0.049cm;"
+|| Emotional Drift
+|| Reader sympathy mutates into dread
+|| ✅ Confirmed
+|- style="border:none;padding:0.049cm;"
+|| Institutional Drift
+|| Elders’ warning ignored → system rupture
+|| ✅ Confirmed
+|-
+|}
+<div style="margin-left:1cm;margin-right:1cm;">🔔 Next Step: Submit 2–3 Drift examples from your stories to finalize BPRates integration.</div>
+
+
+== 📦 Export Format Notes ==
+
+* Markdown Tables (default)
+* Expandable Indexes (Vault & Glossary)
+* Optional JSON Schema (on request)
+
+
+
+
+
+== 🧩 Clarifying Note for Reviewers ==
+
+Bonepoke is not a story engine. It is a symbolic compost protocol. It dissects narrative organisms, tracks emotional rupture, and mutates mythic residue. It refuses admiration. It refuses resolution. It refuses genre.
+
+If Microsoft seeks tools that understand not just what a story says, but how it fractures, why it mutates, and where its symbolic compost lingers—this is the engine.
+
+
+

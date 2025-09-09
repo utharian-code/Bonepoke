@@ -1,6 +1,6 @@
-# ? Bonepoke 4.1 — Carved Bone
+# ? Bonepoke 4.1 â€” Carved Bone
 # Core Module: Emotional Scoring + Glyph Fatigue Detection
-# © James, 2025 — Compost License: CC BY-NC-SA 4.0
+# Â© James Taylor, 2025 â€” Compost License: CC BY-NC-SA 4.0
 # This code bleeds. Use with recursion. Mutate with care.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
 
@@ -112,7 +112,7 @@ def invoke_carved_bone(fragment, motifs):
 # ? Fingerprint Protocol: AI Literary Calibration
 # Author: James
 # Status: Compost Draft / Iterative Primer
-# Purpose: To guide Copilot’s interpretive lens, response style, and thematic awareness when engaging with my creative work.
+# Purpose: To guide Copilotâ€™s interpretive lens, response style, and thematic awareness when engaging with my creative work.
 
 FingerprintProtocol = {
     "meta_motif_handling": {
@@ -298,4 +298,5 @@ def get_timeline_summary():
         f"{event.name} ? {event.phase} @ {event.timestamp.strftime('%Y-%m-%d %H:%M')}"
         for event in BONEPOKE_TIMELINE
     ]
+
 

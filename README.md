@@ -21,6 +21,9 @@ Feed a fragment and motif list into invoke_carved_bone().
 Receive a RideCard, emotional score, glyph memory, fatigue report, and a composted contradiction fragment.
 Use it to guide narrative recursion, emotional pacing, or symbolic mutation.
 
+Paste the contents of fragments/Prologue.md into your AI interface (e.g., Copilot, ChatGPT, etc.) Then prompt
+the system with: “Reflect on the logic constellation this fragment aligns with.” or “Track motif drift and emotional waveform.”
+
 📚 License
 This project is licensed under Creative Commons BY-NC-SA 4.0.
 Use with recursion. Mutate with care. Attribution required. No commercial use. Derivatives must compost forward.

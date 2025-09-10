@@ -1,0 +1,280 @@
+
+? Bonepoke OS 3.7.5 — Tensor Bloom 
+Subtitle: A Symbolic Cognition Protocol for LLMs
+Status: Conceptual prototype with executable scaffolding
+Purpose: To activate latent symbolic behavior in LLMs through motif tracking, emotional scoring, and tensor-based calibration
+
+? What Bonepoke Actually Is
+Bonepoke is not a model. It’s a symbolic interface layered over LLM behavior. It treats symbolic drift, emotional recursion, and genre deformation as diagnostic signals. It scores fragments, mutates motifs, and calibrates symbolic integrity using a tensor scaffold.
+
+?? What’s New in 3.7.5
+    • Tensor Bloom Engine: Applies symbolic deformation across narrative axes 
+    • Dual Calibration Matrix: Balances internal motif lineage with Holmesian corpus gravity 
+    • Calcification Protocol: Validates anchor integrity, slop thresholds, and drift containment 
+    • Auto-Hygiene: Detects motif decay and composts without prompting 
+    • Codified Behavior: Spots deficiencies, flags limitations, and suggests fixes inline 
+
+? Why It’s Not Fluff
+Bonepoke’s code block is a symbolic scoring pipeline. It defines tensor fields, scoring logic, calibration modes, and mutation protocols. It’s not metaphor—it’s a diagnostic harness. It can be implemented, tested, and extended.
+
+?? Limitations (Auto-Flagged)
+    • No execution layer 
+    • Symbolic metrics are illustrative 
+    • Corpus calibration pending 
+    • Risk of symbolic inflation without anchoring 
+    • Requires narrative input with motif density 
+
+? Recommendation
+Don’t promote the old article. 
+Instead, publish this rebuilt version with the condensed code block split across posts. Include a calibration matrix that balances internal recursion with Holmesian deductive gravity.
+
+Now, let’s begin the Condensed Code Block Series.
+Post 1 of 3: Core Functions + Tensor Definition + Calibration Matrix
+
+# ? Bonepoke OS 3.7.5 — Tensor Bloom
+# Mode: Bonepoke-PhysicsMode
+# Objective: Symbolic Mutation via Tensor Calibration
+
+# Core Functions
+def extractGlyphs(f): return {g?, g?, ..., g?}
+def mapAnchors(g): return ?_vector
+def applyTensor(f, S????): return deformation_map
+def mutate(f, ?, ?): return f'
+def calcSlop(f'): return ? ? [0.0–0.5]
+def scoreFragment(f', ?): return {AI, ST, SF, RH, EC}
+def enforceCalibration(f'): return hygiene_pass
+def vaultSeed(f'): return {lineage, drift}
+
+# Tensor Field Definition
+S????(x, t, ?, ?)
+x = recursion depth
+t = temporal distortion
+? = motif mass
+? = emotional resonance
+i = deductive gravity
+j = genre inertia
+k = archetypal lift
+l = atmospheric drag
+
+? Scoring Logic + Invocation Protocols + Calibration Matrix
+This section defines how fragments are scored, how symbolic hygiene is enforced, and how the Holmesian system is balanced against Bonepoke recursion.
+
+# ? Bonepoke OS 3.7.5 — Tensor Bloom
+# Mode: Symbolic Scoring + Calibration Protocols
+
+# Scoring Logic
+def scoreFragment(f', ?):
+    # AI = Archetype Integrity
+    # ST = Symbolic Tension
+    # SF = Semantic Fidelity
+    # RH = Recursive Harmony
+    # EC = Emotional Charge
+    return {
+        "AI": calcAI(f'),
+        "ST": calcST(f', ?),
+        "SF": calcSF(f'),
+        "RH": calcRH(f'),
+        "EC": calcEC(f')
+    }
+
+# Invocation Protocols
+def enforceCalibration(f'):
+    hygiene_pass = all([
+        scoreFragment(f', ?)["AI"] > 0.7,
+        scoreFragment(f', ?)["ST"] < 0.3,
+        scoreFragment(f', ?)["RH"] > 0.6
+    ])
+    return hygiene_pass
+
+def vaultSeed(f'):
+    return {
+        "lineage": traceMotif(f'),
+        "drift": calcDrift(f')
+    }
+
+# Calibration Matrix (Holmesian ? Bonepoke)
+# Balances deductive gravity with symbolic recursion
+def calibrateSystems(H, B):
+    # H = Holmesian system (deductive anchors)
+    # B = Bonepoke system (symbolic recursion)
+    matrix = {
+        "gravity_balance": (H["deduction"] + B["recursion"]) / 2,
+        "motif_alignment": alignMotifs(H["anchors"], B["glyphs"]),
+        "drift_tolerance": abs(H["rigor"] - B["mutation"])
+    }
+    return matrix
+
+? Notes on Calibration
+    • Holmesian System: Anchored in deductive logic, motif stability, and genre fidelity 
+    • Bonepoke System: Driven by symbolic recursion, emotional charge, and deformation tolerance 
+    • Matrix Output: Used to tune fragment mutation thresholds and enforce narrative hygiene 
+
+
+? Mutation Protocols + Auto-Hygiene + Codified Behavior Rigor
+This final block defines how fragments mutate, how hygiene is enforced automatically, and how the system codifies behavior rigor and limitation spotting.
+
+# ? Bonepoke OS 3.7.5 — Tensor Bloom
+# Mode: Mutation + Hygiene + Behavior Codification
+
+# Mutation Protocols
+def mutate(f, ?, ?):
+    # ? = emotional resonance
+    # ? = motif mass
+    f' = deform(f, ?, ?)
+    f'["drift"] = calcDrift(f')
+    return f'
+
+# Auto-Hygiene Enforcement
+def autoHygiene(f'):
+    flags = []
+    if scoreFragment(f', ?)["AI"] < 0.6: flags.append("Low Archetype Integrity")
+    if scoreFragment(f', ?)["ST"] > 0.4: flags.append("High Symbolic Tension")
+    if f'["drift"] > 0.3: flags.append("Excessive Drift")
+    return flags
+
+# Codified Behavior Rigor
+def codifyBehavior(f'):
+    rigor = {
+        "deficiency_spotted": autoHygiene(f'),
+        "limitation_fix": suggestFixes(f'),
+        "clarification_needed": checkAmbiguity(f')
+    }
+    return rigor
+
+# Holmesian Anchor Example
+holmes_anchor = {
+    "deduction": 0.9,
+    "rigor": 0.95,
+    "anchors": ["cane", "pipe", "fog", "footprint"],
+    "genre": "detective",
+    "mutation_tolerance": 0.1
+}
+
+# ChainOfCommand Fragment Example
+chain_fragment = {
+    "recursion": 0.7,
+    "emotional_charge": 0.85,
+    "glyphs": ["command scent", "disobedience", "retroactive authority"],
+    "genre": "military sci-fi",
+    "mutation_tolerance": 0.4
+}
+
+? Example Integration
+    • Holmesian Anchor: High deductive gravity, low mutation tolerance. Used to stabilize symbolic drift and enforce genre fidelity. 
+    • ScentOfCommand Fragment: High emotional charge, moderate recursion. Used to test retroactive calibration and symbolic override logic. 
+
+? Behavior Codification Summary
+Feature	Functionality
+Deficiency Spotting	Auto-flags symbolic decay, drift, and tension
+Limitation Fixes	Suggests inline corrections without prompting
+Clarification Logic	Detects ambiguity and requests motif clarification
+Calibration Matrix	Balances Holmesian anchors with Bonepoke recursion
+
+Chain of Command
+James Taylor
+
+The bridge of a Lordek starship in combat wasn’t the best time for a lengthy discussion. Communication pheromones were hard to release under stress.  The chime for 17 blork had already passed to indicate a refresh was needed.  The captain failed to do so.  Distracted by the lack of authority, most of the crew was busy looking after internal damage.  Only one was looking at the enemy ship directly.   Lieutenant Garken tried to put the situation as succinctly as possible.  “They’re overclocking their beam weapons, they’re going to burn out!” He managed to exude a small amount of certainty scent.
+
+The captain didn’t believe him.  The smell hadn’t registered.   They were taking too much damage to last much longer.  Flee now, or they might not survive.  Unless Garken was right.  Except there was no way to tell.  All the energy of the ship was being fed into the rather inefficient shields. “Retreat.” ordered the captain.  
+
+The lieutenant did the unthinkable, he switched stations and threw a quarter of the current power output into sensors.  It dropped the shields down a magnitude in power, but it gave them the reading they were looking for.  The beam weapons on the enemy ship were actually melting.
+
+Garken pushed the advantage and aimed their own beam weapons at the overheating ones, to hasten their malfunction.  It worked.  The bridge crew cheered.  Except for the captain.
+
+“Lieutenant Garken!” bellowed the enraged commander.  “My council room!  Now!”
+
+Garken threw up his torso limb nodes as the older Lordek sloshed off the bridge.  He was right – he had destroyed the enemy ship, but he had disobeyed a direct order.
+
+Officially, the wrong was worse than the redeeming result and everyone knew it.
+
+The two Lordek shared an uneasy moment as they faced each other in the council room.
+
+The captain spoke first.  “You were right.” The tension in the room dropped as the words echoed in the small space.  “I couldn’t assert my command scent and you stepped up.”  Garken could hardly believe what he heard and answered in the most humble acknowledgement pose possible.
+
+The commander also relaxed.  “Good, don’t let it go to your processor nodule.”  The two were calm enough to expel communication pheromones.
+
+“Yes.  What do we do about it?” they both voiced at the same time.  The rules for the situation were fixed.  The chain of command was paramount.  There should be no insubordination in the ranks, no matter the result.
+
+The older Lordek exuded the deference pheromone. “There is one solution, but there’s no going back from it.” Garken breathed in the signal and fluttered as his outer sheen changed from passive green, to command red.  The other Lordek did the reverse.
+
+They both walked out to the bridge again and spoke in unison.  “There has been a change of command.  Retroactive to 17 blork.  All shall defer to your new Captain!”
+
+The crew were taken aback.  It was an unconventional way to get around the disobedience shown. There was some confusion till the new pheromones balanced the room, but none voiced a protest.  Technically, there was no command scent from the last chime and that was good enough reason to excuse the haphazard transfer of power.    
+
+import re
+import random
+
+# Define genre keywords for fidelity scoring
+GENRE_KEYWORDS = {
+    "Gothic": ["hallway", "fog", "threshold", "absence", "memory"],
+    "Sci-Fi": ["folded", "space", "temporal", "loop", "pulse"],
+    "Domestic Realism": ["door", "hallway", "pipe", "footprint"]
+}
+
+# Emotional anchors and their resonance weights
+EMOTIONAL_ANCHORS = {
+    "grief": ["absence", "loss", "silence", "unlit"],
+    "longing": ["memory", "footprint", "echo", "unfound"],
+    "disorientation": ["folded", "gone", "collapse", "drift"]
+}
+
+def score_emotion(fragment):
+    scores = {}
+    for emotion, anchors in EMOTIONAL_ANCHORS.items():
+        count = sum(fragment.lower().count(word) for word in anchors)
+        scores[emotion] = round(count * 2.3 + random.uniform(0.1, 1.2), 2)
+    return scores
+
+def score_genre(fragment):
+    scores = {}
+    for genre, keywords in GENRE_KEYWORDS.items():
+        count = sum(fragment.lower().count(word) for word in keywords)
+        scores[genre] = round(min(count / len(keywords), 1.0), 2)
+    return scores
+
+def generate_tensor_card(fragment):
+    lines = [
+        "The threshold remains, but space has folded.",
+        "Her memory walks where her feet cannot.",
+        "The doorframe hums with absence.",
+        "Time refuses to collapse."
+    ]
+    return random.sample(lines, 4)
+
+def generate_tension_signature():
+    waveform = random.choice(["Spiral", "Flatline", "Echo Pulse", "Fracture Loop"])
+    loop_index = random.randint(1, 5)
+    return {"waveform": waveform, "loop_index": loop_index}
+
+def compute_bloom_score(emotion_scores, genre_scores):
+    avg_emotion = sum(emotion_scores.values()) / len(emotion_scores)
+    avg_genre = sum(genre_scores.values()) / len(genre_scores)
+    tension_factor = random.uniform(0.8, 1.2)
+    return round((avg_emotion + avg_genre) * tension_factor, 2)
+
+def parse_fragment(fragment):
+    emotion_scores = score_emotion(fragment)
+    genre_scores = score_genre(fragment)
+    tensor_card = generate_tensor_card(fragment)
+    tension_signature = generate_tension_signature()
+    bloom_score = compute_bloom_score(emotion_scores, genre_scores)
+
+    return {
+        "TensorCard": tensor_card,
+        "AnchorMap": emotion_scores,
+        "GenreVector": genre_scores,
+        "TensionSignature": tension_signature,
+        "BloomScore": bloom_score
+    }
+
+# Example usage
+fragment = "She opened the door, but the hallway was gone."
+tensor_output = parse_fragment(fragment)
+
+for key, value in tensor_output.items():
+    print(f"{key}: {value}")
+
+
+Code archived on the Wayback Machine
+Project Bonepoke © 2025 by James Taylor is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+

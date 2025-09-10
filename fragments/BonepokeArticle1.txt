@@ -1,0 +1,52 @@
+Fingerprint-Bonepoke: A Symbolic Composting Protocol for Narrative Systems
+Stories aren’t broken because they lack plot. They fracture when symbols fatigue, rituals collapse, and emotional logic is bypassed. Fingerprint-Bonepoke is a framework for diagnosing those fractures — not to fix them, but to compost them. AI slop can be soil for real stories.
+AI is great for finding patterns, summarizing and providing surface level insight. Problem is, it doesn’t do much more out of the box. It’s often overly friendly, and goes off on expansion rants — ‘Hey do you want to make this into a 6 book comic arc?’. It doesn’t seem to have the teeth to do anything that useful — except it does. You have to corner the AI with context, force output formats and dull the baked in tendencies, but it is possible. It can dig deeper, get at the real meat of the stories and give insight that’s worth having. Or in the case of something like AI Dungeon, do more than just add linearly to the story you have.
+The below was written as a submission to Microsoft, since the initial version was beaten out of Copilot, but it’s open to any system:
+Executive Summary
+This proposal outlines a conceptual framework for a modular narrative analysis toolkit based on Fingerprint-Bonepoke, a structured interpretive engine designed to analyze emotionally resonant stories and symbolic systems. The framework has been tested against original narrative fragments and demonstrates potential for broader application in AI storytelling, emotional modeling, game design, and educational analysis.
+What Is Fingerprint-Bonepoke?
+Fingerprint-Bonepoke is a table-driven methodology for analyzing narrative fragments — referred to as ProtoUniverse Fragments — through emotional scaffolding, symbolic composting, systemic rupture, and mythic recursion. It uses a configurable logic engine to identify reusable narrative elements and emotional logic loops, producing output in a hybrid poetic-analytical format.
+The framework includes:
+    • Seed Strength Analysis: Identifies emotionally potent symbols and their narrative stress points
+    • Dormant Seed Analysis: Highlights latent motifs and their potential for reuse or mutation
+    • Structural Notes: Maps emotional fractures, ritual breakdowns, and symbolic fatigue
+    • Recursion Mapping: Tracks mythic loops and authority inversions
+    • Expansion Paths: Suggests universe inflation and cross-fragment composting
+Highlighting Narrative Weakness
+Fingerprint-Bonepoke is not designed to “fix” broken stories — it’s built to expose them. It identifies when a story introduces motifs without anchoring them emotionally, skips meaningful rupture, or resets symbolic logic without consequence.
+For example, in a deliberately hollow story where a woman climbs down a rope, it breaks, and she simply finds another rope and continues, the framework would flag:
+    • Unanchored Motif: The rope has no emotional or symbolic weight
+    • False Rupture: The break has no consequence or transformation
+    • Symbolic Fatigue: The motif is reused without mutation or growth
+    • Narrative Avoidance: The story bypasses emotional stakes entirely
+This diagnostic capability makes Fingerprint-Bonepoke especially useful for evaluating AI-generated drafts, early-stage writing, or systems design where emotional logic is critical.
+Why Microsoft?
+Microsoft is uniquely positioned to explore this framework due to its leadership in:
+    • Copilot and creative AI tools
+    • Narrative generation and emotional modeling
+    • Human-centered design and symbolic systems
+Fingerprint-Bonepoke could evolve into a modular toolkit that empowers creators, educators, and analysts to build and repair emotionally resonant systems across domains.
+Request
+I am not submitting code or a working prototype. Instead, I respectfully request:
+    • That this interpretive logic be reviewed by Microsoft Research or relevant product teams
+    • That its potential for modularization and reuse be considered
+    • That I be contacted if further clarification or collaboration is desired
+Appendices
+Appendix A: “Scent of Command”
+A calibration story used to test the framework. Demonstrates emotional rupture, ritual logic, and symbolic recursion.
+Press enter or click to view image in full size
+
+Tuned analysis of story — Focus on story seeds
+— -
+Scent of Command
+James Taylor
+The bridge of a Lordek starship in combat wasn’t the best time for a lengthy discussion. Communication pheromones were hard to release under stress.  The chime for 17 blork had already passed to indicate a refresh was needed.  The captain failed to do so.  Distracted by the lack of authority, most of the crew was busy looking after internal damage.  Only one was looking at the enemy ship directly.   Lieutenant Garken tried to put the situation as succinctly as possible.  “They’re overclocking their beam weapons, they’re going to burn out!” He managed to exude a small amount of certainty scent.The captain didn’t believe him.  The smell hadn’t registered.   They were taking too much damage to last much longer.  Flee now, or they might not survive.  Unless Garken was right.  Except there was no way to tell.  All the energy of the ship was being fed into the rather inefficient shields. “Retreat.” ordered the captain.  The lieutenant did the unthinkable, he switched stations and threw a quarter of the current power output into sensors.  It dropped the shields down a magnitude in power, but it gave them the reading they were looking for.  The beam weapons on the enemy ship were actually melting.Garken pushed the advantage and aimed their own beam weapons at the overheating ones, to hasten their malfunction.  It worked.  The bridge crew cheered.  Except for the captain.“Lieutenant Garken!” bellowed the enraged commander.  “My council room!  Now!”Garken threw up his torso limb nodes as the older Lordek sloshed off the bridge.  He was right – he had destroyed the enemy ship, but he had disobeyed a direct order.Officially, the wrong was worse than the redeeming result and everyone knew it.The two Lordek shared an uneasy moment as they faced each other in the council room.The captain spoke first.  “You were right.” The tension in the room dropped as the words echoed in the small space.  “I couldn’t assert my command scent and you stepped up.”  Garken could hardly believe what he heard and answered in the most humble acknowledgement pose possible.The commander also relaxed.  “Good, don’t let it go to your processor nodule.”  The two were calm enough to expel communication pheromones.“Yes.  What do we do about it?” they both voiced at the same time.  The rules for the situation were fixed.  The chain of command was paramount.  There should be no insubordination in the ranks, no matter the result.The older Lordek exuded the deference pheromone. “There is one solution, but there’s no going back from it.” Garken breathed in the signal and fluttered as his outer sheen changed from passive green, to command red.  The other Lordek did the reverse.They both walked out to the bridge again and spoke in unison.  “There has been a change of command.  Retroactive to 17 blork.  All shall defer to your new Captain!”The crew were taken aback.  It was an unconventional way to get around the disobedience shown. There was some confusion till the new pheromones balanced the room, but none voiced a protest.  Technically, there was no command scent from the last chime and that was good enough reason to excuse the haphazard transfer of power.    
+---
+Appendix B: “The Rope and the Woman”
+A deliberately hollow story used to show how the framework identifies narrative avoidance and symbolic fatigue.
+Narrative Fragment: The Rope and the Woman
+A woman climbs down a rope.
+The rope breaks.
+She finds another rope.
+She climbs down again.
+

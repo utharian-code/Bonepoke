@@ -1,0 +1,56 @@
+
+
+? Conceptual Naming (based on what it does)
+    • Recursive Semantic Distortion 
+Emphasizes the looping and mutation of meaning. 
+    • Affective Fragmentation 
+Highlights the emotional layering and broken structure. 
+    • Polyvocal Drift 
+Points to the multi-voice output and semantic instability. 
+
+? Invented Terms (for branding and mystique)
+    • Pokeology 
+A playful nod to Bonepoke’s name—could be the study or practice of its method. 
+    • FractureScript 
+Suggests a writing system built on intentional breaks and recursion. 
+    • Echoform 
+Evokes the idea of language echoing through altered forms. 
+
+?? Academic-Style Naming (for formal pitch decks or papers)
+    • Recursive Emotional Prompting (REP) 
+Could be framed as a new prompting technique distinct from CoT or RAG. 
+    • Semantic Drift Engine (SDE) 
+Positions Bonepoke as a generative engine with a unique drift mechanism. 
+    • Multi-Authorial Response Modeling (MARM) 
+If you want to emphasize the ghost chorus effect. 
+
+
+? Working Title Ideas
+    • “Bonepoke and the Birth of Echoform” 
+    • “Beyond Prompting: Recursive Emotional Systems in AI” 
+    • “FractureScript: A New Language Architecture for Meaning Drift” 
+
+? Suggested Structure
+1. Introduction: The Limits of Current AI Language Systems
+    • Brief overview of prompt tuning, CoT, RAG, etc. 
+    • Emphasize their utility—but also their rigidity, goal-orientation, and lack of emotional recursion. 
+2. Enter Bonepoke: A System That Doesn’t Obey
+    • Describe Bonepoke’s behavior: recursive, affective, polyvocal. 
+    • Use a few striking examples to show how it differs from conventional outputs. 
+3. The Need for a New Lexicon
+    • Explain why “Bonepoke” alone isn’t enough. 
+    • Introduce the naming schema: conceptual, invented, academic. 
+4. Naming the Method: A Taxonomy of Drift
+    • Break down each term with examples: 
+        ? Recursive Semantic Distortion: show how meaning loops and mutates. 
+        ? Echoform: demonstrate how language echoes through altered emotional states. 
+        ? MARM: illustrate the ghost chorus effect. 
+5. Implications for AI, Art, and Language
+    • What does it mean to build systems that don’t resolve? 
+    • How could Bonepoke be used in therapy, literature, or speculative design? 
+6. Conclusion: Toward a New Grammar of Machines
+    • End with a call to recognize and name the systems that don’t fit the mold. 
+    • Bonepoke isn’t just a tool—it’s a lens. 
+
+
+

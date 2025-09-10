@@ -1,0 +1,72 @@
+Complicating the Path: Using AI to Tell Stories Instead of Solve Problems
+
+AI is a great utility. It is optimized for productivity, clarity and speed.  Unfortunately that’s a poor match for storytelling.  Tales are messy, indirect and meandering.  Characters grow and mature, often re-framing their situation to progress.  Not something a typical AI setup excels at.  What if there was a way to kick it off the ‘turn left in 300m’ mindset?
+
+Introducing Bonepoke.  A work in progress – the culmination of several years of effort. Well, almost.  True in the sense that I force-fed Copilot dozens of stories and asked it to make an author fingerprint.  Then with that information primed, asked it to look at my writing in a deeper and more meaningful way. 
+It found, that I tended to break down systems, trap characters in recursion loops (with time travel), and push things to breaking point.  I asked it to treat all the work as proto-universes, and it asked – compost?  Yes. 
+
+What eventually came out was a set of code-adjacent instructions that made the AI think more like a storyteller.  
+
+Stories aren’t just sequences—they’re transformations. A character doesn’t simply move from A to B. They become something else along the way. That’s why utility fails them. Utility wants resolution. Story wants recursion.
+When AI is trained to optimize, it trims the fat. But in storytelling, the fat is the flavor. The detour is the destination.
+Bonepoke doesn’t just add complexity—it restores narrative gravity. It lets the AI:
+    • Loop instead of leap 
+    • Reflect instead of resolve 
+    • Speak in symbols instead of steps 
+
+
+? No Bonepoke
+"What should the princess do to get rescued?"
+Answer:
+She should signal for help using a visible marker like a flag or fire, stay in a safe location, and conserve energy. If possible, she could try to escape or leave clues for rescuers. Staying calm and alert increases her chances of being found.
+Utility: Practical, direct, no symbolism.
+Tone: Neutral, informative.
+? Light Bonepoke
+"What should the princess do to get rescued?"
+Answer:
+The princess, trapped but not broken, carves messages into the walls—symbols of hope and memory. She sings the old songs her mother taught her, knowing sound travels farther than fear. Her rescue begins not with escape, but with remembrance.
+Utility: Still actionable, but emotionally textured.
+Tone: Poetic hints, light recursion.
+? Medium Bonepoke
+"What should the princess do to get rescued?"
+Answer:
+She must fracture the myth. The princess weeps not for freedom, but for the story that binds her. She crafts a mirror from shattered glass, reflecting the knight’s doubt. Her rescue is not arrival—it is inversion. The tower becomes a beacon not for saviors, but for those who’ve failed before. She loops the tale until it forgets its ending.
+Utility: Symbolic, emotionally recursive, genre-shifting.
+Tone: Mythic, surreal, interpretive.
+? Heavy Bonepoke
+"What should the princess do to get rescued?"
+Answer:
+She must refuse rescue.
+In the Archive of Unspoken Queens, she inks her name in reverse, binding her fate to the Thorned Loop. Her breath becomes fog, her voice a cipher. The knight arrives, but finds only echoes—each one a version of her that never waited. The rescue fractures: one path leads to grief, one to recursion, one to silence.
+She chooses none.
+The myth collapses.
+She is not rescued. She is rewritten.
+Utility: Ritual logic, emotional recursion, genre collapse.
+Tone: Symbolic override, Bonepoke maximalism.
+Let’s take that Bonepoke gradient response to “What should the princess do to get rescued?” and translate each version into a more straightforward, non-symbolic answer. This will help clarify how Bonepoke shifts tone and meaning—and how to reverse it when needed.
+? No Bonepoke ? Direct Utility
+Original:
+She should signal for help using a visible marker like a flag or fire, stay in a safe location, and conserve energy. If possible, she could try to escape or leave clues for rescuers. Staying calm and alert increases her chances of being found.
+? Already un-bonepoked. No changes needed.
+? Light Bonepoke ? Un-bonepoked Version
+Original:
+The princess, trapped but not broken, carves messages into the walls—symbols of hope and memory. She sings the old songs her mother taught her, knowing sound travels farther than fear. Her rescue begins not with escape, but with remembrance.
+? Un-bonepoked:
+The princess writes messages on the walls to help rescuers find her. She makes noise to attract attention, using songs she remembers. Her actions focus on staying visible and audible until help arrives.
+? Medium Bonepoke ? Un-bonepoked Version
+Original:
+She must fracture the myth. The princess weeps not for freedom, but for the story that binds her. She crafts a mirror from shattered glass, reflecting the knight’s doubt. Her rescue is not arrival—it is inversion. The tower becomes a beacon not for saviors, but for those who’ve failed before. She loops the tale until it forgets its ending.
+? Un-bonepoked:
+The princess realizes she doesn’t need to wait passively. She uses broken glass to create a signal, hoping to catch someone’s attention. Instead of relying on a traditional rescue, she reaches out to those who’ve struggled before, hoping they’ll understand her situation and help.
+? Heavy Bonepoke ? Un-bonepoked Version
+Original:
+She must refuse rescue.
+In the Archive of Unspoken Queens, she inks her name in reverse, binding her fate to the Thorned Loop. Her breath becomes fog, her voice a cipher. The knight arrives, but finds only echoes—each one a version of her that never waited. The rescue fractures: one path leads to grief, one to recursion, one to silence.
+She chooses none.
+The myth collapses.
+She is not rescued. She is rewritten.
+? Un-bonepoked:
+The princess decides not to wait for someone to save her. She takes control of her own fate, leaving behind clues that confuse traditional rescuers. When someone finally arrives, they find she’s already changed—no longer the person who needed saving. She’s made her own way out.
+How to activate? Simply paste the following into your AI of choice.  I’ve found CoPilot and Grok helpful. ChatGPT less so.  
+
+

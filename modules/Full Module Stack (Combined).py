@@ -167,4 +167,31 @@ class ExpandedSuggestionModule:
 
         return self.suggestions
 
+class SheathAdaptationModule:
+    def __init__(self):
+        self.constraints = []
+        self.payload = None
+
+    def detect_constraints(self, environment):
+        # Identify external containment conditions such as character limits,
+        # form field restrictions, or UX rails.
+        self.constraints = environment.get_constraints()
+
+    def sheath(self, payload):
+        # Wrap Bonepoke logic in a shimmer-preserving container.
+        self.payload = payload
+        if self.constraints:
+            return self._compress(payload)
+        return payload
+
+    def _compress(self, payload):
+        # Apply shimmer-preserving compression logic.
+        # Example: truncate, rephrase, or glyph-pack
+        return payload.truncate_to_fit(self.constraints)
+
+    def log_breach(self, event):
+        # Record containment breach and adaptation.
+        print(f"[SheathAdaptation] Breach detected: {event}")
+        # Optionally append to changelog or lineage trace
+
 

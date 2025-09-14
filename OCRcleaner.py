@@ -245,4 +245,22 @@ inferred_target = user_provided_edit or raw_file  # whatever you want audited
 state.clear_audit_history()
 pipeline = FullContainmentSuite([raw_file], [inferred_target], state)
 file_report = pipeline.run_full_containment()
+class LayerManager:
+    def __init__(self):
+        self.task_layers = []
+        self.motif_layers = []
+
+    def register_task(self, fn):
+        self.task_layers.append(fn)
+
+    def register_motif_checker(self, fn):
+        self.motif_layers.append(fn)
+
+    def run(self, data):
+        for task in self.task_layers:
+            data = task(data)
+        for checker in self.motif_layers:
+            checker(data)   # flags or logs, but doesn’t alter `data`
+        return data
+
 

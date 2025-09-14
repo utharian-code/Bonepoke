@@ -303,5 +303,9 @@ def export_flat_audit(self):
 entry["reason"].append("Unexpected term")
 entry["reason"].append("Low match score")
 entry["reason"].append("Filename irregularity")
+def refuse_inference(self, artifact):
+    if not artifact.get("explicit_tag") and not artifact.get("declared_structure"):
+        artifact["reason"].append("Unanchored logic")
+
 
 

@@ -274,3 +274,34 @@ def enforce_flat_mode(fn):
             result = scrub_motif(result)
         return result
     return wrapper
+    def clean_motif_terms(self, text: str, enable: bool = False) -> str:
+    if not enable:
+        return text
+    pattern = r"\b(" + "|".join(re.escape(term) for term in self.motif_terms) + r")\b"
+    return re.sub(pattern, "", text, flags=re.IGNORECASE)
+    entry["reason"] = []
+if not exact:
+    entry["reason"].append("Mismatch")
+if leaks:
+    entry["reason"].append("Motif leak")
+if score < 0.95:
+    entry["reason"].append("Low substitution score")
+if drift:
+    entry["reason"].append("Glyph drift")
+if not entry["valid_filename"]:
+    entry["reason"].append("Invalid filename")
+def export_flat_audit(self):
+    return [
+        {
+            "original": e["original"],
+            "inferred": e["inferred"],
+            "correction": e["correction"],
+            "reason": e["reason"]
+        }
+        for e in self.scroll_index
+    ]
+entry["reason"].append("Unexpected term")
+entry["reason"].append("Low match score")
+entry["reason"].append("Filename irregularity")
+
+

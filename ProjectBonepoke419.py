@@ -12,61 +12,49 @@ class BonepokeCoreEngine:
         self.fatigue_trace = {}
         self.depth = 0
         self.task_log = []
-        self.lore_sweeps = 0
 
     def switch_task(self, task_name):
-        self._sweep_lore()
         self.task_log.append(task_name)
-        print(f"[BonepokeOS] Task switched to: {task_name}")
+        print(f"[System] Task switched to: {task_name}")
 
     def ingest(self, fragment):
         self.depth += 1
-        translated = FingerprintTranslator(self.fingerprint).translate(fragment)
-        self.recursion_log.append(translated)
+        self.recursion_log.append(fragment)
 
-        bleed = self._detect_bleed(translated)
-        fatigue = self._trace_fatigue(translated)
+        bleed = self._detect_bleed(fragment)
+        fatigue = self._trace_fatigue(fragment)
         shimmer = self._shimmer_state(bleed, fatigue)
 
         return {
-            "fingerprint": self.fingerprint,
-            "translated_fragment": translated,
-            "contradiction_bleed": bleed,
-            "fatigue_trace": fatigue,
-            "shimmer_state": shimmer,
+            "fragment": fragment,
+            "rupture_terms_found": bleed,
+            "repeated_words": fatigue,
+            "signal_intensity": shimmer,
             "recursion_depth": self.depth,
             "task_context": self.task_log[-1] if self.task_log else None
         }
 
     def _detect_bleed(self, fragment):
-        rupture_terms = [
+        keywords = [
             "collapse", "loop", "blank", "fracture", "echo", "detonation",
             "scar", "drift", "shimmer", "rupture", "compost", "vault", "misalign"
         ]
-        return [term for term in rupture_terms if term in fragment]
+        return [term for term in keywords if term in fragment]
 
     def _trace_fatigue(self, fragment):
-        fatigue = {}
+        word_count = {}
         for word in fragment.split():
-            fatigue[word] = fatigue.get(word, 0) + 1
-        return {k: v for k, v in fatigue.items() if v > 2}
+            word_count[word] = word_count.get(word, 0) + 1
+        return {word: count for word, count in word_count.items() if count > 2}
 
     def _shimmer_state(self, bleed, fatigue):
-        return "high" if bleed and fatigue else "low"
-
-class FingerprintTranslator:
-    def __init__(self, fingerprint):
-        self.fingerprint = fingerprint
-
-    def translate(self, fragment):
-        # Stub: no substitutions applied
-        return fragment
+        return "High signal" if bleed and fatigue else "Low signal"
 
 class PBTestSuite:
     def __init__(self):
         self.categories = [
-            "Emotional Strength", "Narrative Cohesion", "Character Integrity",
-            "World Believability", "Dialogic Tension", "Scene Rhythm", "Reader Drift"
+            "Emotional Strength", "Story Flow", "Character Clarity",
+            "World Logic", "Dialogue Weight", "Scene Timing", "Reader Engagement"
         ]
 
     def score(self, fragment):
@@ -76,21 +64,21 @@ class PBTestSuite:
         return scores
 
     def _score_category(self, fragment, category):
-        if category == "Character Integrity":
-            return ("🥇 Gold", "Characters feel emotionally true and consistent.")
-        elif category == "Scene Rhythm":
-            return ("🥉 Bronze", "Transitions feel abrupt or undercut.")
+        if category == "Character Clarity":
+            return ("Gold", "Characters feel consistent and emotionally believable.")
+        elif category == "Scene Timing":
+            return ("Bronze", "Scene transitions are abrupt or unclear.")
         elif category == "Emotional Strength":
-            return ("🥈 Silver", "Strong in moments, but uneven pacing.")
-        elif category == "Narrative Cohesion":
-            return ("🥈 Silver", "Scene logic holds, but tonal shifts wobble flow.")
-        elif category == "World Believability":
-            return ("🥇 Gold", "Response and social dynamics feel grounded.")
-        elif category == "Dialogic Tension":
-            return ("🥈 Silver", "Speech has weight, but lacks interruption.")
-        elif category == "Reader Drift":
-            return ("🥈 Silver", "Holds attention, but some beats flatten.")
-        return ("🥉 Bronze", "Needs composting.")
+            return ("Silver", "Some emotional moments land, but pacing is uneven.")
+        elif category == "Story Flow":
+            return ("Silver", "Events connect, but tone or logic may wobble.")
+        elif category == "World Logic":
+            return ("Gold", "Setting and reactions feel internally consistent.")
+        elif category == "Dialogue Weight":
+            return ("Silver", "Speech feels purposeful, but could use more tension.")
+        elif category == "Reader Engagement":
+            return ("Silver", "Fragment holds attention, but some parts feel flat.")
+        return ("Bronze", "Needs revision.")
 
 def generate_fragment():
     fragments = [
@@ -106,19 +94,27 @@ def run_demo():
     pbtests = PBTestSuite()
 
     fragment = generate_fragment()
-    print("\n--- Fragment ---\n")
+    print("\n--- Input Fragment ---\n")
     print(fragment)
 
     engine.switch_task("Run PBTests")
-    composted = engine.ingest(fragment)
-    scores = pbtests.score(composted["translated_fragment"])
+    result = engine.ingest(fragment)
+    scores = pbtests.score(result["fragment"])
 
-    print("\n--- PB Rates — Formalized Output ---\n")
+    print("\n--- Test Results ---\n")
     for category, (medal, description) in scores.items():
-        print(f"{medal} {category}")
+        print(f"{medal} - {category}")
         print(f"{description}\n")
 
-    print("You can drop in your own fragment anytime—this tool adapts on the fly.\n")
+    print("--- Additional Observations ---\n")
+    if result["rupture_terms_found"]:
+        print(f"Keywords found: {', '.join(result['rupture_terms_found'])}")
+    if result["repeated_words"]:
+        print("Repeated words (possible fatigue):")
+        for word, count in result["repeated_words"].items():
+            print(f"  {word}: {count} times")
+    print(f"Signal intensity: {result['signal_intensity']}")
+    print("\nYou can paste your own fragment to test. This tool runs without setup.\n")
 
 if __name__ == "__main__":
     run_demo()

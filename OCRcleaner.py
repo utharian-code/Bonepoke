@@ -195,4 +195,7 @@ class BonepokeCleanerSuite:
             "invalid_filenames": [i for i in self.inferred if not self.validate_filename(i)],
             "scrubbed_context": [self.scrub_context(i) for i in self.inferred],
             "scroll_index": self.get_scroll_index()
+            def verify_quote_presence(quote, source_text):
+    return quote in source_text
+
         }

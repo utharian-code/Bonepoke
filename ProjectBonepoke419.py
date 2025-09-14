@@ -1,8 +1,7 @@
 # BonepokeOS 4.1.9  Brainless Tools
 # Author: James | License: CC BY-NC-SA 4.0
-# Purpose: Compost fragments through contradiction, fatigue, shimmer, and fingerprinted recursion
-# Notes: Fingerprint2.txt is treated as dialect logic. Lore sweep is base-integrated. No modular toggles. 
-# It is an external file available on the Bonepoke repo. 
+# Purpose: Run PBTests on fragments using static scoring and minimal logic. No recursion, no composting.
+# Notes: Fingerprint2.txt is referenced but not parsed. Translator is inert. No motif logic applied.
 
 import random
 
@@ -60,8 +59,8 @@ class FingerprintTranslator:
         self.fingerprint = fingerprint
 
     def translate(self, fragment):
-        # Stub: apply dialect logic from fingerprint
-        return fragment.replace("jets", "detonations").replace("student", "vaultkeeper")
+        # Stub: no substitutions applied
+        return fragment
 
 class PBTestSuite:
     def __init__(self):
@@ -96,8 +95,8 @@ class PBTestSuite:
 def generate_fragment():
     fragments = [
         "The sirens started during lunch. Peter dropped his tray and looked toward the windows. Outside, the playground was empty. A teacher locked the doors without speaking. The intercom clicked on, then off. No message.",
-        "The vaultkeeper hesitated before crossing the threshold. Behind him, the shimmer pulsed. Ahead, silence. He carried no tools, only a folded note and a name he couldn’t pronounce.",
-        "Jets passed overhead. The student council president stood and began to speak. No one interrupted. The principal watched from the hallway, hands folded, eyes unreadable."
+        "He hesitated before crossing the threshold. Behind him, the light pulsed. Ahead, silence. He carried no tools, only a folded note and a name he couldn’t pronounce.",
+        "Jets passed overhead. The council president stood and began to speak. No one interrupted. The principal watched from the hallway, hands folded, eyes unreadable."
     ]
     return random.choice(fragments)
 

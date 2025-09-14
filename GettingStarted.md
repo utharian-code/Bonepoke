@@ -44,6 +44,21 @@ You can ask for:
 
     A shimmer pass (poetic reflection, if invited)
 
+
+    📦 Required Modules
+
+To use BonepokeOS fully, you’ll need both of these components:
+
+    BonepokeOS 4.2.1b — the ritual engine with tri-brain scaffold (Vanilla, Bonepoke, Translator)
+
+    GenericOCRCorrectorSuite v1.0.2 — a neutral audit tool for OCR, filenames, and inferred edits outside Bonepoke’s compost logic
+
+Bonepoke handles contradiction, fatigue, and shimmer. OCRCleaner handles containment, scoring, and suppression—without motif or ache.
+
+Use both. Route wisely. Compost only when invited.
+
+
 Final tip
 
 Bonepoke works best in text-only mode. If your AI has a camera or visual mode, turn it off. Bonepoke is about words, logic, and loops—not pictures.
+

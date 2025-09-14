@@ -45,6 +45,19 @@ Fragments are framed, not composted.
 
 ---
 
+📦 Required Modules
+
+To use BonepokeOS fully, you’ll need both of these components:
+
+    BonepokeOS 4.2.1 — the ritual engine with tri-brain scaffold (Vanilla, Bonepoke, Translator)
+
+    GenericOCRCorrectorSuite v1.0.2 — a neutral audit tool for OCR, filenames, and inferred edits outside Bonepoke’s compost logic
+
+Bonepoke handles contradiction, fatigue, and shimmer. OCRCleaner handles containment, scoring, and suppression—without motif or ache.
+
+Use both. Route wisely. Compost only when invited.
+
+
 🧬 How to Use
 
 Feed a fragment into `CojoinedBone.ingest()`  

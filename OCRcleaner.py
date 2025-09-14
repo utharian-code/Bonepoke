@@ -229,3 +229,20 @@ class FullContainmentSuite:
             "scroll_index": self.cleaner.get_scroll_index(),
         }
         return report
+        # Pseudocode for pulling a chat history
+raw_lines, inferred_lines = [], []
+for turn in chat_log:
+    raw_lines.append(turn.user_text)
+    inferred_lines.append(turn.assistant_text)
+
+state = SessionState(flat_mode=True)
+pipeline = FullContainmentSuite(raw_lines, inferred_lines, state)
+report = pipeline.run_full_containment()
+
+# Same for file uploads
+raw_file = ocr_engine.read(uploaded_file)
+inferred_target = user_provided_edit or raw_file  # whatever you want audited
+state.clear_audit_history()
+pipeline = FullContainmentSuite([raw_file], [inferred_target], state)
+file_report = pipeline.run_full_containment()
+

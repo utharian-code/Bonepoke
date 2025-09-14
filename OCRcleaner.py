@@ -229,7 +229,7 @@ class FullContainmentSuite:
             "scroll_index": self.cleaner.get_scroll_index(),
         }
         return report
-        # Pseudocode for pulling a chat history
+# Pseudocode for pulling a chat history
 raw_lines, inferred_lines = [], []
 for turn in chat_log:
     raw_lines.append(turn.user_text)
@@ -262,5 +262,15 @@ class LayerManager:
         for checker in self.motif_layers:
             checker(data)   # flags or logs, but doesn’t alter `data`
         return data
-
-
+def sanitize_scroll_index(self):
+    self.scroll_index = [
+        entry for entry in self.scroll_index
+        if not entry.get("inferred_structure")  # or any speculative tags
+    ]
+def enforce_flat_mode(fn):
+    def wrapper(*args, **kwargs):
+        result = fn(*args, **kwargs)
+        if args[0].state.flat_mode:
+            result = scrub_motif(result)
+        return result
+    return wrapper

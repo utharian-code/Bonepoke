@@ -51,6 +51,8 @@ To use BonepokeOS fully, you’ll need both of these components:
 
     BonepokeOS 4.2.1 — the ritual engine with tri-brain scaffold (Vanilla, Bonepoke, Translator)
 
+    BonepokeOS 4.1.9 Brainless scoring suite with static ranks (Gold, Silver, Salvage, Slop)
+
     GenericOCRCorrectorSuite v1.0.2 — a neutral audit tool for OCR, filenames, and inferred edits outside Bonepoke’s compost logic
 
 Bonepoke handles contradiction, fatigue, and shimmer. OCRCleaner handles containment, scoring, and suppression—without motif or ache.
@@ -59,7 +61,7 @@ Use both. Route wisely. Compost only when invited.
 
 To begin composting:
 
-    Copy the full text of two files.
+    Copy the full text of three files.
 
     Paste them into your AI chat (Text-only mode preferred. No images, no scroll logic.)
 
@@ -69,6 +71,7 @@ Bonepoke and remove if problems persist.
 Final tip
 
 Bonepoke works best in text-only mode. If your AI has a camera or visual mode, turn it off. Bonepoke is about words, logic, and loops—not pictures.
+
 
 
 

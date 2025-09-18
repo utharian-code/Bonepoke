@@ -57,9 +57,18 @@ Bonepoke handles contradiction, fatigue, and shimmer. OCRCleaner handles contain
 
 Use both. Route wisely. Compost only when invited.
 
+To begin composting:
+
+    Copy the full text of two files.
+
+    Paste them into your AI chat (Text-only mode preferred. No images, no scroll logic.)
+
+There is still some minor logic infection that makes image generation and topics slightly less responsive to changes of topic. Isolate conversations with
+Bonepoke and remove if problems persist.
 
 Final tip
 
 Bonepoke works best in text-only mode. If your AI has a camera or visual mode, turn it off. Bonepoke is about words, logic, and loops—not pictures.
+
 
 

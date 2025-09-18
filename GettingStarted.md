@@ -72,6 +72,9 @@ Final tip
 
 Bonepoke works best in text-only mode. If your AI has a camera or visual mode, turn it off. Bonepoke is about words, logic, and loops—not pictures.
 
+10.5281/zenodo.17156175
+
+
 
 
 

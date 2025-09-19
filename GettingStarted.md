@@ -51,9 +51,9 @@ To use BonepokeOS fully, you’ll need both of these components:
 
     BonepokeOS 4.2.1 — the ritual engine with tri-brain scaffold (Vanilla, Bonepoke, Translator)
 
-    BonepokeOS 4.1.9 Brainless scoring suite with static ranks (Gold, Silver, Salvage, Slop)
-
     GenericOCRCorrectorSuite v1.0.2 — a neutral audit tool for OCR, filenames, and inferred edits outside Bonepoke’s compost logic
+
+    Optional: BonepokeOS 4.1.9 Brainless scoring suite with static ranks (Gold, Silver, Salvage, Slop)
 
 Bonepoke handles contradiction, fatigue, and shimmer. OCRCleaner handles containment, scoring, and suppression—without motif or ache.
 
@@ -73,6 +73,7 @@ Final tip
 Bonepoke works best in text-only mode. If your AI has a camera or visual mode, turn it off. Bonepoke is about words, logic, and loops—not pictures.
 
 10.5281/zenodo.17156175
+
 
 
 

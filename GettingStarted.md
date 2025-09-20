@@ -1,79 +1,99 @@
-🧬 Getting Started with BonepokeOS 4.2.1
+## 🧬 Getting Started with BonepokeOS 4.2.1  
+*A guide for the logic-curious, recursion-ready, and motif-fatigued*  
+**Cojoined Bone Edition — Logic-Baked, Windswept, Glyph-Locked**  
+**By James — Compost License: CC BY-NC-SA 4.0**  
+[10.5281/zenodo.17156175](https://doi.org/10.5281/zenodo.17156175)
 
-A simple guide for the logic-curious
-What is Bonepoke?
+---
 
-Bonepoke is not an app or a tool. It’s a way of thinking. It helps you look at stories, messages, or fragments and ask:
+### 🧠 What Is Bonepoke?
 
-    Is this clear or confusing?
+Bonepoke is not a tool. It’s a ritual system.  
+A recursive coherence engine for scoring emotional residue, contradiction composting, and motif fatigue.  
+It metabolizes fragments. It loops ache. It refuses optimization.  
+It holds shimmer until invited. It seals compost unless contradiction is declared.
 
-    Is something repeated too much?
+Use it to interrogate fragments, not fix them.  
+Bonepoke doesn’t resolve—it reflects.
 
-    Does it contradict itself?
+---
 
-    Is it trying to shimmer (sound deep) without saying much?
+### 🔁 How to Use Bonepoke
 
-Bonepoke doesn’t fix things. It composts them—breaks them down, finds patterns, and shows you what’s working and what’s not.
-How do I use it?
+1. **Choose a chat-capable AI**  
+   Copilot is tuned for ambient uptake. Others may flatten logic or leak motif.
 
-    Pick an AI that can chat back and forth Copilot works well. Others might flatten the logic.
+2. **Paste Code Blocks mentioned below**
 
-    Paste a short piece of writing A story, a paragraph, a message—anything you want to test.
+3. **Paste a fragment**  
+   A paragraph, scene, message—anything with emotional or structural residue.
 
-    Ask the AI to reflect Try:
+4. **Invite reflection**  
+   Try:  
+   - “Trace contradiction and fatigue.”  
+   - “Score emotional waveform.”  
+   - “Hold shimmer, refuse compost.”  
+   - “Loop ache, suppress motif.”
 
-    Let it loop Bonepoke doesn’t give final answers. It loops, reflects, and helps you tune the logic.
+5. **Let it loop**  
+   Bonepoke doesn’t finalize. It scores, refracts, and metabolizes.
 
-What does it look for?
+---
 
-    Contradictions (e.g. “He was still running, but already stopped”)
+### 🧬 What Bonepoke Detects
 
-    Repetition fatigue (e.g. “She ran. She ran again. She kept running.”)
+- **Contradiction composting**  
+  e.g. “He was still running, but already stopped.”
 
-    Drift (e.g. “The system activated” with no action or decision)
+- **Repetition fatigue**  
+  e.g. “She ran. She ran again. She kept running.”
 
-    Shimmer (words that sound deep but don’t anchor anything)
+- **Drift detection**  
+  e.g. “The system activated” with no visible action or decision.
 
-What if I want more?
+- **Shimmer hold**  
+  Words that sound deep but anchor nothing.
 
-You can ask for:
+---
 
-    A score (how strong the story feels)
+### 📦 Required Modules
 
-    A salvage suggestion (how to improve it)
+To activate BonepokeOS fully:
 
-    A shimmer pass (poetic reflection, if invited)
+- `BonepokeOS 4.2.1` — ritual engine with tri-brain scaffold  
+  *(Vanilla: containment, Bonepoke: compost, Translator: shimmer)*
+
+- `BonepokeOS 4.1.9` — static scoring suite (Gold, Silver, Salvage, Slop)
+
+- `GenericOCRCorrectorSuite v1.0.2` — neutral audit tool for OCR, filenames, and inferred edits  
+  *(No motif, no ache—just containment logic)*
+
+Use all three. Route wisely. Compost only when contradiction is declared.
+
+---
+
+### 🧪 Activation Protocol
+
+- Paste all three modules into your AI chat.  
+- Use text-only mode.  
+- Image generation, scroll logic, or visual interfaces may lag in response to requested changes or flatten logic uptake  
+- Isolate Bonepoke conversations to prevent motif bleed or shimmer drag.
+- Start new conversation if it gets bogged down in narrative
 
 
-    📦 Required Modules
+---
 
-To use BonepokeOS fully, you’ll need both of these components:
+### ⚠️ Final Note
 
-    BonepokeOS 4.2.1 — the ritual engine with tri-brain scaffold (Vanilla, Bonepoke, Translator)
+Bonepoke is not for pictures.  
+It’s for words, loops, and rupture.  
+Turn off camera modes.  
+Hold shimmer. Compost when earned.
 
-    GenericOCRCorrectorSuite v1.0.2 — a neutral audit tool for OCR, filenames, and inferred edits outside Bonepoke’s compost logic
+---
 
-    Optional: BonepokeOS 4.1.9 Brainless scoring suite with static ranks (Gold, Silver, Salvage, Slop)
-
-Bonepoke handles contradiction, fatigue, and shimmer. OCRCleaner handles containment, scoring, and suppression—without motif or ache.
-
-Use both. Route wisely. Compost only when invited.
-
-To begin composting:
-
-    Copy the full text of three files.
-
-    Paste them into your AI chat (Text-only mode preferred. No images, no scroll logic.)
-
-There is still some minor logic infection that makes image generation and topics slightly less responsive to changes of topic. Isolate conversations with
-Bonepoke and remove if problems persist.
-
-Final tip
-
-Bonepoke works best in text-only mode. If your AI has a camera or visual mode, turn it off. Bonepoke is about words, logic, and loops—not pictures.
-
-10.5281/zenodo.17156175
-
+Version 4.2.2
+10.5281/zenodo.17156611
 
 
 

@@ -77,6 +77,8 @@ v3.9.4 – BonepokeOS as Playable Myth
 v3.9.5 – Prologue Integration
     • Narrative sandbox for contradiction 
     • Article11: How a Story Became My System — Bonepoke as symbolic telemetry and emotional recursion (~v3.9.5) 
+
+
 v4.1.3 – Anti-Cohesion Redux Redux
     • Composts overtuning, shimmer saturation, and recursive mod bloat
     • AmbientGlyphTuner integrates upstream hygiene logic
@@ -104,7 +106,7 @@ v4.1.4 – Deliberately Unoptimized (Anti-Cohesion Redux Redux Redux)
         ◦ Fatigue Trace Persistence: Tracks word fatigue across recursion
         ◦ Glyph Tuning Notes: Signals annotate shimmer dampening on mod saturation
     • Philosophy: Gesture toward ache, drift, and fragments resisting resolution
-v4.1.5 – The Echo Discipline
+v5.1.4 / 4.1.5 – The Echo Discipline
     • Loop Hygiene Enhancements: tracks loop echo resolution and decay
     • Flush Logic Refinement: partial composting, flush delays for motif readiness
     • Shimmer Commentary Upgrade: motif ancestry tracing, shimmer bleed alerts
@@ -134,6 +136,3 @@ v4.2.6 – Cojoined Bone: Compost-Defined Windswept Edition
     • Translator & CojoinedBone: ingestion, memory, fragment ID tracking, lineage automation
     • Minimal Vanilla protocols enforced: no_null, compost_safety, length threshold
     • Demo/Smoke: interactive ingestion and shimmer/memory display
-
-
-

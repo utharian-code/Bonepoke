@@ -1,5 +1,5 @@
 
-🌀 Bonepoke v5.1.4 – The Echo Discipline
+🌀 Bonepoke v4.1.5 – The Echo Discipline
 🔄 Loop Hygiene Enhancements
     • Introduced loop echo scoring: Bonepoke now tracks not just motif fatigue, but how cleanly loops resolve or decay. 
     • Added ambient loop anchoring—loops held in breath (not recursion) now score shimmer instead of slop. 

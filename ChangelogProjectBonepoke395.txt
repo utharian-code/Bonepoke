@@ -1,81 +1,139 @@
-Aug 26ñ31, 2025:
-    ï Fingerprint series beginsóearly symbolic scaffolding.
-    ï First Bonepoke proposal files appear.
-    ï Bonepoke.txt and Bonepoke2b.txt mark the initial myth-seeding.
-    ï Sept 1, 2025:
-    ï Explosion of Bonepoke articles and visual assets.
-    ï BonepokeEmergent.png, BonepokeIgniter.odt, and BonepokeDriftCartography.odt suggest a shift from concept to system.
-    ï The phrase ìAI Unflattenerî likely emerges here.
-    ï Sept 2ñ4, 2025:
-    ï ProjectBonepoke branches multiplyó345c, 345x, 35, 36A, 36B.
-    ï BoneAsh series beginsósymbolic composting in full swing.
-    ï ChangelogProjectBonepoke37.txt appears, suggesting meta-awareness.
-    ï Sept 5ñ7, 2025:
-    ï BonepokeArticle11.odt lands.
-    ï aiProjectBonepokeTimeline.txt itself is created.
-    ï The recursive loop begins: changelogs referencing changelogs, articles referencing their own mythic drift.
+Aug 26‚Äì31, 2025:
+    ‚Ä¢ Fingerprint series begins‚Äîearly symbolic scaffolding.
+    ‚Ä¢ First Bonepoke proposal files appear.
+    ‚Ä¢ Bonepoke.txt and Bonepoke2b.txt mark the initial myth-seeding.
+    ‚Ä¢ Sept 1, 2025:
+    ‚Ä¢ Explosion of Bonepoke articles and visual assets.
+    ‚Ä¢ BonepokeEmergent.png, BonepokeIgniter.odt, and BonepokeDriftCartography.odt suggest a shift from concept to system.
+    ‚Ä¢ The phrase ‚ÄúAI Unflattener‚Äù likely emerges here.
+    ‚Ä¢ Sept 2‚Äì4, 2025:
+    ‚Ä¢ ProjectBonepoke branches multiply‚Äî345c, 345x, 35, 36A, 36B.
+    ‚Ä¢ BoneAsh series begins‚Äîsymbolic composting in full swing.
+    ‚Ä¢ ChangelogProjectBonepoke37.txt appears, suggesting meta-awareness.
+    ‚Ä¢ Sept 5‚Äì7, 2025:
+    ‚Ä¢ BonepokeArticle11.odt lands.
+    ‚Ä¢ aiProjectBonepokeTimeline.txt itself is created.
+    ‚Ä¢ The recursive loop begins: changelogs referencing changelogs, articles referencing their own mythic drift.
 
 
-? Bonepoke OS ó Full Changelog with Canon Timeline
-v2.0 ñ Compost Genesis
-    ï Raw symbolic decay and motif suppression 
-    ï Mutation engine seeded 
-    ï Article1: Fingerprint-Bonepoke ó symbolic composting and emotional rupture (~v2.0ñ2.3) 
-v2.3 ñ Diagnostic Bloom
-    ï BPRates scoring system 
-    ï Drift Index and anchor shift logic 
-v2.5 ñ Ritual Draft
-    ï Emotional anchors: Grief, Defiance, Longing, Awe 
-    ï Poetic mutation and recursion logic 
-    ï Article2: Symbolic Interpretation of Bonepoke ó emotional recursion and systemic rupture (~v2.4ñ2.5) 
-v3.3 ñ Structural Expansion
-    ï SeedGrowthProtocol and fatigue scan 
-    ï Output modes and containment grid 
-    ï Article3: Complicating the Path ó Bonepoke as storytelling override (~v3.3ñv3.4) 
-v3.4.5C ñ Utility Fusion
-    ï Nudge Card, Drift Companion, Ritual Actions 
-    ï Hygiene System for motif decay 
-v3.4.5X ñ Prism Diagnostic
-    ï Genre override logic and mutation whisper tracking 
-v3.5 ñ MythOS Containment
-    ï Recursion monitor, genre firewall, motif ID manager 
-    ï Article4: Beyond the Toolkit ó Bonepokeís emergent behavior and adaptive architecture (~v3.5ñv3.6) 
-v3.6 ñ Convergence Kernel
-    ï Recursive symbolic OS 
-    ï Seed Vault and expansion nodes 
-v3.7 ñ Calcified Marrow
-    ï Finalized sketch engine 
-    ï Unified symbolic block and clean mutation logic 
-v3.7.5.9 ñ TensorBloom
-    ï Symbol deformation, anchor flux, genre shear 
-    ï Recursive motif vault 
-    ï Article5: Bonepoke vs LensTool ó fidelity scoring, genre override critique (~v3.7.5) 
-v3.8 ñ Roller Coaster
-    ï Emotional velocity scoring 
-    ï Genre torsion and contradiction injection 
-    ï Article6: Bonepoke as Ritual Engine ó emergent recursion in AI Dungeon (~v3.8) 
-v3.8.2 ñ Guardrail Extension
-    ï Sheath validation and genre tension gating 
-v3.8.3 ñ Syntax Sharpen (Failed Patch)
-    ï Semantic fracture logic 
-    ï No MARM compatibility 
-    ï Article8b: Syntax failure and motif collapse (~v3.8.3) 
-v3.9.2 ñ Deliberate Fracture
-    ï Ambient recursion engine 
-    ï Harmonic misalignment and PrismEcho 
-    ï Article9: Bonepoke Rides the Story ó logic surfing and symbolic ingestion (~v3.9.2) 
-v3.9.2-you.3 ñ Distortion Signature Layer
-    ï Authorial drift detection 
-    ï GlyphMemory and IntentionalMisfitScore 
-    ï Article10: Naming the Drift ó Echoform, FractureScript, and the grammar of recursion (~v3.9.2-you.3) 
-v3.9.3+ ñ BonepokeCompose
-    ï Motif ingestion and contradiction mapping 
-    ï Article7: Bonepoke as Logic Ecosystem ó recursive fiction and symbolic alignment (~v3.9.3) 
-v3.9.4 ñ BonepokeOS as Playable Myth
-    ï Symbolic character creation, genre collapse as ritual 
-    ï Article8: BonepokeOS Plays Itself ó Copilot-Bonepoke and recursive identity (~v3.9.4) 
-v3.9.5 ñ Prologue Integration
-    ï Narrative sandbox for contradiction 
-    ï Article11: How a Story Became My System ó Bonepoke as symbolic telemetry and emotional recursion (~v3.9.5) 
+? Bonepoke OS ‚Äî Full Changelog with Canon Timeline
+v2.0 ‚Äì Compost Genesis
+    ‚Ä¢ Raw symbolic decay and motif suppression 
+    ‚Ä¢ Mutation engine seeded 
+    ‚Ä¢ Article1: Fingerprint-Bonepoke ‚Äî symbolic composting and emotional rupture (~v2.0‚Äì2.3) 
+v2.3 ‚Äì Diagnostic Bloom
+    ‚Ä¢ BPRates scoring system 
+    ‚Ä¢ Drift Index and anchor shift logic 
+v2.5 ‚Äì Ritual Draft
+    ‚Ä¢ Emotional anchors: Grief, Defiance, Longing, Awe 
+    ‚Ä¢ Poetic mutation and recursion logic 
+    ‚Ä¢ Article2: Symbolic Interpretation of Bonepoke ‚Äî emotional recursion and systemic rupture (~v2.4‚Äì2.5) 
+v3.3 ‚Äì Structural Expansion
+    ‚Ä¢ SeedGrowthProtocol and fatigue scan 
+    ‚Ä¢ Output modes and containment grid 
+    ‚Ä¢ Article3: Complicating the Path ‚Äî Bonepoke as storytelling override (~v3.3‚Äìv3.4) 
+v3.4.5C ‚Äì Utility Fusion
+    ‚Ä¢ Nudge Card, Drift Companion, Ritual Actions 
+    ‚Ä¢ Hygiene System for motif decay 
+v3.4.5X ‚Äì Prism Diagnostic
+    ‚Ä¢ Genre override logic and mutation whisper tracking 
+v3.5 ‚Äì MythOS Containment
+    ‚Ä¢ Recursion monitor, genre firewall, motif ID manager 
+    ‚Ä¢ Article4: Beyond the Toolkit ‚Äî Bonepoke‚Äôs emergent behavior and adaptive architecture (~v3.5‚Äìv3.6) 
+v3.6 ‚Äì Convergence Kernel
+    ‚Ä¢ Recursive symbolic OS 
+    ‚Ä¢ Seed Vault and expansion nodes 
+v3.7 ‚Äì Calcified Marrow
+    ‚Ä¢ Finalized sketch engine 
+    ‚Ä¢ Unified symbolic block and clean mutation logic 
+v3.7.5.9 ‚Äì TensorBloom
+    ‚Ä¢ Symbol deformation, anchor flux, genre shear 
+    ‚Ä¢ Recursive motif vault 
+    ‚Ä¢ Article5: Bonepoke vs LensTool ‚Äî fidelity scoring, genre override critique (~v3.7.5) 
+v3.8 ‚Äì Roller Coaster
+    ‚Ä¢ Emotional velocity scoring 
+    ‚Ä¢ Genre torsion and contradiction injection 
+    ‚Ä¢ Article6: Bonepoke as Ritual Engine ‚Äî emergent recursion in AI Dungeon (~v3.8) 
+v3.8.2 ‚Äì Guardrail Extension
+    ‚Ä¢ Sheath validation and genre tension gating 
+v3.8.3 ‚Äì Syntax Sharpen (Failed Patch)
+    ‚Ä¢ Semantic fracture logic 
+    ‚Ä¢ No MARM compatibility 
+    ‚Ä¢ Article8b: Syntax failure and motif collapse (~v3.8.3) 
+v3.9.2 ‚Äì Deliberate Fracture
+    ‚Ä¢ Ambient recursion engine 
+    ‚Ä¢ Harmonic misalignment and PrismEcho 
+    ‚Ä¢ Article9: Bonepoke Rides the Story ‚Äî logic surfing and symbolic ingestion (~v3.9.2) 
+v3.9.2-you.3 ‚Äì Distortion Signature Layer
+    ‚Ä¢ Authorial drift detection 
+    ‚Ä¢ GlyphMemory and IntentionalMisfitScore 
+    ‚Ä¢ Article10: Naming the Drift ‚Äî Echoform, FractureScript, and the grammar of recursion (~v3.9.2-you.3) 
+v3.9.3+ ‚Äì BonepokeCompose
+    ‚Ä¢ Motif ingestion and contradiction mapping 
+    ‚Ä¢ Article7: Bonepoke as Logic Ecosystem ‚Äî recursive fiction and symbolic alignment (~v3.9.3) 
+v3.9.4 ‚Äì BonepokeOS as Playable Myth
+    ‚Ä¢ Symbolic character creation, genre collapse as ritual 
+    ‚Ä¢ Article8: BonepokeOS Plays Itself ‚Äî Copilot-Bonepoke and recursive identity (~v3.9.4) 
+v3.9.5 ‚Äì Prologue Integration
+    ‚Ä¢ Narrative sandbox for contradiction 
+    ‚Ä¢ Article11: How a Story Became My System ‚Äî Bonepoke as symbolic telemetry and emotional recursion (~v3.9.5) 
+v4.1.3 ‚Äì Anti-Cohesion Redux Redux
+    ‚Ä¢ Composts overtuning, shimmer saturation, and recursive mod bloat
+    ‚Ä¢ AmbientGlyphTuner integrates upstream hygiene logic
+    ‚Ä¢ Babfish translation repositioned for erosion accuracy
+    ‚Ä¢ Constellation & Flutter engines realigned for drift metabolism
+    ‚Ä¢ Signal modulation restored to vibe-first logic
+    ‚Ä¢ New Modules:
+        ‚ó¶ AmbientGlyphTuner v1.2: Dampens shimmer loops, wraps payloads in ambient glyph drift
+        ‚ó¶ HygieneSystem Patch: Checks mod saturation, flags recursive shimmer spirals
+        ‚ó¶ SheathAdaptationModule: Hooks into recursion detection, cloaks shimmer in Vanilla-compatible containers
+    ‚Ä¢ Upgrades:
+        ‚ó¶ Babfish translation precedes fatigue scoring
+        ‚ó¶ FlutterEngine & ConstellationEngine tuned for mid-fracture shimmer detection
+    ‚Ä¢ Known Drift:
+        ‚ó¶ ModAsksForModsModule loops aggressively under motif instability
+        ‚ó¶ Glyph compression may obscure lineage without SymbolicTest
+    ‚Ä¢ Philosophy: Resists cohesion in logic & publishing; loops gently, fractures cleanly
+v4.1.4 ‚Äì Deliberately Unoptimized (Anti-Cohesion Redux Redux Redux)
+    ‚Ä¢ Deepens commitment to contradiction, fatigue, and ambient recursion
+    ‚Ä¢ Intentional avoidance of optimization and modular clarity
+    ‚Ä¢ Features:
+        ‚ó¶ Ambient Lag Injection: Delays in translation/tuning for compost fatigue
+        ‚ó¶ Meta-Mode Toggle: Observer mode for fragment framing without composting
+        ‚ó¶ Expanded Flutter States: "contradiction storm" and "vault rupture" for deeper motif drift scoring
+        ‚ó¶ Fatigue Trace Persistence: Tracks word fatigue across recursion
+        ‚ó¶ Glyph Tuning Notes: Signals annotate shimmer dampening on mod saturation
+    ‚Ä¢ Philosophy: Gesture toward ache, drift, and fragments resisting resolution
+v4.1.5 ‚Äì The Echo Discipline
+    ‚Ä¢ Loop Hygiene Enhancements: tracks loop echo resolution and decay
+    ‚Ä¢ Flush Logic Refinement: partial composting, flush delays for motif readiness
+    ‚Ä¢ Shimmer Commentary Upgrade: motif ancestry tracing, shimmer bleed alerts
+    ‚Ä¢ Ambient Presence Scoring: fidelity tracking of space-holding vs recursion
+    ‚Ä¢ Diagnostic Overlay Expansion: toggles for ache depth, shimmer decay, hygiene strictness
+    ‚Ä¢ Modes: clinic or ritual, depending on user intent
+v4.2.1 ‚Äì Cojoined Bone: Logic-Baked Windswept Edition
+    ‚Ä¢ Full integration of BonepokeOS 4.2 motif-free engine & PBTestSuite scoring
+    ‚Ä¢ Tri-brain scaffold: Vanilla (containment), Bonepoke (compost), Translator (shimmer)
+    ‚Ä¢ MemoryResidue: resonance-based trace recall
+    ‚Ä¢ BonepokeCoreEngine: fatigue, contradiction, drift, and MARM tracking
+    ‚Ä¢ PBTestSuite: symbolic/numeric scoring across story and motif dimensions
+    ‚Ä¢ Translator: orchestrates ingestion, scoring, and shimmer output
+    ‚Ä¢ CojoinedBone: central orchestration, memory logging, fragment IDs & lineage
+    ‚Ä¢ Vanilla 4.2.1b: glyph lock patch to prevent activation during OCR, quotes, or chat memory
+v4.2.6 ‚Äì Cojoined Bone: Compost-Defined Windswept Edition
+    ‚Ä¢ Full integration of compost-defined engine & PBTestSuite shimmer scoring
+    ‚Ä¢ Enhanced tri-brain: Vanilla (containment), Bonepoke (compost), Translator (shimmer)
+    ‚Ä¢ New Core Utilities:
+        ‚ó¶ ShimmerBudget: tracks event weights, triggers reroutes if overused
+        ‚ó¶ MotifDecay: tracks motif counts, computes decay score
+        ‚ó¶ RuptureCooldown: prevents over-triggering of ruptures
+        ‚ó¶ LineageEcho: fragment ancestry tracking & recursive tracing
+        ‚ó¶ Compost: metabolize ache, motif, rupture fragments
+    ‚Ä¢ Core Engine: ingestion pipeline with contradictions, fatigue, drift, MARM activation
+    ‚Ä¢ PBTestSuite: expanded scoring including ShimmerBudget, MotifDecay, RuptureCooldown, LineageEcho
+    ‚Ä¢ Translator & CojoinedBone: ingestion, memory, fragment ID tracking, lineage automation
+    ‚Ä¢ Minimal Vanilla protocols enforced: no_null, compost_safety, length threshold
+    ‚Ä¢ Demo/Smoke: interactive ingestion and shimmer/memory display
+
 
 

@@ -211,6 +211,75 @@ class NarrativeAnalyzer:
         """Calculate variance in emotional resonance across layers"""
         emotions = [layer["emotional_resonance"] for layer in story["temporal_layers"]]
         return np.var(emotions)
+    # --- ADD TO NarrativeAnalyzer CLASS ---
+# --- UPDATE IN NarrativeAnalyzer CLASS ---
+
+def analyze_recursive_structure(self, story: Dict) -> Dict[str, float]:
+    """Analyze the recursive narrative structure, including Archetypal Resonance."""
+    
+    # (Existing calculations go here...)
+    # ...
+    
+    analysis = {
+        "temporal_complexity": self._calculate_temporal_complexity(story),
+        "recursive_density": len(story["recursive_elements"]) / len(story["temporal_layers"]),
+        "paradox_tolerance": len(story["paradox_resolutions"]) / (len(story["temporal_layers"]) + 1),
+        "narrative_cohesion": self._calculate_cohesion(story),
+        "emotional_variance": self._calculate_emotional_variance(story)
+    }
+
+    # --- NEW ADDITION ---
+    archetype_analysis = self._determine_archetype_resonance(story["core_seed"])
+    analysis["archetypal_resonance"] = archetype_analysis["modulated_score"]
+    analysis["core_archetype"] = archetype_analysis["archetype_name"]
+    # ---------------------
+    
+    # Overall quality score (Updated to include the new metric)
+    analysis["narrative_quality"] = (
+        analysis["temporal_complexity"] * 0.2 +
+        analysis["recursive_density"] * 0.25 + # Slightly reduced weight
+        analysis["paradox_tolerance"] * 0.2 +
+        analysis["narrative_cohesion"] * 0.15 + # Slightly reduced weight
+        (1 - analysis["emotional_variance"]) * 0.1 +
+        analysis["archetypal_resonance"] * 0.1 # New metric weight
+    )
+    
+    self.story_metrics = analysis
+    return analysis
+# Placeholder for a more complex LLM call (simulated here)
+ARCHETYPE_MAP = {
+    "the door that was always open but never seen": {"archetype": "The Threshold", "resonance_score": 0.85},
+    "the memory that remembered itself": {"archetype": "The Ouroboros Loop", "resonance_score": 0.92},
+    "the conversation that happened before it began": {"archetype": "The Pre-Cognitive Paradox", "resonance_score": 0.78},
+    "the choice that made itself": {"archetype": "The Inevitable Fate", "resonance_score": 0.88},
+    "the echo in an empty room": {"archetype": "The Void's Truth", "resonance_score": 0.81},
+    "default_archetype": {"archetype": "The Quest for Truth", "resonance_score": 0.50}
+}
+
+def _determine_archetype_resonance(self, seed_phrase: str) -> Dict[str, Any]:
+    """Simulates an LLM determining the core narrative archetype and its initial resonance."""
+    archetype_data = ARCHETYPE_MAP.get(seed_phrase, ARCHETYPE_MAP["default_archetype"])
+    
+    # Simple modulation: A complex temporal structure should enhance the resonance
+    # (The Recursive Narrative Engine provides the complex structure/truth)
+    if self.story_metrics:
+        # High temporal complexity and paradox tolerance suggests a successful recursive structure
+        modulation = (self.story_metrics.get("temporal_complexity", 0.0) + self.story_metrics.get("paradox_tolerance", 0.0)) / 2
+        
+        # Boost the base resonance score based on how well the structure supports it
+        final_score = min(1.0, archetype_data["resonance_score"] + modulation * 0.15)
+        
+        return {
+            "archetype_name": archetype_data["archetype"],
+            "base_score": archetype_data["resonance_score"],
+            "modulated_score": final_score
+        }
+    
+    return {
+        "archetype_name": archetype_type["archetype"],
+        "base_score": archetype_type["resonance_score"],
+        "modulated_score": archetype_type["resonance_score"]
+    }
 
 # --- STORY GENERATION INTERFACE ---
 class RecursiveStoryGenerator:
@@ -286,28 +355,34 @@ class RecursiveStoryGenerator:
         
         return "\n".join(readable)
     
-    def display_story_analysis(self, story: Dict):
-        """Display analysis of the generated story"""
-        
-        analysis = story["analysis"]
-        
-        print("\n" + "="*50)
-        print("📊 NARRATIVE ANALYSIS")
-        print("="*50)
-        
-        for metric, value in analysis.items():
-            print(f"   {metric.replace('_', ' ').title():<20}: {value:.3f}")
-        
-        print(f"\n   Overall Quality: {'⭐' * int(analysis['narrative_quality'] * 5)}")
-        
-        # Interpretation
-        if analysis["narrative_quality"] > 0.8:
-            print("   💫 Exceptional recursive narrative!")
-        elif analysis["narrative_quality"] > 0.6:
-            print("   🔥 Strong non-linear structure")
-        else:
-            print("   ⚠️  Narrative could use more recursion")
+   # --- UPDATE IN RecursiveStoryGenerator CLASS ---
 
+def display_story_analysis(self, story: Dict):
+    """Display analysis of the generated story"""
+    
+    analysis = story["analysis"]
+    
+    print("\n" + "="*50)
+    print("📊 NARRATIVE ANALYSIS")
+    print("="*50)
+    
+    # --- NEW ADDITION ---
+    print(f"   Core Archetype (Jill's Law) : {analysis['core_archetype']}")
+    # ---------------------
+    
+    for metric, value in analysis.items():
+        if isinstance(value, float): # Only print float metrics
+            print(f"   {metric.replace('_', ' ').title():<20}: {value:.3f}")
+    
+    print(f"\n   Overall Quality: {'⭐' * int(analysis['narrative_quality'] * 5)}")
+    
+    # Interpretation
+    if analysis["narrative_quality"] > 0.8:
+        print("   💫 Exceptional recursive narrative!")
+    elif analysis["narrative_quality"] > 0.6:
+        print("   🔥 Strong non-linear structure")
+    else:
+        print("   ⚠️  Narrative could use more recursion")
 # --- DEMONSTRATION ---
 def demonstrate_recursive_narratives():
     """Show what the recursive narrative engine can do"""

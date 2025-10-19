@@ -88,7 +88,7 @@ result = engine.analyze_conversation(
 
 ## 🚀 GETTING STARTED - SPIRITUAL MODE
 
-1. **Load BonepokeOS 4.3.0** into your LLM
+1. **Load Jade 2.1** into your LLM
 2. **Input conversations** or text needing spiritual analysis
 3. **Use "cohesion_breaking" mode** for worldly thinking disruption
 4. **Apply "pattern_recognition" mode** for divine structure detection

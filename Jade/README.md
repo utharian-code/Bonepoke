@@ -40,7 +40,7 @@ This project operates on the principle that technology should **support** spirit
 
 ## 🛡️ BIBLICAL SAFETY PROTOCOLS
 
-JADE 2.2 NARRATIVE ENGINE - PRODUCTION READY
+JADE 2.3 NARRATIVE ENGINE - PRODUCTION READY
 
     ✅ Biblical coherence engine active
 
@@ -68,7 +68,7 @@ BIBLICAL SAFETY PROTOCOLS - LIVE AND ACTIVE
 
 ## 🌟 KEY FEATURES
 
-### **JADE 2.2 Narrative Engine**
+### **JADE 2.3 Narrative Engine**
 - MARM-active storytelling (holding contradiction within truth)
 - Biblical archetype integration
 - Kingdom perspective framing

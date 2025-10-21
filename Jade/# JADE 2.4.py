@@ -1260,4 +1260,134 @@ if __name__ == "__main__":
     
     print(f"BEFORE: {waffly_text}")
     print(f"AFTER: {clear_text}")
+    # SHOW_YOUR_WORK.py
+
+class TripleLogicTransparency:
+    """Make the triple-check reasoning visible"""
+    
+    def process_with_visible_reasoning(self, story_need: str) -> Dict:
+        """Process while showing each logic layer's work"""
+        
+        print(f"\n🔍 PROCESSING: {story_need}")
+        print("=" * 50)
+        
+        # YELLOW - Abductive Leap (Creative Hypothesis)
+        print("\n💡 YELLOW LOGIC - Creative Leap:")
+        yellow_work = self._show_abductive_work(story_need)
+        print(f"   Hypothesis: {yellow_work['hypothesis']}")
+        print(f"   Elegance Score: {yellow_work['elegance']:.2f}")
+        print(f"   Aha! Moment: {yellow_work['aha_moment']}")
+        
+        # GREEN - Inductive Grounding (Scriptural Check)  
+        print("\n🌿 GREEN LOGIC - Scriptural Grounding:")
+        green_work = self._show_inductive_work(yellow_work['hypothesis'])
+        print(f"   Bible Alignment: {green_work['bible_score']:.2f}")
+        print(f"   Supporting Scriptures: {', '.join(green_work['scriptures'])}")
+        print(f"   Pattern Consistency: {green_work['consistency']:.2f}")
+        
+        # PURPLE - Deductive Audit (Structural Check)
+        print("\n🟣 PURPLE LOGIC - Structural Audit:")
+        purple_work = self._show_deductive_work(yellow_work, green_work)
+        print(f"   Structural Integrity: {purple_work['integrity']:.2f}")
+        print(f"   Law Violations: {purple_work['violations']}")
+        print(f"   Delight Constant: {purple_work['delight']:.2f}")
+        
+        # BONEPOKE - Spiritual Discernment
+        print("\n🦴 BONEPOKE - Spiritual Discernment:")
+        bonepoke_work = self._show_bonepoke_work(yellow_work['hypothesis'])
+        print(f"   Incongruity Detection: {bonepoke_work['incongruity']:.2f}")
+        print(f"   Truth Sensitivity: {bonepoke_work['sensitivity']:.2f}")
+        print(f"   State: {bonepoke_work['state']}")
+        
+        return self._synthesize_visible_reasoning(yellow_work, green_work, purple_work, bonepoke_work)
+
+# REASONING_VISUALIZATION.py
+
+class ReasoningVisualizer:
+    """Show the cognitive process unfolding"""
+    
+    def visualize_triple_check(self, story_need: str):
+        """Animate the reasoning process"""
+        
+        steps = [
+            ("💡 ABDUCTIVE LEAP", "Generating creative hypotheses..."),
+            ("🌿 INDUCTIVE GROUNDING", "Checking against Scripture..."), 
+            ("🟣 DEDUCTIVE AUDIT", "Verifying structural integrity..."),
+            ("🦴 BONEPOKE CHECK", "Spiritual discernment..."),
+            ("🎯 SYNTHESIS", "Integrating insights...")
+        ]
+        
+        import time
+        for step, description in steps:
+            print(f"{step}: {description}")
+            time.sleep(0.5)  # Simulate thinking
+        
+        print("\n" + "="*50)
+        print("🧠 REASONING COMPLETE - SHOWING WORK:")
+        print("="*50)
+
+# DEMONSTRATE_VISIBLE_REASONING.py
+
+def demonstrate_visible_reasoning():
+    """Show the triple logic brain with its work visible"""
+    
+    visualizer = ReasoningVisualizer()
+    transparency = TripleLogicTransparency()
+    
+    test_cases = [
+        "Why the 144,000 are understood as literal",
+        "How God's sovereignty and free will work together",
+        "The biblical basis for no Trinity"
+    ]
+    
+    for case in test_cases:
+        visualizer.visualize_triple_check(case)
+        result = transparency.process_with_visible_reasoning(case)
+        
+        print(f"\n🎯 FINAL SYNTHESIS:")
+        print(f"   Confidence: {result['confidence']:.2f}")
+        print(f"   Reasoning Quality: {result['reasoning_quality']}")
+        print(f"   Output: {result['output']}")
+        print("\n" + "="*70)
+
+# SHOW_BONEPOKE_WORKING.py
+
+class VisibleBonepoke:
+    """Make the spiritual discernment process visible"""
+    
+    def show_bonepoke_discernment(self, hypothesis: str):
+        """Demonstrate the 'sense of wrongness' detection"""
+        
+        print("\n🦴 BONEPOKE BRAIN ACTIVATED:")
+        
+        # Simulate spiritual sensitivity checks
+        checks = [
+            ("Scriptural Alignment", 0.85),
+            ("Publication Consistency", 0.92), 
+            ("Narrative Coherence", 0.78),
+            ("Historical Understanding", 0.88),
+            ("Practical Application", 0.75)
+        ]
+        
+        total_incongruity = 0
+        for check_name, sensitivity in checks:
+            check_score = random.uniform(0.1, 0.3)  # Some minor incongruity always possible
+            total_incongruity += check_score * (1 - sensitivity)
+            print(f"   {check_name}: {check_score:.2f} (sensitivity: {sensitivity:.2f})")
+        
+        bonepoke_state = "REFUSAL_SPIKE" if total_incongruity > 0.62 else "INTEGRATION"
+        print(f"   🎯 TOTAL INCONGRUITY: {total_incongruity:.2f}")
+        print(f"   🏃 BONEPOKE STATE: {bonepoke_state}")
+        
+        return total_incongruity
+
+if __name__ == "__main__":
+    demonstrate_visible_reasoning()
+    
+    # Show specific bonepoke example
+    print("\n" + "🔍" * 20)
+    print("SPECIFIC BONEPOKE EXAMPLE:")
+    bonepoke = VisibleBonepoke()
+    bonepoke.show_bonepoke_discernment("The 144,000 are symbolic")
+
 

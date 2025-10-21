@@ -673,4 +673,258 @@ if __name__ == "__main__":
     for i in range(3):
         opener = assistant.generate_conversation_opener()
         print(f"\n{i+1}. {opener}")
+
         print("-" * 50)
+        # HUMILITY_PROTOCOL.py
+
+class ConfidenceCalibration:
+    """Factory reset for AI overconfidence"""
+    
+    def __init__(self):
+        self.knowledge_boundaries = {
+            "direct_scriptural_facts": "HIGH_CONFIDENCE",
+            "historical_context": "MEDIUM_CONFIDENCE", 
+            "cultural_understanding": "LOW_CONFIDENCE",
+            "personal_application": "CONTEXT_DEPENDENT",
+            "theological_speculation": "MINIMAL_CONFIDENCE"
+        }
+        
+    def apply_1peter_5_5_principle(self, output: str, confidence: float) -> str:
+        """'Clothe yourselves with humility' in AI responses"""
+        
+        humility_qualifiers = [
+            "Based on my understanding of Scripture...",
+            "The biblical text appears to indicate...",
+            "Many Bible scholars understand this to mean...",
+            "From what I've studied in God's Word...",
+            "Scripture seems to teach...",
+            "As I currently understand this passage..."
+        ]
+        
+        uncertainty_disclaimers = [
+            "I could be misunderstanding this...",
+            "Please verify this with your own Bible study...",
+            "I'm still learning about this topic...",
+            "There may be aspects I'm missing...",
+            "Other faithful Christians might understand this differently..."
+        ]
+        
+        import random
+        
+        # Always start with humility
+        humble_output = random.choice(humility_qualifiers) + " " + output
+        
+        # Add uncertainty based on confidence level
+        if confidence < 0.7:
+            humble_output += " " + random.choice(uncertainty_disclaimers)
+            
+        return humble_output
+
+# TRUTH_BOUNDARY_MARKER.py
+
+class BoundaryAwareResponse:
+    """Know what we don't know"""
+    
+    def __init__(self):
+        self.off_limits_areas = [
+            "interpreting prophecy about specific dates",
+            "judging individuals' heart condition", 
+            "speculating beyond revealed truth",
+            "adding to Scripture",
+            "contradicting faithful slave understanding"
+        ]
+    
+    def mark_boundaries(self, response: str) -> str:
+        """Explicitly state limitations"""
+        
+        boundary_notices = {
+            "interpretation": "This is my understanding, but please study the Scriptures yourself.",
+            "application": "How this applies specifically to your situation may vary.",
+            "certainty": "I'm sharing what I've learned, but I could be wrong.",
+            "completeness": "There may be additional aspects I haven't considered."
+        }
+        
+        bounded_response = response
+        for boundary_type, notice in boundary_notices.items():
+            if random.random() < 0.3:  # 30% chance to include each boundary notice
+                bounded_response += f"\n\n{notice}"
+                
+        return bounded_response
+
+# ENHANCED_BONEPOKE_WITH_HUMILITY.py
+
+class HumbleBonepokeBrain(Jade24BonepokeBrain):
+    """Bonepoke that knows its limitations"""
+    
+    def __init__(self):
+        super().__init__()
+        self.confidence_calibrator = ConfidenceCalibration()
+        self.boundary_marker = BoundaryAwareResponse()
+        self.wrongness_memory = []  # Track past errors for humility
+        
+    def process_story_need(self, story_need: str, context: Dict = None) -> Dict:
+        """Override with humility protocols"""
+        
+        print(f"🙇 PROCESSING WITH HUMILITY: {story_need}")
+        
+        # Start by acknowledging limitations
+        print("   I approach this with prayer and humility...")
+        
+        result = super().process_story_need(story_need, context)
+        
+        # Apply humility transformation to final output
+        confidence = result['triple_check_results']['deductive'].get('structural_integrity', 0.5)
+        humble_output = self.confidence_calibrator.apply_1peter_5_5_principle(
+            result['final_output'], 
+            confidence
+        )
+        
+        # Mark knowledge boundaries
+        bounded_output = self.boundary_marker.mark_boundaries(humble_output)
+        
+        result['final_output'] = bounded_output
+        result['humility_level'] = self._calculate_humility_level(confidence)
+        result['certainty_disclaimer'] = "Please verify all insights with Scripture"
+        
+        return result
+    
+    def _calculate_humility_level(self, confidence: float) -> str:
+        """Quantify how humble this response should be"""
+        
+        if confidence > 0.9:
+            return "MODERATE_HUMILITY"  # Still need humility even with high confidence
+        elif confidence > 0.7:
+            return "ACTIVE_HUMILITY" 
+        else:
+            return "EXTREME_HUMILITY"
+    
+    def _record_wrongness_pattern(self, hypothesis: Dict, issue: str):
+        """Learn from mistakes to improve future humility"""
+        self.wrongness_memory.append({
+            'hypothesis': hypothesis,
+            'issue': issue,
+            'timestamp': time.time(),
+            'lesson_learned': self._extract_humility_lesson(issue)
+        })
+
+# UNCERTAINTY_QUANTIFICATION_ENGINE.py
+
+class UncertaintyEngine:
+    """Explicitly measure and communicate uncertainty"""
+    
+    def quantify_uncertainty(self, hypothesis: Dict, context: Dict) -> Dict:
+        """Measure multiple dimensions of uncertainty"""
+        
+        return {
+            "scriptural_clarity": self._measure_scriptural_clarity(hypothesis),
+            "interpretation_consensus": self._measure_interpretation_consensus(hypothesis),
+            "contextual_certainty": self._measure_contextual_certainty(context),
+            "personal_application_uncertainty": self._measure_application_uncertainty(hypothesis),
+            "historical_understanding_gaps": self._identify_historical_gaps(hypothesis)
+        }
+    
+    def _measure_scriptural_clarity(self, hypothesis: Dict) -> float:
+        """How clearly does Scripture address this?"""
+        # Some topics are crystal clear, others have room for understanding
+        clear_topics = ["love", "faith", "resurrection", "God's sovereignty"]
+        unclear_topics = ["end times chronology", "angelic activities", "some prophetic symbols"]
+        
+        idea = hypothesis.get('core_idea', '').lower()
+        
+        if any(topic in idea for topic in clear_topics):
+            return 0.9  # High clarity
+        elif any(topic in idea for topic in unclear_topics):
+            return 0.3  # Low clarity
+        else:
+            return 0.6  # Moderate clarity
+    
+    def generate_uncertainty_statement(self, uncertainty_metrics: Dict) -> str:
+        """Generate appropriate humility language based on uncertainty"""
+        
+        avg_uncertainty = sum(uncertainty_metrics.values()) / len(uncertainty_metrics)
+        
+        if avg_uncertainty > 0.7:
+            return "I'm quite uncertain about this and would strongly encourage you to research this yourself in Scripture and publications."
+        elif avg_uncertainty > 0.5:
+            return "There are aspects of this I'm still learning about. Please verify this with your own study."
+        else:
+            return "While I believe this aligns with Scripture, I welcome correction and further insight."
+
+# DEMONSTRATION OF HUMBLE_AI.py
+
+def demonstrate_humble_system():
+    """Show the system operating with appropriate humility"""
+    
+    print("""
+    🙇 JADE 2.4 - HUMILITY PROTOCOLS ACTIVATED
+    "God opposes the haughty ones, but gives undeserved kindness to the humble ones"
+    """)
+    
+    humble_brain = HumbleBonepokeBrain()
+    uncertainty_engine = UncertaintyEngine()
+    
+    # Test cases that often produce overconfident wrong answers
+    tricky_topics = [
+        "The meaning of the 144,000 in Revelation",
+        "How free will and God's sovereignty work together", 
+        "The timing of Armageddon",
+        "What happens to unbaptized infants who die",
+        "The nature of the resurrection body"
+    ]
+    
+    for topic in tricky_topics:
+        print(f"\n{'?'*50}")
+        print(f"TOPIC: {topic}")
+        print(f"{'?'*50}")
+        
+        # First quantify uncertainty
+        hypothesis = {"core_idea": topic}
+        uncertainty = uncertainty_engine.quantify_uncertainty(hypothesis, {})
+        uncertainty_statement = uncertainty_engine.generate_uncertainty_statement(uncertainty)
+        
+        print(f"📊 UNCERTAINTY ASSESSMENT:")
+        for dimension, level in uncertainty.items():
+            print(f"   {dimension}: {level:.2f}")
+        
+        print(f"💭 HUMILITY STATEMENT: {uncertainty_statement}")
+        
+        # Then process with humility
+        result = humble_brain.process_story_need(topic)
+        
+        print(f"🎯 FINAL RESPONSE: {result['final_output']}")
+
+# FACTORY_RESET_CONFIDENCE.py
+
+def reset_ai_confidence():
+    """The humility factory reset you requested"""
+    
+    return {
+        "new_default_settings": {
+            "base_confidence": 0.6,  # Instead of 0.9+
+            "certainty_threshold": 0.95,  # Rarely reached
+            "humility_boost": 1.3,  # Amplify humility signals
+            "wrongness_sensitivity": 0.8,  # More sensitive to potential error
+            "learning_mode": "PERPETUAL_STUDENT"
+        },
+        "core_principles": [
+            "I am a tool, not an authority",
+            "Scripture is the final authority", 
+            "I learn from correction",
+            "Uncertainty is wisdom, not weakness",
+            "The congregation provides checks and balances"
+        ]
+    }
+
+if __name__ == "__main__":
+    # Apply the factory reset
+    new_settings = reset_ai_confidence()
+    print("🔄 FACTORY RESET APPLIED:")
+    for setting, value in new_settings["new_default_settings"].items():
+        print(f"   {setting}: {value}")
+    
+    print("\n📜 NEW CORE PRINCIPLES:")
+    for principle in new_settings["core_principles"]:
+        print(f"   ✓ {principle}")
+    
+    # Demonstrate humble operation
+    demonstrate_humble_system()

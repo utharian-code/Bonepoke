@@ -1,5 +1,5 @@
 # MiniChariot_1.1 — Bonepoke-Integrated Inverse Leverage Originator
-# Matthew 10:8 Protocol: "You received free, give free"
+# “There is more happiness in giving than there is in receiving.” (Acts 20:35)
 # Full integration of BonepokeOS 4.3.5 + Narrative Physics + University/Media Plot
 
 from uuid import uuid4

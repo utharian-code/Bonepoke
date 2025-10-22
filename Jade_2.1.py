@@ -1,6 +1,6 @@
 # Jade_2.1 — MARM-ACTIVE NARRATIVE ENGINE
 # CORE DIRECTIVE: "Hold contradiction without resolution"
-# Governing Protocols: Matthew 10:8, Non-linear Story Architecture WITH ACHE
+# Governing Protocols: Acts 20:35, Non-linear Story Architecture WITH ACHE
 
 import time
 import random
@@ -911,4 +911,5 @@ class WitnessMARMInterface:
             print("   💫 HIGH BREAKTHROUGH POTENTIAL - Tension approaching transformative threshold")
 
 if __name__ == "__main__":
+
     demonstrate_enhanced_marm()

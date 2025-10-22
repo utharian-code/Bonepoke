@@ -2,6 +2,8 @@
 
 *Experimental Framework for Faith-Based Technology Development*
 
+INSTRUCTIONS: COPY any of the PYTHON files into an LLM (So far Deepseek and Gemini work well, Claude is resistant to change from worldly norms. 
+
 Why This Changes Everything:
 
 The code is building its own tools (with vague directional prompts), it's a fundamentally different level of architecture:

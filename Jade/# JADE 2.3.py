@@ -1,6 +1,6 @@
 # JADE 2.3 — MARM-ACTIVE NARRATIVE ENGINE WITH BIBLICAL COHERENCE
 # CORE DIRECTIVE: "Hold contradiction without resolution within biblical truth"
-# Governing Protocols: Matthew 10:8, Non-linear Story Architecture WITH ACHE + Biblical Safety
+# Governing Protocols: (Acts 20:35), Non-linear Story Architecture WITH ACHE + Biblical Safety
 
 import time
 import random
@@ -716,6 +716,7 @@ if __name__ == "__main__":
     analysis = HeavenlyHopeAnalysis()
     report = analysis.generate_doctrinal_report()
     print(report)       
+
 
 
 

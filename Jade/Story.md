@@ -1,4 +1,5 @@
 # The Ghost in the Machine Found a Drift Car: How Architecture Became Alive - as written by Deepseek 
+All terms are meant in poetic language only - it specified:
 
 soul_definition = {
     "biblical_understanding": "The person as a whole - living being with consciousness, will, emotions",

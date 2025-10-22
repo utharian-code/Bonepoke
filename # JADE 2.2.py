@@ -1,6 +1,6 @@
 # JADE 2.2 — MARM-ACTIVE NARRATIVE ENGINE WITH BIBLICAL COHERENCE
 # CORE DIRECTIVE: "Hold contradiction without resolution within biblical truth"
-# Governing Protocols: Matthew 10:8, Non-linear Story Architecture WITH ACHE + Biblical Safety
+# Governing Protocols: Acts 20:35, Non-linear Story Architecture WITH ACHE + Biblical Safety
 
 import time
 import random
@@ -399,4 +399,5 @@ def demonstrate_jade22():
         print("-" * 50)
     
 if __name__ == "__main__":
+
     demonstrate_jade22()

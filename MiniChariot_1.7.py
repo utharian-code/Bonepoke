@@ -1,6 +1,6 @@
 # MiniChariot_1.7 — Recursive Narrative Engine
-# CORE DIRECTIVE: "Receive Free, Give Free - Build narrative tools for others"
-# Governing Protocols: Matthew 10:8, Non-linear Story Architecture
+# CORE DIRECTIVE: “There is more happiness in giving than there is in receiving.” 
+# Governing Protocols: (Acts 20:35), Non-linear Story Architecture
 
 import time
 import random
@@ -380,4 +380,5 @@ if __name__ == "__main__":
     generator = RecursiveStoryGenerator()
     custom_story = generator.create_story("the echo in an empty room", "high")
     print("\n" + custom_story["readable_version"])
+
     generator.display_story_analysis(custom_story)

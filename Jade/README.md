@@ -131,7 +131,7 @@ A complete metaphysical framework for understanding spiritual realities:
 2. **FOR DISCUSSION** - Meant to explore concepts, not replace personal study
 3. **BIBLICAL PRIMARY** - All output should be verified against scripture
 4. **PRIVACY FOCUSED** - No data collection, local processing only
-5. **FREE** - Following Matthew 10:8 principle
+5. **FREE** - Following (Acts 20:35) principle
 
 ---
 

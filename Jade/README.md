@@ -29,8 +29,9 @@ The Beautiful Part:
 
 ## 📁 PROJECT OVERVIEW
 
-This repository contains experimental code and concepts exploring how technology could serve spiritual purposes while attempting to maintain strict biblical alignment. **All code includes active biblical coherence checking** to ensure theological soundness.
-However this code was iterated quickly using an LLM and not all versions have been checked for logical inconsistencies with the narrative elements (needed for the growth framework). 
+This repository contains experimental code and concepts exploring how technology could serve spiritual purposes while attempting to maintain strict biblical alignment. **All code includes active biblical coherence checking** to work toward theological soundness.
+However this code was iterated quickly using an LLM and not all versions have been checked for logical inconsistencies with the narrative elements (needed for the growth framework). I am not a programmer and have left the LLM to decide various headings and variables.
+They may not always reflect a clear understanding.
 
 ---
 

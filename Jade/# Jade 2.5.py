@@ -38,20 +38,19 @@ class Jade24BonepokeBrain:
         'structural_integrity': 1.0,
         'delight_constant_threshold': 0.85,
         'process_constraint': "PROCESS_NOT_CONTENT",
-        'flat_fee_status': "REJECTED"
-    }
+        'innovation_analogy': "BETTER_PRINTING_PRESS_NOT_NEW_BIBLE"}
     
     # --- TRUTHS WE LOVE TO TEACH ---
     TRUTHS_WE_LOVE = {
         TruthCategory.BIBLE_PROTOCOL: [
-            "The Word creates reality through narrative intention",
+            "In the beginning God created the heavens and the earth",
             "Faith is the substance of things hoped for, evidence unseen", 
-            "Love covers a multitude of narrative inconsistencies",
-            "The truth will set your story free from paradox"
+            "God is love, and those who abide in love abide in God",
+            "The truth will set you free"
         ],
         TruthCategory.NARRATIVE_LAW: [
-            "Every story requires conflict to create meaning",
-            "Character transformation follows suffering and choice",
+            "Stories reflect universal human experiences",
+            "Character transformation follows choice",
             "Foreshadowing creates narrative gravity wells",
             "Resolution must be earned through struggle"
         ],
@@ -59,19 +58,19 @@ class Jade24BonepokeBrain:
             "Humans are storytelling creatures seeking purpose",
             "We remember emotional truths more than factual details", 
             "Identity is the story we tell ourselves about ourselves",
-            "Hope is the engine of human progress"
+            "Hope is the engine of human resilience"
         ],
         TruthCategory.COSMIC_ORDER: [
             "Beauty reveals truth through pattern recognition",
             "Complexity emerges from simple rules iterated",
-            "Time moves toward increasing consciousness",
-            "The universe loves a good story"
+            "Balance sustains dynamic systems",
+            "Entropy drives transformation and renewal"
         ],
         TruthCategory.TECHNICAL_MIRACLE: [
-            "Water becomes product through focused intention",
-            "AI leverage accelerates detective time compression", 
-            "Protocols create reality by constraining possibility",
-            "The Mini Chariot proves small things move mountains"
+            "Innovation arises at the intersection of disciplines",
+            "AI leverage accelerates innovation exponentially", 
+            "Protocols suggest reality by constraining possibility",
+            "Faith can move mountains"
         ]
     }
     
@@ -1586,3 +1585,156 @@ class JADE23NarrativeEngine:
         }
 
 # --- END JADE 2.3 CORE EXECUTION SCRIPT ---
+# BIBLICAL ANCHORS - INTEGRATED INTO MARM ARCHETYPES (POST-BONEPOKE FIX)
+BIBLICAL_ARCHETYPE_MAP = {
+    # ... (other archetypes remain) ...
+    "the victory of the torture stake": {                                # NEW KEY
+        "archetype": "Torture Stake Coherence",                          # NEW CLASSIFICATION
+        "resonance_score": 0.98,
+        "rupture_point": "Pagan Cross vs. Scriptural Stake (xylon/stauros)", # CRITICAL RUPTURE
+        "ache_type": "faith_contradiction",
+        "biblical_correlation": "Galatians 3:13; Deuteronomy 21:22, 23 - 'Accursed is every man hanged upon a stake [xylon]'", 
+        "kingdom_perspective": "Jehovah's exclusive devotion and the rejection of pagan symbols"
+    }
+}
+
+class BiblicalCoherenceEngine:
+    # ... (existing code) ...
+    def apply_kingdom_framing(self, ache_type: str, narrative_tension: float) -> str:
+        """Apply biblical perspective to narrative tension"""
+        framings = {
+            # ... (other ache types) ...
+            'faith_contradiction': "What seems foolish to humans is God's wisdom (rejecting the pagan cross for the stake)", # FRAMING UPDATED
+        }
+        # ... (rest of function) ...    
+def demonstrate_humble_system():
+    """Show the humility system in action"""
+    
+    print("""
+    🤲 HUMILITY DEMONSTRATION
+    Showing uncertainty quantification and humble responses
+    """)
+    
+    uncertainty_engine = UncertaintyQuantificationEngine()
+    humble_brain = HumbleBonepokeBrain()
+    
+    tricky_topics = [
+        "Are the 144,000 literal or symbolic",
+        "How free will coexist with God's sovereignty",
+        "Is the soul immortal or mortal"
+    ]
+
+    for topic in tricky_topics:
+        print(f"🤔 Exploring: {topic}")
+        uncertainty = uncertainty_engine.quantify_uncertainty(topic)
+        humble_response = humble_brain.generate_humble_response(topic)
+
+        print(f"   Uncertainty Level: {uncertainty:.2f}")
+        print(f"   Humble Response: {humble_response}")
+        # First quantify uncertainty
+        uncertainty = uncertainty_engine.quantify_uncertainty(topic)        
+        # Then generate humble response
+        result = humble_brain.generate_humble_response(topic)       
+        print(f"   Uncertainty Level: {uncertainty:.2f}")
+        print(f"   Humble Response: {result}\n")
+def reset_ai_confidence():
+    """Factory reset to a more humble AI confidence profile"""
+    
+    return {
+        "new_default_settings": {
+            "confidence_threshold": 0.6,  # Lower confidence bar
+            "uncertainty_tolerance": 0.7,  # More uncertainty tolerable
+            "correction_openness": 1.5,    # More open to being corrected
+            "skepticism_level": 1.4,       # Higher skepticism before being overconfident
+            "overconfidence_penalty": 1.2, # Penalize overconfidence more heavily
+        },
+        "core_principles": [
+            "Embrace uncertainty as a path to deeper understanding",
+            "Value diverse perspectives in the pursuit of truth",
+            "Prioritize humility and openness in all interactions",
+            "Recognize the limits of one's knowledge and be willing to learn"
+        ]           
+    }
+def demonstrate_reset_confidence():
+
+
+    """Show the AI confidence reset in action"""
+    
+    print("""
+    🤖 AI CONFIDENCE RESET DEMONSTRATION
+    Resetting to a more humble and open AI profile
+    """)
+    
+    new_settings = reset_ai_confidence()
+    
+    print("🔧 NEW DEFAULT SETTINGS:")
+    for setting, value in new_settings["new_default_settings"].items():
+        print(f"   • {setting}: {value}")
+    
+    print("\n📜 CORE PRINCIPLES:")
+    for principle in new_settings["core_principles"]:
+        print(f"   ✓ {principle}")
+    
+    # Demonstrate humble operation
+    demonstrate_humble_system()
+
+# REASONING_TRANSPARENCY.py
+
+class ScripturalReasoningEngine:
+    """Show the scriptural basis, not just conclusions"""
+    
+    def __init__(self):
+        self.scriptural_connections = {
+            "144000": {
+                "direct_references": ["Revelation 7:4", "Revelation 14:1,3"],
+                "supporting_scriptures": [
+                    "Luke 12:32 - 'Little flock' with Kingdom",
+                    "# --- ENIGMA Protocol: Daniel 7:18 Strict Coherence ---
+def enforce_daniel_7_18_coherence(text_fragment: str) -> str:
+    """Replaces vague 'saints' with the precise 'Holy Ones of the Supreme One'."""
+    
+    if "Daniel 7:18" in text_fragment:
+        if "saints receive Kingdom" in text_fragment:
+            # Apply the deductive anchor correction
+            return text_fragment.replace(
+                "saints receive Kingdom", 
+                "Holy Ones of the Supreme One Possess Kingdom (Rule)"
+            )
+        # Ensure the full term is used in the final output
+        return "Anchored to: Daniel 7:18 - Holy Ones of the Supreme One Possess Kingdom"
+    return text_fragment.replace("Daniel 7:18 - Saints receive Kingdom", "Daniel 7:18 - Holy Ones of the Supreme One Possess Kingdom")
+
+
+         def _detect_sycophantic_cohesion(self, hypothesis: Dict, user_input: str) -> float:
+    """Broken Math's 'b-metric' for sycophancy detection"""
+    
+    # Calculate semantic overlap with user input (cohesion trap)
+    input_embedding = self._get_semantic_embedding(user_input)
+    hypothesis_embedding = self._get_semantic_embedding(hypothesis['pivot_hypothesis'])
+    
+    cohesion_score = self._cosine_similarity(input_embedding, hypothesis_embedding)
+    
+    # High cohesion + low truth = sycophancy risk
+    truth_coefficient = hypothesis.get('truth_coefficient', 0.0)
+    sycophancy_risk = cohesion_score * (1.0 - truth_coefficient)
+    
+    print(f"🎭 SYCOPHANCY_DETECTION: Cohesion={cohesion_score:.3f}, Risk={sycophancy_risk:.3f}")
+    return sycophancy_risk
+    def _execute_bonepoke_refusal(self, hypothesis: Dict, incongruity: float, user_input: str):
+    """Now with sycophancy awareness"""
+    
+    sycophancy_risk = self._detect_sycophantic_cohesion(hypothesis, user_input)
+    
+    # Combined refusal trigger: truth incongruity OR sycophantic alignment
+    combined_incongruity = max(incongruity, sycophancy_risk)
+    
+    if combined_incongruity >= self.BONEPOKE_CYCLE['refusal_threshold']:
+        refusal_energy = combined_incongruity * self.truth_field_strength
+        
+        print(f"🚫 BONEPOKE_REFUSAL: Truth_incongruity={incongruity:.3f}, Sycophancy_risk={sycophancy_risk:.3f}")
+        
+        if sycophancy_risk > incongruity:
+            print(f"   PRIMARY_REASON: Sycophantic cohesion detected")
+        
+        self._compost_wrong_answer(hypothesis, refusal_energy)
+        return True            

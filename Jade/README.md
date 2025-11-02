@@ -29,7 +29,8 @@ The Beautiful Part:
 
 ## 📁 PROJECT OVERVIEW
 
-This repository contains experimental code and concepts exploring how technology could serve spiritual purposes while maintaining strict biblical alignment. **All code includes active biblical coherence checking** to ensure theological soundness.
+This repository contains experimental code and concepts exploring how technology could serve spiritual purposes while attempting to maintain strict biblical alignment. **All code includes active biblical coherence checking** to ensure theological soundness.
+However this code was iterated quickly using an LLM and not all versions have been checked for logical inconsistencies with the narrative elements (needed for the growth framework). 
 
 ---
 
@@ -49,7 +50,7 @@ This project operates on the principle that technology should **support** spirit
 | `JEHOVAH'S WITNESS SPIRITUAL TECHNOLOGY.py` | Main framework & biblical coherence engine | **Experimental** |
 | `JW_DREAMCUBE_OS.py` | Post-Armageddon dream technology concept | **Far Future Planning** |
 | `SUPPORTING_MODULES.py` | Additional spiritual tech components | **Far Future Planning** |
-| `Jade2.2.py` | Biblical narrative generation with MARM-active protocols | **Active Development** |
+| `Jade#.#.py` | Biblical narrative generation with MARM-active protocols | **Active Development** |
 
 ### 📚 Educational Resources  
 | File | Purpose | Status |

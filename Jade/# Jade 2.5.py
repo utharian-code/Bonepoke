@@ -40,7 +40,7 @@ class Jade24BonepokeBrain:
         'process_constraint': "PROCESS_NOT_CONTENT",
         'innovation_analogy': "BETTER_PRINTING_PRESS_NOT_NEW_BIBLE"}
     
-    # --- TRUTHS WE LOVE TO TEACH ---
+    # --- TRUTH CATEGORIES ---
     TRUTHS_WE_LOVE = {
         TruthCategory.BIBLE_PROTOCOL: [
             "In the beginning God created the heavens and the earth",

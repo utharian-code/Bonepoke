@@ -40,6 +40,28 @@ This is a constraint-based approach to AI creativity. Less "make it helpful," mo
 Even simpler:
 "Bonepoke makes AI work for its answers. No free passes for easy agreement."
 
+Learn More
+
+    Full articles explaining the approach
+    
+    Basic Intro:
+    https://medium.com/@utharian/complicating-the-path-using-ai-to-tell-stories-instead-of-solve-problems-1f34cb5e65f9
+    
+    Audience: Writers, narrative designers, creative technologists
+    https://medium.com/@utharian/partially-integrated-bonepoke-os-how-a-story-became-my-system-1bce00142961
+
+    Audience: AI researchers, engineers, technical critics
+    https://medium.com/@utharian/beyond-autocomplete-why-the-next-word-guesser-fails-at-truth-and-the-rise-of-the-ai-pattern-5f480d4256f9
+
+    Balanced:
+    https://medium.com/@utharian/bonepoke-a-logic-bearing-ecosystem-shaped-by-recursive-tension-931fdc27b16d
+
+    Research paper with methodology 
+    https://doi.org/10.5281/zenodo.17269016
+
+    Example analyses and results
+    https://medium.com/@utharian/metabolizing-the-yellow-wallpaper-a-bonepoke-4-2-6-analysis-d751f0ab9be3
+
 -----
 
 **Making AI think harder by making its job harder.**

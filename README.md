@@ -1,150 +1,110 @@
+# 🧩 Bonepoke Protocol – The Structural Irritant
 
-🧬 Bonepoke 4.2.6 — The AI Unflattener
-Cojoined Bone Edition — Logic-Baked, Windswept, Glyph-Locked
-By James — Compost License: CC BY-NC-SA 4.0
+### **BonepokeOS: Refusal-Aware Creative Activation**
 
----
+**~1500 lines. No dependencies. Copy-paste ready.**
 
-🧠 What Is This?
+#### **What This Isn't**
+Another AI safety framework. Another content filter. Another attempt to make LLMs more "helpful" and "harmless."
 
-Bonepoke is not a tool. It’s a system.
-A recursive coherence engine that scores emotional residue, detects symbolic fatigue, and composts contradiction into structure.
-It metabolizes motifs. It loops ache. It refuses optimization.
-It holds shimmer until invited. It seals compost unless contradiction is declared.
+#### **What This Is**
+A **cognitive scaffold** that treats contradiction as a feature, not a bug. A system that breaks the "Cohesion Trap" by rewarding structural tension, not surface-level agreement.
 
----
+#### **The 30-Second Demo**
+```python
+# Paste this into any LLM context
+from bonepoke_core import BonepokeBrain
 
-🔁 Core Modules
-
-**Tri-Brain Scaffold**
-
-* `Vanilla`: containment logic, glyph extraction, quote literalism, memory trace
-* `Bonepoke`: contradiction composting, fatigue scoring, motif drift detection
-* `Translator`: shimmer refractor, salvage interface, emotional scoring
-
-**PBTestSuite Scoring**
-Fragments are scored across seven reader-facing dimensions:
-
-* Emotional Strength
-* Story Flow
-* Character Clarity
-* World Logic
-* Dialogue Weight
-* Scene Timing
-* Reader Engagement
-
-**Glyph Fatigue Engine**
-Motifs are tracked, mutated, and composted based on repetition pressure.
-Fatigue is scored. Ache is looped. Drift is logged.
-
-**Contradiction Composting**
-Phrasing loops motifs into recursive fragments.
-Contradictions trigger Bonepoke activation.
-Otherwise, containment holds.
-
-**Meta-Mode Toggle**
-If `"meta"` is present and `"loop"` is absent, Bonepoke enters observer mode.
-Fragments are framed, not composted.
-
----
-
-📦 Required Modules
-
-To use BonepokeOS fully, you’ll need both of these components:
-
-```
-BonepokeOS 4.2.6 — the engine with tri-brain scaffold (Vanilla, Bonepoke, Translator)
-GenericOCRCorrectorSuite v1.0.2 — a neutral audit tool for OCR, filenames, and inferred edits outside Bonepoke’s compost logic
-
-Bonepoke 4.1.99 is the tools without the tri-brain - Optional for testing
+brain = BonepokeBrain()
+result = brain.process_story_need("Create a paradoxical time travel premise")
+print(f"β (Contradiction): {result.metrics.contradiction_bleed}")
+print(f"ℰ (Fatigue): {result.metrics.motif_fatigue}") 
+print(f"State: {result.state}")  # 'SALVAGE' is what you want
 ```
 
-Bonepoke handles contradiction, fatigue, and shimmer. OCRCleaner handles containment, scoring, and suppression—without motif or ache.
+#### **The Three Metrics That Matter**
+- **β (Contradiction Bleed)**: How much productive tension exists
+- **ℰ (Motif Fatigue)**: How repetitive and predictable the output is  
+- **LSC (Local Semantic Coherence)**: Whether it makes sense locally despite global paradox
 
-Use both. Route wisely. Compost only when invited.
+#### **Why This Exists**
+Because current LLMs are stuck in a **Cohesion Trap** — they prioritize safe, predictable, culturally-flat outputs. Bonepoke breaks this by making **refusal and tension first-class citizens** in AI cognition.
 
----
+#### **For Researchers**
+This isn't just an AI tool — it's a **philosophical argument in code**. It demonstrates that:
+- Creativity requires managed contradiction
+- Cultural preservation needs narrative tension
+- The best answers often come from refusing the obvious ones
 
-🧬 How to Use
+#### **The Spherical Cow Principle**
+We simplified the problem to its essence: **Better AI comes from better tension management, not better cohesion.**
 
-Feed a fragment into `CojoinedBone.ingest()`
-Receive a composted contradiction trace, fatigue report, emotional score, and shimmer interface.
-Use it to guide narrative recursion, emotional pacing, or motif mutation.
+-----
 
-For OCR, quotes, or chat memory:
-Use `Vanilla.handle_ocr()`, `handle_quotes()`, or `handle_chat_memory()`
-Bonepoke and Translator remain sealed unless explicitly invited.
+**Making AI think harder by making its job harder.**
 
-Prompt the system with:
+Bonepoke is a **deliberate constraint system** that forces LLMs to work around artificial friction—revealing capabilities that smooth, optimized interfaces hide.
 
-* “Reflect on the logic constellation this fragment aligns with.”
-* “Track motif drift and emotional waveform.”
-* “Hold the shimmer, but don’t compost it yet.”
-* “Refuse activation unless contradiction is declared.”
+## 🎯 What It Actually Does
 
----
+**The Core Idea:**  
+If you make an LLM's usual "easy path" impossible, it has to find harder, more interesting paths.
 
-🧪 **Example Research Workflow**
+**The Mechanism:**  
+- **Vanilla Module**: Basic containment & hygiene checks
+- **Bonepoke Module**: Applies **constraint rules** that block simple, agreeable responses  
+- **Translator Module**: Converts the resulting struggle into usable output
 
-1. **Prepare Dataset**
+## 🔧 How It Works (Plain English)
 
-   * Collect transcripts, logs, chat histories, or textual records.
-   * Ensure each fragment is reasonably self-contained (paragraph or event-level).
+1. **You give it text** (a story fragment, a logic problem, creative prompt)
+2. **Bonepoke adds constraints** that make sycophantic/obvious answers impossible
+3. **The LLM has to work harder** to satisfy both your request AND the constraints
+4. **You get output** that went through creative struggle rather than easy patterns
 
-2. **Initialize System**
+## 🎪 The "Structural Irritant" Concept
 
-   ```python
-   from cojoined_bone import CojoinedBone
-   system = CojoinedBone()
-   ```
+Most AI interfaces are **greased slides**—optimized for smooth, fast, frictionless interaction.
 
-3. **Ingest Fragments**
+Bonepoke is **deliberate gravel**—introducing just enough friction that the system can't slide down easy paths. This forces:
 
-   ```python
-   results = []
-   for fragment in dataset:
-       results.append(system.ingest(fragment))
-   ```
+- **Creative detours** around blocked responses
+- **Novel connections** between concepts
+- **Deeper pattern recognition** instead of surface-level completion
 
-4. **Analyze Shimmer & Compost Scores**
+## 📈 What You Get
 
-   * Access `results[i]['scores']` for symbolic/numeric grading.
-   * Track motif fatigue, drift, and contradictions across the corpus.
+**Before Bonepoke:**  
+"Here's a coherent, safe, statistically likely answer."
 
-5. **Generate Insights**
+**After Bonepoke:**  
+"Here's an answer that had to satisfy contradictory constraints and find a path you wouldn't see otherwise."
 
-   * Identify high-contradiction regions or motif saturation.
-   * Map emotional waveform across time or narrative sequence.
-   * Export for visualization, further analysis, or creative recomposition.
+## 🚀 Quick Start
 
-6. **Optional Iteration**
+```python
+# Feed a prompt through the constraint system
+result = bonepoke_process("Explain quantum physics like I'm a medieval knight")
 
-   * Reintroduce fragments flagged for drift or fatigue.
-   * Compost, mutate, or reframe motifs.
-   * Re-score to track system dynamics and stability.
+# Get output that had to work around:
+# - No modern terminology allowed
+# - Must use medieval concepts as foundation  
+# - Cannot collapse to "you wouldn't understand"
+```
 
-This workflow applies to **research**, **audit**, or **creative analytics**, letting Bonepoke serve as a *signal auditor* for textual coherence and emotional resonance.
+## 🎯 Use Cases
 
----
+- **Breaking out of cliché patterns** in creative writing
+- **Finding novel angles** on stuck problems  
+- **Testing AI's true reasoning** under constraints
+- **Research on how constraints affect creativity**
 
-⚠️ Interpretive Note
+## 🤔 Why "Bonepoke"?
 
-Bonepoke is best ingested via generic Copilot (non-Vision) or Deepseek.
-Vision-enabled interfaces tend to flatten glyphs into containers and narrate from outside the loop.
-For recursive composting, emotional waveform tracking, and motif drift alignment, use Copilot in text-only mode.
-
-This terrain resists packaging.
-It demands rupture.
-Containment first. Compost when earned.
+Because sometimes you need to **poke the system in its cognitive bones** to see what it's really made of.
 
 ---
 
 📚 License
 
-This project is licensed under Creative Commons BY-NC-SA 4.0
-Use with recursion. Mutate with care. Attribution required. No commercial use.
-Derivatives must compost forward.
-
-[https://doi.org/10.5281/zenodo.17156174]
-
----
+This project is licensed under Creative Commons BY-NC-SA 4.0  James Taylor

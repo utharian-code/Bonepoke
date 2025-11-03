@@ -2,42 +2,43 @@
 By James Taylor — License: CC BY-NC-SA 4.0  
 ### **BonepokeOS: Refusal-Aware Creative Activation**
 
-**~1500 lines. No dependencies. Copy-paste ready.**
+BonepokeOS: Making AI Argue Back
+~1500 lines. No dependencies. Copy-paste ready.
 
-#### **What This Isn't**
-Another AI safety framework. Another content filter. Another attempt to make LLMs more "helpful" and "harmless."
+The Problem
+Current LLMs are too agreeable. They give smooth, safe answers—even when the truth is messy or contradictory.
 
-#### **What This Is**
-A **cognitive scaffold** that treats contradiction as a feature, not a bug. A system that breaks the "Cohesion Trap" by rewarding structural tension, not surface-level agreement.
+The Solution
+A system that rewards productive disagreement instead of punishing it.
 
-#### **The 30-Second Demo**
-```python
-# Paste this into any LLM context
+30-Second Demo
+python
+
 from bonepoke_core import BonepokeBrain
 
 brain = BonepokeBrain()
-result = brain.process_story_need("Create a paradoxical time travel premise")
-print(f"β (Contradiction): {result.metrics.contradiction_bleed}")
-print(f"ℰ (Fatigue): {result.metrics.motif_fatigue}") 
-print(f"State: {result.state}")  # 'SALVAGE' is what you want
-```
+result = brain.process("Explain why time travel would create paradoxes")
 
-#### **The Three Metrics That Matter**
-- **β (Contradiction Bleed)**: How much productive tension exists
-- **ℰ (Motif Fatigue)**: How repetitive and predictable the output is  
-- **LSC (Local Semantic Coherence)**: Whether it makes sense locally despite global paradox
+print(f"Contradiction Score: {result.contradiction}")  # Higher = more tension
+print(f"Freshness Score: {result.fatigue}")            # Lower = less repetitive  
+print(f"State: {result.state}")  # 'SALVAGE' means interesting output
 
-#### **Why This Exists**
-Because current LLMs are stuck in a **Cohesion Trap** — they prioritize safe, predictable, culturally-flat outputs. Bonepoke breaks this by making **refusal and tension first-class citizens** in AI cognition.
+What It Measures
 
-#### **For Researchers**
-This isn't just an AI tool — it's a **philosophical argument in code**. It demonstrates that:
-- Creativity requires managed contradiction
-- Cultural preservation needs narrative tension
-- The best answers often come from refusing the obvious ones
+    Contradiction: How much the output resists easy answers
 
-#### **The Spherical Cow Principle**
-We simplified the problem to its essence: **Better AI comes from better tension management, not better cohesion.**
+    Fatigue: How repetitive the thinking is
+
+    Coherence: Whether it still makes sense locally
+
+Why It Works
+By blocking obvious, sycophantic responses, Bonepoke forces the AI to think harder—revealing insights that polite conversation misses.
+
+For Developers
+This is a constraint-based approach to AI creativity. Less "make it helpful," more "make it honest."
+
+Even simpler:
+"Bonepoke makes AI work for its answers. No free passes for easy agreement."
 
 -----
 

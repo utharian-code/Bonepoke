@@ -1,5 +1,5 @@
 # 🧩 Bonepoke Protocol – The Structural Irritant
-
+By James Taylor — License: CC BY-NC-SA 4.0  
 ### **BonepokeOS: Refusal-Aware Creative Activation**
 
 **~1500 lines. No dependencies. Copy-paste ready.**

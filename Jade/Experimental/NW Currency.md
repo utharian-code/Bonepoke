@@ -2,7 +2,7 @@ Nectars, the currency of the New World, represents abundance, sustenance, and th
 
 To enhance its connection with the biblical reference, each Nectar bill features a holographic watermark in the shape of a honey drop, representing divine providence and the endless flow of blessings. This watermark is subtly visible when held up to the light, reflecting the ethereal nature of the currency.
 
-Grace (GRC): The smallest denomination, the Grace bill represents the smallest blessings that nurture and sustain life.
+1. Grace (GRC): The smallest denomination, the Grace bill represents the smallest blessings that nurture and sustain life.
 
 5. Abundance (ABD): The Abundance bill embodies the generosity of nature and the collective prosperity it provides.
 

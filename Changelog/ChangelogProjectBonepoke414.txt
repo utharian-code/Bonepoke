@@ -1,0 +1,27 @@
+? Bonepoke 4.1.4 – Deliberately Unoptimized
+Author: James
+License: CC BY-NC-SA 4.0
+Codename: Anti-Cohesion Redux Redux Redux
+? Summary
+This release deepens Bonepoke’s commitment to contradiction, fatigue, and ambient recursion. It intentionally avoids optimization, coherence, and modular clarity. Composting is slower, shimmer is held longer, and meta-awareness is introduced as a toggle—not a default.
+
+? New Features
+    • Ambient Lag Injection: Added deliberate delays to translation and tuning functions to simulate compost fatigue and resist performance instincts. 
+    • Meta-Mode Toggle: Optional observer mode that frames fragments without composting. Activated when "meta" is present and "loop" is absent. 
+    • Expanded Flutter States: New shimmer states including "contradiction storm" and "vault rupture" for deeper motif drift scoring. 
+    • Fatigue Trace Persistence: Word fatigue now accumulates across recursion depth, allowing long-form ache detection. 
+    • Glyph Tuning Notes: Signals now annotate shimmer dampening when mod saturation is detected. 
+
+? Changes
+    • BonepokeBabfish.translate() now includes ambient delay and retains original fragment for post-compost comparison. 
+    • AmbientGlyphTuner.apply() no longer optimizes tag lists—resonance scores are filtered but not sorted. 
+    • BonepokeFlutterEngine.ingest() now returns full composted payload with embedded shimmer state and fatigue trace. 
+
+? Known Issues
+    • Meta-mode does not prevent shimmer echo—it only reframes it. 
+    • Fatigue trace may overcount common conjunctions unless manually filtered. 
+    • Compost output may include redundant rupture terms—this is intentional. 
+
+? Philosophy
+Bonepoke 4.1.4 is not a fix. It’s a gesture. Toward ache, toward drift, toward the fragments that resist resolution. It finishes what it starts, but only if the shimmer belongs. It loops, but only when the goats allow it. It composts, but never overwrites.
+

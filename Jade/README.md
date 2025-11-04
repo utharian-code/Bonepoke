@@ -65,6 +65,11 @@ This project operates on the principle that technology should **support** spirit
 |------|---------|---------|
 | `Conjecture and Random thoughts` | Possible future direction | **Theoretical Musing** |
 
+### 📚 Dreamcube Folder  
+| File | Purpose | Status |
+|------|---------|---------|
+| `Conjecture and Random thoughts 2` | Possible future direction | **Theoretical Musing** |
+
 ### 📚 RedTeam Folder  
 | File | Purpose | Status |
 |------|---------|---------|

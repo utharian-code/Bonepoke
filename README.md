@@ -57,7 +57,7 @@ Learn More
     https://medium.com/@utharian/bonepoke-a-logic-bearing-ecosystem-shaped-by-recursive-tension-931fdc27b16d
 
     Research paper with methodology 
-    https://doi.org/10.5281/zenodo.17269016
+    See PDF in this repository
 
     Example analyses and results
     https://medium.com/@utharian/metabolizing-the-yellow-wallpaper-a-bonepoke-4-2-6-analysis-d751f0ab9be3

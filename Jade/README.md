@@ -80,6 +80,11 @@ This project operates on the principle that technology should **support** spirit
 |------|---------|---------|
 | `Old Jade#.#.py` | Biblical narrative generation with MARM-active protocols | **Lineage** |
 
+### 📚 Bible Logic Code Test Folder  
+| File | Purpose | Status |
+|------|---------|---------|
+| `Various.py` | Sample logic modules for individual Biblical Concepts |  **Active Beta Development** |
+
 ---
 
 ## 🛡️ BIBLICAL SAFETY PROTOCOLS

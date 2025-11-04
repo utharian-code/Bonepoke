@@ -68,8 +68,9 @@ if __name__ == "__main__":
     navigator = ScriptureNavigator()
     
     # When exponential problems hit
-    print(navigator.handle_exponential_problem("overwhelm", "too many timelines to manage"))
-    print(navigator.handle_exponential_problem("decision_fatigue", "which version of reality to choose"))
+    print(navigator.handle_exponential_problem("overwhelm", "too many responsibilites to manage"))
+    print(navigator.handle_exponential_problem("decision_fatigue", "which path to choose"))
     
     # Quick emotional first-aid
+
     print(f"\nQuick anchor: {simple_scripture_anchor('anxious')}")

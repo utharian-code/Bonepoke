@@ -48,24 +48,38 @@ This project operates on the principle that technology should **support** spirit
 ### 🚀 Core Spiritual Technology
 | File | Purpose | Status |
 |------|---------|---------|
-| `JEHOVAH'S WITNESS SPIRITUAL TECHNOLOGY.py` | Main framework & biblical coherence engine | **Experimental** |
-| `JW_DREAMCUBE_OS.py` | Post-Armageddon dream technology concept | **Far Future Planning** |
-| `SUPPORTING_MODULES.py` | Additional spiritual tech components | **Far Future Planning** |
-| `Jade#.#.py` | Biblical narrative generation with MARM-active protocols | **Active Development** |
+| `Jade#.#.py` | Biblical narrative generation with MARM-active protocols | **Active Beta Development** |
 
 ### 📚 Educational Resources  
 | File | Purpose | Status |
 |------|---------|---------|
 | `Best use of time.md` | Effective time management from biblical perspective | **Ready** |
-| `HelperScript-Conceptual.md` | Spiritual context awareness systems | **Conceptual** |
-| `Movie Setup and Colour Decoder.md` | Enigmatic Color Compass documentation | **Reference** |
-| `NW Currency.md` | New World economic system (Nectar economy) | **Theoretical** |
+
+### 📚 Movie Folder  
+| File | Purpose | Status |
+|------|---------|---------|
+| `Mini Chariot Narrative Engine` | Morality Tales and Narrative Phyics | **Active Beta Development** |
+
+### 📚 Experimental Folder  
+| File | Purpose | Status |
+|------|---------|---------|
+| `Conjecture and Random thoughts` | Possible future direction | **Theoretical Musing** |
+
+### 📚 RedTeam Folder  
+| File | Purpose | Status |
+|------|---------|---------|
+| `RedTeam.py` | Challenges assumptions and Grounds Logic | **Active Beta Development** |
+
+### 📚 Archive Folder  
+| File | Purpose | Status |
+|------|---------|---------|
+| `Old Jade#.#.py` | Biblical narrative generation with MARM-active protocols | **Lineage** |
 
 ---
 
 ## 🛡️ BIBLICAL SAFETY PROTOCOLS
 
-JADE 2.3 NARRATIVE ENGINE - PRODUCTION READY
+JADE 2.5 NARRATIVE ENGINE - BETA READY
 
     ✅ Biblical coherence engine active
 
@@ -93,22 +107,11 @@ BIBLICAL SAFETY PROTOCOLS - LIVE AND ACTIVE
 
 ## 🌟 KEY FEATURES
 
-### **JADE 2.3 Narrative Engine**
+### **JADE 2.5 Narrative Engine**
 - MARM-active storytelling (holding contradiction within truth)
 - Biblical archetype integration
 - Kingdom perspective framing
 - Automated scripture validation
-
-### **DreamCube OS Concept** 
-- Post-Armageddon spiritual technology
-- Lucid dreaming for ministry preparation
-- Buffer reality outreach systems
-- Holy Spirit-powered interfaces
-
-### **Nectar Economy**
-- Grace-based currency system (GRC, ABD, SUS, HVT, PSP, BLG)
-- Spiritual resource distribution
-- Abundance mindset implementation
 
 ---
 
@@ -149,11 +152,10 @@ A complete metaphysical framework for understanding spiritual realities:
 
 ---
 
-## 🔮 FUTURE DIRECTIONS
-
+## 🔮 FUTURE DIRECTIONS AND CONJECTURE
+- See Experimental folder for random thoughts
+- See Movie folder for Morality Tales
 - Enhanced biblical coherence engines
-- Dream phase management systems  
-- Temporal research protocols (Enigma2OS)
 - Narrative physics for edifying content
 - Community building tools
 
@@ -170,7 +172,7 @@ This project explores how technology might serve the educational work of the Gre
 **Built with respect for Jehovah's sovereignty and love for truth.** 📖✨
 ✅ ACTUALLY SHIPPING NOW:
 
-JADE 2.2 NARRATIVE ENGINE - PRODUCTION READY
+JADE 2.5 NARRATIVE ENGINE - PRODUCTION READY
 
     ✅ Biblical coherence engine active
 
@@ -206,16 +208,6 @@ ENIGMATIC COLOR COMPASS - OPERATIONAL FRAMEWORK
 
 🔄 READY FOR DEPLOYMENT:
 
-NECTAR ECONOMY PROTOCOLS - FIELD TESTED
-
-    ✅ Grace-based transaction logging
-
-    ✅ Chocolate bar economics validated
-
-    ✅ Community reciprocity engines
-
-    ✅ READY FOR EXPANDED IMPLEMENTATION
-
 TIME MANAGEMENT SYSTEMS - DOCUMENTATION COMPLETE
 
     ✅ Biblical productivity frameworks
@@ -224,35 +216,17 @@ TIME MANAGEMENT SYSTEMS - DOCUMENTATION COMPLETE
 
     ✅ READY FOR PERSONAL APPLICATION
 
-🚧 STILL IN DEVELOPMENT:
+🚧 STILL IN DEVELOPMENT
 
-DREAMCUBE OS - CONCEPTUAL PHASE
-
-    ⚠️ Requires post-Armageddon context
-
-    ⚠️ Dependent on future conditions
-
-    ⚠️ ARCHITECTURAL SPECULATION ONLY
-
-TEMPORAL RESEARCH - THEORETICAL
-
-    ⚠️ Enigma2OS connection to Computer Zero
-
-    ⚠️ Ethical time manipulation protocols
-
-    ⚠️ AWAITING PRACTICAL APPLICATION
 
 
 [UPDATING REPOSITORY STATUS]
 📊 REVISED STATUS BOARD:
 Component	Previous Status	Actual Status
-JADE 2.3 Engine	Active Development	🟢 PRODUCTION
+JADE 2.5 Engine	Active Development	🟢 BETA
 Biblical Safety	Experimental	🟢 LIVE FILTERING
 Color Compass	Reference	🟢 OPERATIONAL
-Nectar Economy	Theoretical	🟡 FIELD TESTED
 Time Management	Ready	🟢 DEPLOYABLE
-DreamCube OS	Far Future	🔴 CONCEPTUAL
-Temporal Research	Far Future	🔴 THEORETICAL
 
 
     ✅ Active biblical AI safety protocols

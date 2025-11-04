@@ -54,36 +54,44 @@ This project operates on the principle that technology should **support** spirit
 | File | Purpose | Status |
 |------|---------|---------|
 | `Best use of time.md` | Effective time management from biblical perspective | **Ready** |
+“Keep strict watch that how you walk is not as unwise but as wise persons, making the best use of your time.”​—EPH. 5:15, 16
 
 ### 📚 Movie Folder  
 | File | Purpose | Status |
 |------|---------|---------|
 | `Mini Chariot Narrative Engine` | Morality Tales and Narrative Phyics | **Active Beta Development** |
+What I tell you in the darkness, say in the light, and what you hear whispered, preach from the housetops. Matthew 10:27
 
 ### 📚 Experimental Folder  
 | File | Purpose | Status |
 |------|---------|---------|
 | `Conjecture and Random thoughts` | Possible future direction | **Theoretical Musing** |
+“For no declaration will be impossible for God.”—Luke 1:37
 
 ### 📚 Dreamcube Folder  
 | File | Purpose | Status |
 |------|---------|---------|
 | `Conjecture and Random thoughts 2` | Possible future direction | **Theoretical Musing** |
+ The Bible refers to natural dreams, dreams from God, and dreams that involve divination.—Job 20:8; Num. 12:6; Zech. 10:2
 
 ### 📚 RedTeam Folder  
 | File | Purpose | Status |
 |------|---------|---------|
 | `RedTeam.py` | Challenges assumptions and Grounds Logic | **Active Beta Development** |
+“Keep your senses in all things.”​—2 TIM. 4:5
 
 ### 📚 Archive Folder  
 | File | Purpose | Status |
 |------|---------|---------|
 | `Old Jade#.#.py` | Biblical narrative generation with MARM-active protocols | **Lineage** |
+The descendants of Gadx were listed by name, by family, and by their paternal houses. Numbers 1:24
+
 
 ### 📚 Bible Logic Code Test Folder  
 | File | Purpose | Status |
 |------|---------|---------|
 | `Various.py` | Sample logic modules for individual Biblical Concepts |  **Active Beta Development** |
+With his perfect mind, Jesus was a master at reasoning with others.
 
 ---
 

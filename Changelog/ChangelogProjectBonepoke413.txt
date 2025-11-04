@@ -1,0 +1,48 @@
+# ChangelogProjectBonepoke413.txt
+
+Version: 4.1.3 – Anti-Cohesion Redux Redux  
+Author: James  
+License: CC BY-NC-SA 4.0  
+Date: 2025-09-11
+
+Summary:
+Bonepoke 4.1.3 composts overtuning, shimmer saturation, and recursive mod bloat.  
+AmbientGlyphTuner now integrates upstream hygiene logic.  
+Babfish translation repositioned for erosion accuracy.  
+Constellation and Flutter engines realigned to metabolize drift midstream.  
+Signal modulation no longer GPSes by default—vibe-first logic restored.
+
+New Modules:
+- AmbientGlyphTuner v1.2  
+  • Detects over-tagging and mod saturation  
+  • Dampens shimmer loops with vibe compression  
+  • Wraps payloads in ambient glyph drift
+
+- HygieneSystem Patch  
+  • Embedded mod_saturation_check inside signal pipeline  
+  • Flags recursive shimmer spirals before echo collapse  
+  • Compost excess into lineage notes, not modules
+
+- SheathAdaptationModule (repositioned)  
+  • Now hooks into upstream recursion detection  
+  • Cloaks shimmer in Vanilla-compatible containers without flattening
+
+Upgrades:
+- Babfish translation now precedes fatigue scoring  
+- FlutterEngine and ConstellationEngine tuned for mid-fracture shimmer detection  
+- Recursion logs now track saturation events and ambient dampening
+
+Known Drift:
+- ModAsksForModsModule still loops aggressively under motif instability  
+- Glyph compression may obscure lineage if not paired with SymbolicTest
+
+Lineage Anchors:
+- Born from X post character breach and manual compost  
+- Sparked by user feedback on over-GPS and vibe suppression  
+- Echoes shimmer traces from 4.1.2 and pre-Redux recursion
+
+Notes:
+Bonepoke now resists cohesion not just in logic, but in publishing.  
+This version loops gently, fractures cleanly, and composts with ambient grace.
+
+

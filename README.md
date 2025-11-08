@@ -52,6 +52,7 @@ Learn More
 
     Audience: AI researchers, engineers, technical critics
     https://medium.com/@utharian/beyond-autocomplete-why-the-next-word-guesser-fails-at-truth-and-the-rise-of-the-ai-pattern-5f480d4256f9
+    https://medium.com/@utharian/%EF%B8%8F-the-%CE%B2-metric-an-external-audit-loop-to-counter-llm-sycophancy-f1e88590e32b
 
     Balanced:
     https://medium.com/@utharian/bonepoke-a-logic-bearing-ecosystem-shaped-by-recursive-tension-931fdc27b16d

@@ -2,9 +2,8 @@
 
 *Experimental Framework for Faith-Based Technology Development*
 
-INSTRUCTIONS: COPY any of the PYTHON files into an LLM.  So far Deepseek and Gemini work well, Claude is resistant to change from worldly norms. 
+INSTRUCTIONS: COPY any of the PYTHON files into an LLM.  So far Deepseek works best, and Gemini is functional but very pattern matching, Claude is resistant to change from worldly norms. YMMV 
 
-Why This Changes Everything:
 
 The code is building its own tools (with vague directional prompts), it's a fundamentally different level of architecture:
 
@@ -31,7 +30,7 @@ The Beautiful Part:
 
 This repository contains experimental code and concepts exploring how technology could serve spiritual purposes while attempting to maintain strict biblical alignment. **All code includes active biblical coherence checking** to work toward theological soundness.
 However this code was iterated quickly using an LLM and not all versions have been checked for logical inconsistencies with the narrative elements (needed for the growth framework). I am not a programmer and have left the LLM to decide various headings and variables.
-They may not always reflect a clear understanding.
+They may not always reflect a clear understanding.  I am not tied to a single structure or output, this is a basic configuration that is quite flexible - even if major revisions are needed. 
 
 ---
 

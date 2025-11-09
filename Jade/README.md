@@ -71,6 +71,12 @@ This project operates on the principle that technology should **support** spirit
 | `Mini Chariot Narrative Engine` | Morality Tales and Narrative Phyics | **Active Beta Development** |
 What I tell you in the darkness, say in the light, and what you hear whispered, preach from the housetops. Matthew 10:27
 
+### 📚 Popcorn Folder  
+| File | Purpose | Status |
+|------|---------|---------|
+| `Spiritual Theatre` | Fun and Spiritual reflection on Media  | **Active Beta Development** |
+A time to weep and a time to laugh; A time to wail and a time to dance; Ecclesiastes 3:4
+
 ### 📚 Experimental Folder  
 | File | Purpose | Status |
 |------|---------|---------|

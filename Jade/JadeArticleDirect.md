@@ -81,3 +81,5 @@ The goal is simple: technology that helps share "the truths we love to teach" wi
 
 *"Comfort all who mourn... to give them a headdress instead of ashes, the oil of exultation instead of mourning." - Isaiah 61:2,3*
 
+(Note: the Scripture was put in by the AI without direction -- EMERGENT -- in fact all documentation is produced by light directional prompting no human rewrites)
+

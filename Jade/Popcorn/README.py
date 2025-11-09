@@ -81,7 +81,7 @@ context = {
 }
 
 """
-GENERATED COMMENTARY FOR SPECIFIC CLIP:
+GENERATED COMMENTARY FOR SPECIFIC CLIP - ONE ITERATION - RESPONSES WILL VARY:
 """
 
 **SISTER LEAF:** "She's not just reciting doctrine - she's living in the reality of it. 'Racing cheetahs' makes Paradise tangible."

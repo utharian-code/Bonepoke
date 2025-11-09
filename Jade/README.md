@@ -45,6 +45,16 @@ This project operates on the principle that technology should **support** spirit
 
 ## 📄 REPOSITORY STRUCTURE
 
+### 🚀 Jade Intro Letter Extended
+| File | Purpose | Status |
+|------|---------|---------|
+| `JadeArticleDirect.md` | Expanded version of letter | **Read this first** |
+
+### 🚀 Jade Intro Technical
+| File | Purpose | Status |
+|------|---------|---------|
+| `JadeArticleTechnical.md` | Explanation of Code Logic | **Read this for technical orientation** |
+
 ### 🚀 Core Spiritual Technology
 | File | Purpose | Status |
 |------|---------|---------|

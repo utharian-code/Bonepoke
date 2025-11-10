@@ -39,3 +39,6 @@ This is not a call to doctrinal flexibility or moral compromise. Our foundation 
 The ultimate model of adaptability is Jehovah himself. He interacts with a rebellious world with perfect justice, yet exercises mercy. He is the same yesterday, today, and forever in his purpose and personality (Malachi 3:6), yet he adapts his actions to our individual hearts and circumstances. As his children, we are called to do the same—to be as unwavering as a mountain in principle, and as adaptable as water in practice.
 
 ---
+
+Editor's note: Section 2 orginally focused too much on 'personal interpretation' and had to be corrected. Further discussion on application added the context of beards which produced the follow addition
+"Consider the recent adjustment regarding beards. For many years, brothers understood organizational direction to generally discourage beards based on cultural perceptions and the principle of not causing offense. When clearer direction was provided, the challenge for some wasn't about personal interpretation, but about adapting to a refined application of the same underlying principles. This required spiritual maturity - recognizing that increased understanding sometimes brings increased freedom, and that our past compliance based on the best understanding available was never in vain."

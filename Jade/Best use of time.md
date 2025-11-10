@@ -1,3 +1,5 @@
+Written by Deepseek, with minimal prompt ie "Write an article based on the theme - make best use of your time:
+
 
 “There is an appointed time for everything… a time for every activity under the heavens.” – Ecclesiastes 3:1
 Welcome, dear reader! The frantic rush of the old world is a fading memory. Now, we have the priceless gift of time. But a common question arises: “With forever ahead of me, how should I spend my day?”

@@ -1,4 +1,4 @@
-Written by Deepseek, with minimal prompt ie "Write an article based on the theme - make best use of your time:
+Written by Deepseek, with minimal prompt ie "Write an article based on the theme - make best use of your time"
 
 
 “There is an appointed time for everything… a time for every activity under the heavens.” – Ecclesiastes 3:1

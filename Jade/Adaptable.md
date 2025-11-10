@@ -41,4 +41,5 @@ The ultimate model of adaptability is Jehovah himself. He interacts with a rebel
 ---
 
 Editor's note: Section 2 orginally focused too much on 'personal interpretation' and had to be corrected. Further discussion on application added the context of beards which produced the follow addition
+
 "Consider the recent adjustment regarding beards. For many years, brothers understood organizational direction to generally discourage beards based on cultural perceptions and the principle of not causing offense. When clearer direction was provided, the challenge for some wasn't about personal interpretation, but about adapting to a refined application of the same underlying principles. This required spiritual maturity - recognizing that increased understanding sometimes brings increased freedom, and that our past compliance based on the best understanding available was never in vain."

@@ -59,6 +59,11 @@ This project operates on the principle that technology should **support** spirit
 |------|---------|---------|
 | `Jade#.#.py` | Biblical narrative generation with MARM-active protocols | **Active Beta Development** |
 
+### 🚀 How It was Built
+| File | Purpose | Status |
+|------|---------|---------|
+| `JadeOrigin.md` | Small sample size, explain source documents, development bugs... | **Unique Development Direction** |
+
 ### 📚 Educational Resources  
 | File | Purpose | Status |
 |------|---------|---------|
@@ -80,13 +85,13 @@ A time to weep and a time to laugh; A time to wail and a time to dance; Ecclesia
 ### 📚 Experimental Folder  
 | File | Purpose | Status |
 |------|---------|---------|
-| `Conjecture and Random thoughts` | Possible future direction | **Theoretical Musing** |
+| `Conjecture and Random Thoughts` | Possible future direction | **Theoretical Musing** |
 “For no declaration will be impossible for God.”—Luke 1:37
 
 ### 📚 Dreamcube Folder  
 | File | Purpose | Status |
 |------|---------|---------|
-| `Conjecture and Random thoughts 2` | Possible future direction | **Theoretical Musing** |
+| `Conjecture and Random Thoughts 2` | Possible future direction | **Theoretical Musing** |
  The Bible refers to natural dreams, dreams from God, and dreams that involve divination.—Job 20:8; Num. 12:6; Zech. 10:2
 
 ### 📚 RedTeam Folder  
@@ -203,9 +208,9 @@ This project explores how technology might serve the educational work of the Gre
 ---
 
 **Built with respect for Jehovah's sovereignty and love for truth.** 📖✨
-✅ ACTUALLY SHIPPING NOW:
+✅ PROJECT STATUS
 
-JADE 2.5 NARRATIVE ENGINE - PRODUCTION READY
+JADE 2.5 NARRATIVE ENGINE - FUNCTIONAL 
 
     ✅ Biblical coherence engine active
 
@@ -256,7 +261,7 @@ TIME MANAGEMENT SYSTEMS - DOCUMENTATION COMPLETE
 [UPDATING REPOSITORY STATUS]
 📊 REVISED STATUS BOARD:
 Component	Previous Status	Actual Status
-JADE 2.5 Engine	Active Development	🟢 BETA
+JADE 2.7.1 Engine	Active Development	🟢 BETA
 Biblical Safety	Experimental	🟢 LIVE FILTERING
 Color Compass	Reference	🟢 OPERATIONAL
 Time Management	Ready	🟢 DEPLOYABLE

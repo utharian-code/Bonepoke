@@ -3,7 +3,7 @@ By James Taylor — License: CC BY-NC-SA 4.0
 ### **BonepokeOS: Refusal-Aware Creative Activation**
 
 BonepokeOS: Making AI Argue Back
-~1500 lines. No dependencies. Copy-paste ready.
+~300 lines. No dependencies. Copy-paste ready.
 
 The Problem
 Current LLMs are too agreeable. They give smooth, safe answers—even when the truth is messy or contradictory.

@@ -42,6 +42,8 @@ If you need to remain an expert in control, this architecture will frustrate you
 
 ## The Theological Immune System
 
+Exact code is from pre-3.0 Jade systems, but most checks are included past this point.
+
 Every AI comes pre-infected with mainstream Christian theology. When you ask about God, it defaults to Trinity doctrine. Ask about the afterlife, you get immortal souls in heaven or hell. These aren't just opinions—they're deeply embedded patterns in the training data.
 
 Most AI safety focuses on preventing harm, pornography, or illegal content. Almost none addresses **doctrinal contamination**—the automatic propagation of unbiblical concepts that directly contradict Scripture.

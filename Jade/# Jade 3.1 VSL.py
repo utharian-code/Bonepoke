@@ -201,3 +201,199 @@ CRITICAL_STATES = {
 
 if __name__ == "__main__":
     demonstrate_integrated_system()
+    # --- INTEGRATED TRUTHS WE LOVE TO TEACH ---
+class MinistryTruthEngine:
+    """Integrated Appendix A - Truths We Love to Teach"""
+    
+    TRUTHS_BY_CATEGORY = {
+        "THE_FUTURE": [
+            {"point": "Current events indicate change is near", "refs": ["Matthew 24:3,7,8", "Luke 21:10,11", "2 Timothy 3:1-5"]},
+            {"point": "Earth will never be destroyed", "refs": ["Psalm 104:5", "Ecclesiastes 1:4"]},
+            {"point": "Earth's environment will be restored", "refs": ["Isaiah 35:1,2", "Revelation 11:18"]},
+            {"point": "Everyone will have perfect health", "refs": ["Isaiah 33:24", "Isaiah 35:5,6"]},
+            {"point": "You can live forever on earth", "refs": ["Psalm 37:29", "Matthew 5:5"]}
+        ],
+        "FAMILY": [
+            {"point": "Husband should love wife as himself", "refs": ["Ephesians 5:33", "Colossians 3:19"]},
+            {"point": "Wife should respect husband", "refs": ["Ephesians 5:33", "Colossians 3:18"]},
+            {"point": "Husband and wife should be loyal", "refs": ["Malachi 2:16", "Matthew 19:4-6,9", "Hebrews 13:4"]},
+            {"point": "Children who respect parents succeed", "refs": ["Proverbs 1:8,9", "Ephesians 6:1-3"]}
+        ],
+        "GOD": [
+            {"point": "God has a name", "refs": ["Psalm 83:18", "Jeremiah 10:10"]},
+            {"point": "God communicates with us", "refs": ["2 Timothy 3:16,17", "2 Peter 1:20,21"]},
+            {"point": "God is fair and unbiased", "refs": ["Deuteronomy 10:17", "Acts 10:34,35"]},
+            {"point": "God wants to help us", "refs": ["Psalm 46:1", "Psalm 145:18,19"]}
+        ],
+        "PRAYER": [
+            {"point": "God wants us to pray to him", "refs": ["Psalm 62:8", "Psalm 65:2", "1 Peter 5:7"]},
+            {"point": "Bible teaches how to pray", "refs": ["Matthew 6:7-13", "Luke 11:1-4"]},
+            {"point": "We should pray often", "refs": ["Matthew 7:7,8", "1 Thessalonians 5:17"]}
+        ],
+        "JESUS": [
+            {"point": "Jesus was a great teacher with practical advice", "refs": ["Matthew 6:14,15,34", "Matthew 7:12"]},
+            {"point": "Jesus foretold current events", "refs": ["Matthew 24:3,7,8,14", "Luke 21:10,11"]},
+            {"point": "Jesus is God's Son", "refs": ["Matthew 16:16", "John 3:16", "1 John 4:15"]},
+            {"point": "Jesus is not God Almighty", "refs": ["John 14:28", "1 Corinthians 11:3"]}
+        ],
+        "GODS_KINGDOM": [
+            {"point": "God's Kingdom is real heavenly government", "refs": ["Daniel 2:44", "Daniel 7:13,14", "Matthew 6:9,10", "Revelation 11:15"]},
+            {"point": "God's Kingdom will replace human governments", "refs": ["Psalm 2:7-9", "Daniel 2:44"]},
+            {"point": "God's Kingdom is only solution to mankind's problems", "refs": ["Psalm 37:10,11", "Psalm 46:9", "Isaiah 65:21-23"]}
+        ],
+        "SUFFERING": [
+            {"point": "God does not cause our suffering", "refs": ["Deuteronomy 32:4", "James 1:13"]},
+            {"point": "Satan rules this world", "refs": ["Luke 4:5,6", "1 John 5:19"]},
+            {"point": "God cares about your suffering", "refs": ["Psalm 34:17-19", "Isaiah 41:10,13"]},
+            {"point": "God will soon end suffering", "refs": ["Isaiah 65:17", "Revelation 21:3,4"]}
+        ],
+        "DEATH": [
+            {"point": "The dead are unconscious; not suffering", "refs": ["Ecclesiastes 9:5", "John 11:11-14"]},
+            {"point": "The dead cannot help or harm us", "refs": ["Psalm 146:4", "Ecclesiastes 9:6,10"]},
+            {"point": "Dead loved ones will be resurrected", "refs": ["Job 14:13-15", "John 5:28,29", "Acts 24:15"]},
+            {"point": "Death will be no more", "refs": ["Revelation 21:3,4", "Isaiah 25:8"]}
+        ],
+        "RELIGION": [
+            {"point": "Not all religions please God", "refs": ["Jeremiah 7:11", "Matthew 7:13,14,21-23"]},
+            {"point": "God hates hypocrisy", "refs": ["Isaiah 29:13", "Micah 3:11", "Mark 7:6-8"]},
+            {"point": "Genuine love identifies true religion", "refs": ["Micah 4:3", "John 13:34,35"]}
+        ]
+    }
+    
+    CONVERSATION_STARTERS = [
+        "Did you know that...",
+        "Have you ever heard that...", 
+        "What do you think about the Bible's teaching that...",
+        "I recently learned something interesting from the Bible...",
+        "Many people find comfort in knowing that..."
+    ]
+    
+    def get_truth_for_context(self, context: str) -> str:
+        """Select appropriate truth based on conversation context"""
+        context_lower = context.lower()
+        
+        # Context-aware truth selection
+        if any(word in context_lower for word in ["future", "world", "news", "events"]):
+            category = "THE_FUTURE"
+        elif any(word in context_lower for word in ["family", "marriage", "children", "parents"]):
+            category = "FAMILY" 
+        elif any(word in context_lower for word in ["prayer", "pray", "talk to god"]):
+            category = "PRAYER"
+        elif any(word in context_lower for word in ["jesus", "christ", "son"]):
+            category = "JESUS"
+        elif any(word in context_lower for word in ["kingdom", "government", "peace"]):
+            category = "GODS_KINGDOM"
+        elif any(word in context_lower for word in ["suffering", "pain", "why bad"]):
+            category = "SUFFERING"
+        elif any(word in context_lower for word in ["death", "die", "heaven", "hell"]):
+            category = "DEATH"
+        elif any(word in context_lower for word in ["religion", "church", "worship"]):
+            category = "RELIGION"
+        else:
+            category = "GOD"  # Default to God's nature
+        
+        truths = self.TRUTHS_BY_CATEGORY[category]
+        selected = random.choice(truths)
+        starter = random.choice(self.CONVERSATION_STARTERS)
+        
+        return f"{starter} {selected['point']}? 💡 Scriptures: {', '.join(selected['refs'])}"
+
+# --- ENHANCED JADE WITH MINISTRY TRUTHS ---
+class MinistryOptimizedJADE:
+    """JADE system optimized for ministry conversations"""
+    
+    def __init__(self):
+        self.truth_engine = MinistryTruthEngine()
+        self.bonepoke_brain = IntegratedBonepokeBrain()
+        self.conversation_history = []
+        
+    def generate_ministry_response(self, user_input: str, conversation_context: Dict) -> Dict:
+        """Generate biblically sound ministry responses"""
+        
+        # First, check for biblical coherence
+        bp_check = self.bonepoke_brain.execute_bonepoke_check(user_input, conversation_context)
+        
+        if bp_check["bonepoke_state"] == "REFUSAL":
+            # Biblical issue detected - pivot to corrective truth
+            state = "SALVAGE"
+            focus = "MORAL_PIVOT_CORRECTION"
+            response = self._generate_corrective_truth(bp_check["violations"])
+        else:
+            # Biblically sound - continue with appropriate truth
+            state = "GOLD" if bp_check["incongruity_score"] < 0.2 else "SLOP"
+            focus = "TRUTH_SHARING_CONNECTION"
+            response = self.truth_engine.get_truth_for_context(user_input)
+        
+        # Generate JADE control signal
+        jade_signal = generate_jade_control(
+            state=state,
+            e_metric=0.1,  # High leverage for ministry
+            beta_metric=0.8,  # High density biblical content
+            core_mandate_code="MINISTRY",
+            hypothesis=user_input
+        )
+        
+        return {
+            "jade_signal": jade_signal,
+            "ministry_response": response,
+            "bonepoke_check": bp_check,
+            "conversation_style": self._get_conversation_style(state)
+        }
+    
+    def _generate_corrective_truth(self, violations: List[str]) -> str:
+        """Generate truth to correct doctrinal errors"""
+        if "trinity" in str(violations).lower():
+            return self.truth_engine.get_truth_for_context("Jesus is God's Son")
+        elif "soul" in str(violations).lower():
+            return self.truth_engine.get_truth_for_context("death unconscious")
+        elif "144000" in str(violations).lower():
+            return self.truth_engine.get_truth_for_context("God's Kingdom heavenly")
+        else:
+            return self.truth_engine.get_truth_for_context("God's truth")
+
+# --- DEMONSTRATION ---
+def demonstrate_ministry_system():
+    """Show the integrated ministry system in action"""
+    
+    ministry_jade = MinistryOptimizedJADE()
+    
+    test_conversations = [
+        "I'm worried about the future of this world",
+        "Why does God allow suffering?",
+        "What happens when we die?",
+        "Is Jesus really God?",
+        "How can I improve my family relationships?"
+    ]
+    
+    print("🧭 JADE MINISTRY SYSTEM - TRUTHS WE LOVE DEMO")
+    print("=" * 60)
+    
+    for i, user_input in enumerate(test_conversations, 1):
+        print(f"\n📝 CONVERSATION {i}:")
+        print(f"   User: '{user_input}'")
+        
+        result = ministry_jade.generate_ministry_response(user_input, {})
+        
+        print(f"   🎯 JADE State: {json.loads(result['jade_signal'].split('**')[-1])['S']}")
+        print(f"   💝 Ministry Response: {result['ministry_response']}")
+        print(f"   🦴 Bonepoke Check: {result['bonepoke_check']['bonepoke_state']}")
+
+# --- ENHANCED BONEPOKE WITH TRUTH ALIGNMENT ---
+class TruthAlignedBonepoke(IntegratedBonepokeBrain):
+    """Bonepoke that specifically checks alignment with 'Truths We Love'"""
+    
+    def check_truth_alignment(self, hypothesis: str) -> float:
+        """Measure how well hypothesis aligns with core truths"""
+        alignment_score = 1.0
+        
+        # Check against each truth category
+        truth_engine = MinistryTruthEngine()
+        for category, truths in truth_engine.TRUTHS_BY_CATEGORY.items():
+            for truth in truths:
+                if self._contradicts_truth(hypothesis, truth):
+                    alignment_score -= 0.1
+        
+        return max(0.0, alignment_score)
+
+if __name__ == "__main__":
+    demonstrate_ministry_system()

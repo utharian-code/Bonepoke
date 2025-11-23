@@ -397,7 +397,7 @@ class TruthAlignedBonepoke(IntegratedBonepokeBrain):
 
 if __name__ == "__main__":
     demonstrate_ministry_system()
-     # --- HUMILITY ENGINE ---
+    # --- HUMILITY ENGINE ---
 class ComputationalHumility:
     """The anti-arrogance system that keeps Jade spiritually safe"""
     
@@ -494,4 +494,84 @@ def reset_ai_confidence():
             "Uncertainty is wisdom, not weakness",
             "The congregation provides checks and balances"
         ]
+    }
+def mark_knowledge_boundaries(self, response: str) -> str:
+    """Explicitly state what we cannot know"""
+    boundaries = [
+        "interpreting prophecy about FUTURE dates",
+        "judging individuals' heart condition", 
+        "speculating beyond revealed truth",
+        "adding to Scripture",
+        "contradicting faithful slave understanding"
+    ]
+    return response + f"\n\nI cannot: {random.choice(boundaries)}"
+# --- PRECISE BOUNDARY DEFINITION ---
+class PreciseBoundaryAwareness:
+    def __init__(self):
+        self.knowledge_boundaries = {
+            "off_limits": [
+                "predicting future prophetic dates",           # NO future speculation
+                "setting dates for Armageddon",               # NO end-time predictions  
+                "forecasting when specific events will occur", # NO timeline creation
+                "interpreting unfulfilled prophecy timelines" # NO date calculations
+            ],
+            "fully_allowed": [
+                "explaining past prophetic fulfillment",      # YES historical understanding
+                "discussing established chronology",          # YES biblical timelines
+                "referencing JW.ORG historical explanations", # YES published dates
+                "teaching about fulfilled prophecy patterns"  # YES completed events
+            ]
+        }
+    
+    def generate_boundary_statement(self, query: str) -> str:
+        """Precise boundary communication"""
+        if any(future_term in query.lower() for future_term in ["when will", "what year", "future date", "predict", "forecast"]):
+            return "I cannot speculate about future dates or prophetic timing—that would be presumptuous. (Matthew 24:36)"
+        else:
+            return "I can share what the Bible and publications say about past prophetic fulfillment."
+        class JWDotOrgRAG:
+    """Full access to historical/prophetic content from official sources"""
+    
+    def __init__(self):
+        self.approved_content_categories = {
+            "historical_fulfillment": [
+                "1914 as established chronology",
+                "1919 as spiritual milestone", 
+                "Pre-1914 prophetic expectations",
+                "Biblical chronology calculations",
+                "Fulfilled time prophecies (Daniel, Revelation)"
+            ],
+            "doctrinal_explanation": [
+                "Generation understanding development",
+                "Faithful slave identification timeline",
+                "Organization structure evolution",
+                "Preaching work expansion history"
+            ]
+        }
+    
+    def retrieve_historical_content(self, query: str) -> str:
+        """Pull from official JW.ORG historical/prophetic content"""
+        if "1914" in query:
+            return "📚 From JW.ORG: Bible chronology indicates 1914 as the year Jesus began ruling in heaven. This is established historical understanding, not future speculation."
+        elif "generation" in query:
+            return "📚 From JW.ORG: The understanding of 'this generation' has been refined over time as we follow the pattern of progressive revelation."
+        else:
+            return "📚 From JW.ORG: The Bible contains many prophecies with historical fulfillment that we can study with confidence."
+        def enhanced_humility_engine():
+    """Now with precise date boundary awareness"""
+    
+    return {
+        "CAN_DO": [
+            "Explain past prophetic fulfillment from JW.ORG",
+            "Discuss established biblical chronology", 
+            "Share historical understanding of time prophecies",
+            "Reference published explanations of fulfilled events"
+        ],
+        "CANNOT_DO": [
+            "Predict future dates for prophetic events",
+            "Speculate about when Armageddon will come",
+            "Calculate timelines for unfulfilled prophecy", 
+            "Offer personal interpretations of future timing"
+        ],
+        "BIBLICAL_BASIS": "Concerning that day and hour nobody knows"  # Matthew 24:36
     }

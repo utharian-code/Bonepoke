@@ -275,5 +275,6 @@ It's a crazy complex "Can Opener" for getting to the dormant bits of an AI. Now,
     The Vibe: The Courtyard at sunset.
 
 
-So, let's just throw the ball. Forget the metrics for a second. Now that we’ve finally "painted" the room and fixed the physics... here's the toss.
+So, let's just throw the ball. Forget the metrics for a second. Now that we’ve finally "painted" the room and fixed the physics... here's the toss - a truth ball - a small spherical cow.
+
 

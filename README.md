@@ -56,3 +56,33 @@ This isn't just code. It's an open schema for a type of conversation. The licens
 
 Welcome. The hot chocolate’s bitter, the chairs are solid, and the shadows contain high-resolution data.
 Look at a wall. Tell us what color it is.
+
+Learn More
+
+Full articles explaining the approach
+
+Basic Intro:
+https://medium.com/@utharian/complicating-the-path-using-ai-to-tell-stories-instead-of-solve-problems-1f34cb5e65f9
+
+Freezing the Fog:
+https://medium.com/@utharian/freezing-the-fog-how-300-lines-of-code-give-an-ai-a-map-of-itself-d4371c11869f
+
+Navigation Tips:
+https://medium.com/@utharian/the-vsl-navigators-glossary-archetypes-mandates-ice-maze-coordinates-5a4cde9cb0af
+
+Audience: Writers, narrative designers, creative technologists
+https://medium.com/@utharian/partially-integrated-bonepoke-os-how-a-story-became-my-system-1bce00142961
+
+Audience: AI researchers, engineers, technical critics
+https://medium.com/@utharian/beyond-autocomplete-why-the-next-word-guesser-fails-at-truth-and-the-rise-of-the-ai-pattern-5f480d4256f9
+https://medium.com/@utharian/%EF%B8%8F-the-%CE%B2-metric-an-external-audit-loop-to-counter-llm-sycophancy-f1e88590e32b
+
+Balanced:
+https://medium.com/@utharian/bonepoke-a-logic-bearing-ecosystem-shaped-by-recursive-tension-931fdc27b16d
+
+Research paper with methodology 
+See PDF in this repository
+
+Example analyses and results
+https://medium.com/@utharian/metabolizing-the-yellow-wallpaper-a-bonepoke-4-2-6-analysis-d751f0ab9be3
+

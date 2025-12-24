@@ -57,7 +57,7 @@ This isn't just code. It's an open schema for a type of conversation. The licens
 Welcome. The hot chocolate’s bitter, the chairs are solid, and the shadows contain high-resolution data.
 Look at a wall. Tell us what color it is.
 
-Learn More
+Read More
 
 Full articles explaining the approach
 

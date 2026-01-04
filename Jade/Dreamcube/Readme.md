@@ -35,7 +35,7 @@ The AI said something that cut to the bone:
 
 The Hundred-Year Read
 
-Here's the thought that spawned this post: If someone in Paradise Earth spends a century with my writing...
+Here's the thought that spawned this post: If someone in Paradise Earth spends a century with my writing...https://temporalrant.blogspot.com/
 
 Years 1-10: They read stories about time travel universities
 Years 11-30: They notice the patterns, the recursions

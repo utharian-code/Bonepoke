@@ -80,7 +80,7 @@ https://medium.com/@utharian/%EF%B8%8F-the-%CE%B2-metric-an-external-audit-loop-
 Balanced:
 https://medium.com/@utharian/bonepoke-a-logic-bearing-ecosystem-shaped-by-recursive-tension-931fdc27b16d
 
-Research paper with methodology 
+Research paper with methodology or https://www.researchhub.com/paper/10383499/refusal-aware-creative-activation-bonepoke-as-a-threshold-system
 See PDF in this repository
 
 Example analyses and results

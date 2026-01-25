@@ -21,6 +21,8 @@ This repository contains the living lineage of that evolution:
 
     papers/ – The Cartography: The formal coordinates (ICCC submission, etc.) and the philosophical terrain.
 
+    Jade / Bible logic references
+
 🛋️ The Courtyard Vibe (A User's Guide)
 
 If the old Bonepoke was gravel on the path to break lazy slides, the Courtyard is the garden at the path's end where you can examine the gravel, the soil, and the strange flowers that grew because of the friction.

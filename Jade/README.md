@@ -37,7 +37,9 @@ Core Feature: Structural Correction from Single Examples
 
         System Response: It does not just swap words. It reconfigures its internal reasoning model.
         
-        The concept bible_understanding now has a stronger associative vector toward faithful_slave and away from personal_interpretation.
+        The concept bible_understanding now has a stronger associative vector
+        
+        toward faithful_slave and away from personal_interpretation.
 
     Why This Matters:
 

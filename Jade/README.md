@@ -35,7 +35,9 @@ Core Feature: Structural Correction from Single Examples
 
         Correction Provided: "Understanding comes from Jehovah through the faithful slave." (2 Peter 1:20)
 
-        System Response: It does not just swap words. It reconfigures its internal reasoning model. The concept bible_understanding now has a stronger associative vector toward faithful_slave and away from personal_interpretation.
+        System Response: It does not just swap words. It reconfigures its internal reasoning model.
+        
+        The concept bible_understanding now has a stronger associative vector toward faithful_slave and away from personal_interpretation.
 
     Why This Matters:
 
@@ -45,7 +47,9 @@ Core Feature: Structural Correction from Single Examples
 
         Auditable: The installed "constraints" or "Purple Rules" are explicit and can be reviewed.
 
-    This makes the system uniquely suited for environments where understanding evolves under a central teaching authority. It learns principles, not just phrases.
+    This makes the system uniquely suited for environments where understanding evolves under a central teaching authority. 
+    
+    It learns principles, not just phrases.
 
 ## 📁 PROJECT OVERVIEW
 

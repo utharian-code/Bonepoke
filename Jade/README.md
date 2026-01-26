@@ -159,7 +159,7 @@ This project operates on the principle that technology should **support** spirit
 ### 🚀 Core Spiritual Technology
 | File | Purpose | Status |
 |------|---------|---------|
-| `Jade#.#.py` | Biblical narrative generation with MARM-active protocols - Different engine types, number after decimal indicates completeness (ie Bible Checks)  | **Active Beta Development** |
+| `Jade#.#.py` | Biblical narrative generation with MARM-active protocols - Different engine types, decimal number indicates completeness (ie Bible Checks) 2.7.1 most complete | **Active Beta Development** |
 
 ### 🚀 How It was Built
 | File | Purpose | Status |

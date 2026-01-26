@@ -25,6 +25,27 @@ The Beautiful Part:
 
     The system extends itself
 ---
+Core Feature: Structural Correction from Single Examples
+
+    The system's most significant feature is not that it's always right, but how it becomes right.
+
+    Real-World Example:
+
+        Initial Statement: "Bible study can lead to personal interpretation."
+
+        Correction Provided: "Understanding comes from Jehovah through the faithful slave." (2 Peter 1:20)
+
+        System Response: It does not just swap words. It reconfigures its internal reasoning model. The concept bible_understanding now has a stronger associative vector toward faithful_slave and away from personal_interpretation.
+
+    Why This Matters:
+
+        Not a Filter: It's not censoring outputs; it's changing how it thinks.
+
+        Modular & Scalable: A single correction can adjust reasoning across related topics.
+
+        Auditable: The installed "constraints" or "Purple Rules" are explicit and can be reviewed.
+
+    This makes the system uniquely suited for environments where understanding evolves under a central teaching authority. It learns principles, not just phrases.
 
 ## 📁 PROJECT OVERVIEW
 

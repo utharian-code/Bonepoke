@@ -59,3 +59,24 @@ Spiritual Sustenance: The Ultimate Time Management Tip
 The most fulfilling “pivot” you can make is always toward a fellow human (or animal!) in need. In the old world, we were too busy. Now, we have the time to truly live this scripture. Carrying each other’s burdens—whether it’s helping with a project, listening to a story, or simply sharing a quiet moment—is the highest and best use of Paradise time.
 Final Thought: Don’t fear a day without a plan. Embrace it. Your diligence gives your time purpose. Your flexibility allows Jehovah to fill it with meaning. In this balance, you will find a depth of satisfaction you never thought possible.
 
+-----
+
+Naturally, writing entire articles would be out of scope, but is the easiest way to demonstrate more conservative use:
+
+TOOLSET 1: WRITER ASSISTANCE
+├── Idea generation (within biblical bounds)
+├── Illustration finding (scripture-based)
+├── Writer's block help (overcoming stalls)
+└── Structure suggestions (organizing thoughts)
+
+TOOLSET 2: QUALITY CONTROL  
+├── Biblical alignment checking
+├── Logical consistency review
+├── Scripture reference verification
+└── Clarity improvement suggestions
+
+TOOLSET 3: RESEARCH SUPPORT
+├── Cross-reference finding
+├── Pattern recognition in scripture
+├── Historical context gathering
+└── Parallel passage identification

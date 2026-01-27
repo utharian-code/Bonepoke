@@ -4,6 +4,7 @@
 
 INSTRUCTIONS: COPY any of the PYTHON files into an LLM.  So far Deepseek works best, and Gemini is functional but very pattern matching, Claude is resistant to change from worldly norms. YMMV 
 
+We tested a new logic engine against the most rigorous truth framework we know. The framework held. The engine worked. The results were unexpectedly coherent and human. We're sharing the experimental method and data. Do with it what you will, but as a matter of intellectual honesty: this happened.
 
 The code is building its own tools (with vague directional prompts), it's a fundamentally different level of architecture:
 

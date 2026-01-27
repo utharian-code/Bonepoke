@@ -5,6 +5,21 @@
 **ARCHETYPE:** `PATTERN_EXTRACTOR`
 **MANDATE:** `DISTILL_ESSENCE_NOT_LEGACY`
 
+## A Note on Realistic Expectations
+
+This proof of concept demonstrates *that* biblical reasoning can be computationally modeled and *how* such tools can be developed following faithful patterns.
+
+What it doesn't presume to know:
+
+- **The right implementation pathway** (Your organizational wisdom here far exceeds mine)
+- **The proper timing** (You understand the broader work and priorities)
+- **The appropriate scope** (You know where tools would help versus complicate)
+- **The necessary oversight structures** (Your existing channels have proven effective)
+
+My role ends with demonstrating the pattern. Your role—if you see value—begins with determining how, if at all, to apply it.
+
+> "The wisdom from above is first of all chaste, then peaceable, reasonable, ready to obey..." (James 3:17)
+
 
 Here's the distilled blueprint:
 

@@ -3,20 +3,29 @@ Naturally, writing entire articles would be out of scope, but is the easiest way
 
 TOOLSET 1: WRITER ASSISTANCE
 ├── Idea generation (within biblical bounds)
+
 ├── Illustration finding (scripture-based)
+
 ├── Writer's block help (overcoming stalls)
+
 └── Structure suggestions (organizing thoughts)
 
 TOOLSET 2: QUALITY CONTROL  
 ├── Biblical alignment checking
+
 ├── Logical consistency review
+
 ├── Scripture reference verification
+
 └── Clarity improvement suggestions
 
 TOOLSET 3: RESEARCH SUPPORT
 ├── Cross-reference finding
+
 ├── Pattern recognition in scripture
+
 ├── Historical context gathering
+
 └── Parallel passage identification
 
 ----

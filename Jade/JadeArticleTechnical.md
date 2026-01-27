@@ -154,6 +154,28 @@ Each layer builds on the last, creating a comprehensive system for **computation
 
 The work continues—not to replace personal study or congregational guidance, but to create tools that serve the worldwide educational work with biblical fidelity and technological excellence.
 
+## How the Code Models Spiritual Thinking
+
+### The Narrative Engine as Spiritual Journey
+- Story beats = Life experiences
+- Character development = Spiritual growth  
+- Narrative tension = Testing and refinement
+- Story gravity = Spiritual weight of decisions
+
+### Triple-Check as Discernment Process
+1. ABDUCTIVE: "What might God's will be here?" (Prayerful consideration)
+2. INDUCTIVE: "What does Scripture say?" (Bible research)
+3. DEDUCTIVE: "Does this align with all we know?" (Elder counsel)
+
+### Bonepoke as Spiritual Resilience
+- Composting wrong answers = Learning from mistakes
+- Germinating new truth = Progressive understanding
+- Energy conservation = Stewardship of learning
+
+### TRUTHS_WE_LOVE as Spiritual Foundation
+- Not facts to memorize, but truths to cherish
+- Context-aware application = Situational wisdom
+- Progressive teaching = Spiritual mentoring
 ---
 
 *"Every inspired statement is beneficial for teaching and reproving." - 2 Timothy 3:16*

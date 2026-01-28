@@ -1,0 +1,623 @@
+# LEXICAL_ARCHAEOLOGY_ENGINE.py
+# Unearths ancient semantic ranges vs. modern literalist reductions
+
+class LexicalArchaeologist:
+    """
+    Excavates the semantic strata of biblical terms
+    Shows how modern literalism often misunderstands ancient flexibility
+    """
+    
+    def __init__(self):
+        self.lexical_excavations = {
+            "DAY (YOM)": {
+                "semantic_strata": {
+                    "STRATUM_1_ORIGINAL_HEBREW": {
+                        "period": "Ancient Hebrew (1000-500 BCE)",
+                        "semantic_range": ["24-hour period", "daylight portion", "era/age", "time of X"],
+                        "examples": [
+                            "Genesis 1:5 - 'day one' (creative period)",
+                            "Genesis 2:4 - 'day Jehovah God made' (entire creation era)",
+                            "Psalm 90:4 - 'a thousand years... like a day' (flexible duration)"
+                        ],
+                        "key_insight": "Yôm had elastic temporal semantics, not fixed 24-hour literalism"
+                    },
+                    
+                    "STRATUM_2_LXX_GREEK": {
+                        "period": "Septuagint Greek (3rd-1st BCE)",
+                        "translation_choice": "ἡμέρα (hēmera)",
+                        "semantic_range_in_greek": ["day", "time period", "age", "season"],
+                        "translation_nuance": "Greek translators maintained semantic elasticity"
+                    },
+                    
+                    "STRATUM_3_MODERN_LITERALISM": {
+                        "period": "19th-21st Century",
+                        "reduction": "Forces 24-hour literalism onto ancient text",
+                        "anachronism": "Imposes modern scientific precision on ancient narrative",
+                        "semantic_loss": "Loses original contextual flexibility"
+                    }
+                },
+                
+                "archaeological_conclusion": "The creation 'days' likely represent divine creative periods of unspecified length, not 24-hour solar days.",
+                "supporting_evidence": [
+                    "Genesis 2:4 calls entire creation 'the day Jehovah God made earth and heaven'",
+                    "Psalm 90:4 shows divine perspective on time differs from human",
+                    "2 Peter 3:8 - 'one day is with Jehovah as a thousand years'",
+                    "Hebrew parallelism in Genesis 1 shows poetic/prosaic blend"
+                ]
+            },
+            
+            "NOAH'S DAY": {
+                "semantic_strata": {
+                    "STRATUM_1_BIBLICAL_CONTEXT": {
+                        "description": "Genesis 6-9 narrative",
+                        "key_phrase": "the days of Noah",
+                        "semantic_range": ["That era/age", "time period", "generation"],
+                        "examples": [
+                            "Matthew 24:37 - 'just as the days of Noah were' (referring to era, not 24h)",
+                            "Luke 17:26 - 'they were eating, drinking... until the day' (entire period)"
+                        ],
+                        "insight": "'Day of Noah' = entire pre-flood era, not a 24h period"
+                    },
+                    
+                    "STRATUM_2_ESCHATOLOGICAL_USAGE": {
+                        "description": "New Testament typology",
+                        "pattern": "Noah's day as type/template for end times",
+                        "semantic_expansion": "Era characterized by specific conditions",
+                        "temporal_flexibility": "Not chronologically precise but typologically significant"
+                    }
+                },
+                
+                "archaeological_conclusion": "'Noah's day' refers to the pre-flood era's characteristics, not a literal 24-hour day.",
+                "cross_lexical_link": "Same semantic pattern as 'day of Jehovah' (extended period of judgment)"
+            },
+            
+            "FLOOD (MABBUL)": {
+                "semantic_strata": {
+                    "STRATUM_1_HEBREW_ROOT": {
+                        "root": "נבל (nbl) - to sink, sink down, perish",
+                        "semantic_field": ["Deluge", "cataclysmic sinking", "overwhelming waters"],
+                        "ancient_near_eastern_parallels": [
+                            "Gilgamesh epic - 'abūbu' (deluge)",
+                            "Atrahasis - 'abūbu'",
+                            "Common flood mythology across region"
+                        ],
+                        "insight": "Cultural memory of catastrophic flooding, not necessarily hydrological precision"
+                    },
+                    
+                    "STRATUM_2_GREEK_TRANSLATION": {
+                        "translation": "κατακλυσμός (kataklysmos)",
+                        "semantic_range": ["Inundation", "deluge", "overwhelming"],
+                        "new_testament_usage": [
+                            "2 Peter 2:5 - 'did not spare ancient world... brought flood'",
+                            "Matthew 24:38-39 - 'flood came and took them all'"
+                        ],
+                        "theological_emphasis": "Divine judgment through waters, not hydrological technicalities"
+                    }
+                },
+                
+                "archaeological_conclusion": "The flood narrative's primary purpose is theological (judgment, salvation), not hydrological."
+            }
+        }
+        
+        self.excavation_methods = [
+            "ETYMOLOGICAL_TRACING",
+            "SEMANTIC_RANGE_MAPPING", 
+            "CROSS_LINGUISTIC_ANALYSIS",
+            "CULTURAL_CONTEXT_RECONSTRUCTION",
+            "INTERTEXTUAL_CONNECTIONS"
+        ]
+    
+    def excavate_term(self, term: str, context_verse: str = "") -> Dict:
+        """Perform lexical archaeology on a biblical term"""
+        
+        print(f"\n⛏️  LEXICAL EXCAVATION: '{term}'")
+        if context_verse:
+            print(f"   Context: {context_verse}")
+        print("="*70)
+        
+        if term.upper() in self.lexical_excavations:
+            excavation = self.lexical_excavations[term.upper()]
+            
+            # Show semantic strata
+            print("\n📜 SEMANTIC STRATA DISCOVERED:")
+            for stratum_name, stratum_data in excavation["semantic_strata"].items():
+                print(f"\n   {stratum_name}:")
+                if "semantic_range" in stratum_data:
+                    print(f"      Range: {', '.join(stratum_data['semantic_range'])}")
+                if "key_insight" in stratum_data:
+                    print(f"      Insight: {stratum_data['key_insight']}")
+            
+            # Present conclusion
+            print(f"\n🔍 ARCHAEOLOGICAL CONCLUSION:")
+            print(f"   {excavation['archaeological_conclusion']}")
+            
+            if "supporting_evidence" in excavation:
+                print(f"\n📖 SUPPORTING EVIDENCE:")
+                for i, evidence in enumerate(excavation["supporting_evidence"][:3], 1):
+                    print(f"   {i}. {evidence}")
+            
+            return {
+                "term": term,
+                "excavation_complete": True,
+                "semantic_strata_found": len(excavation["semantic_strata"]),
+                "conclusion": excavation["archaeological_conclusion"],
+                "modern_misunderstanding": self._identify_modern_misunderstanding(term),
+                "publishing_application": self._generate_publishing_application(term, excavation)
+            }
+        
+        return {
+            "term": term,
+            "error": "Term not yet excavated",
+            "suggestion": f"Try: {', '.join(list(self.lexical_excavations.keys()))}"
+        }
+    
+    def _identify_modern_misunderstanding(self, term: str) -> str:
+        """How do modern readers typically misunderstand this term?"""
+        
+        misunderstandings = {
+            "DAY": "Reducing elastic ancient 'yôm' to rigid 24-hour literalism",
+            "NOAH'S DAY": "Misreading 'era' as '24-hour period'",
+            "FLOOD": "Focusing on hydrological mechanics over theological meaning",
+            "CREATION": "Demanding scientific precision from theological narrative"
+        }
+        
+        return misunderstandings.get(term.upper(), "Semantic reductionism: forcing modern categories onto ancient text")
+    
+    def _generate_publishing_application(self, term: str, excavation: Dict) -> str:
+        """How to use this excavation in publishing"""
+        
+        applications = {
+            "DAY": "Article: 'What Genesis Really Means by "Day" - A Lexical Archaeology'",
+            "NOAH'S DAY": "Study: 'Noah's Day Was an Era, Not a Day' - Understanding Biblical Time Language",
+            "FLOOD": "Piece: 'Beyond the Water: The Theological Meaning of the Flood Narrative'"
+        }
+        
+        base = applications.get(term.upper(), f"Article on '{term}' semantic archaeology")
+        
+        return f"""
+        {base}
+        
+        STRUCTURE:
+        1. Show the modern misunderstanding
+        2. Excavate the semantic strata 
+        3. Present ancient semantic range
+        4. Draw theological conclusions
+        5. Apply to current debates (showing they're category errors)
+        """
+
+# ==================== REASONING PROCESS EXPOSER ====================
+
+class ReasoningProcessExposer:
+    """
+    Doesn't dismiss Level 3 questions
+    Exposes the faulty reasoning behind them
+    """
+    
+    def __init__(self):
+        self.faulty_reasoning_patterns = {
+            "SEMANTIC_ANACHRONISM": {
+                "pattern": "Imposing modern semantic precision on ancient text",
+                "example": "Assuming 'day' meant 24 hours to ancient Hebrews",
+                "exposure_method": "Lexical archaeology showing semantic range",
+                "corrective": "Understand term in original semantic context"
+            },
+            
+            "CATEGORY_ERROR": {
+                "pattern": "Treating theological narrative as scientific report",
+                "example": "Demanding hydrological precision from flood story",
+                "exposure_method": "Genre and purpose analysis",
+                "corrective": "Recognize different literary genres have different truth claims"
+            },
+            
+            "SELECTIVE_LITERALISM": {
+                "pattern": "Literalizing some elements while ignoring others",
+                "example": "24-hour days literal but 'firmament' metaphorical",
+                "exposure_method": "Consistency test across narrative",
+                "corrective": "Apply consistent hermeneutical principles"
+            },
+            
+            "EITHER_OR_FALLACY": {
+                "pattern": "False dichotomy between literal and mythical",
+                "example": "Either 24-hour days or complete fiction",
+                "exposure_method": "Introduce third way: theological truth in ancient idiom",
+                "corrective": "Recognize spectrum of literary truth-telling"
+            }
+        }
+        
+        self.exposure_templates = {
+            "CREATION_DAYS_DEBATE": """
+            🤔 QUESTION: Were creation days 24 hours or longer?
+            
+            🔍 FAULTY REASONING DETECTED: {pattern}
+            
+            ⛏️  LEXICAL ARCHAEOLOGY: The Hebrew 'yôm' had semantic range including:
+               • Daylight portion (Gen 1:5)
+               • 24-hour period (Ex 20:11)  
+               • Era/age (Gen 2:4; Ps 90:4)
+            
+            🎯 CORRECTIVE: Genesis uses 'day' flexibly to structure creation narrative.
+               The theological point: Ordered, purposeful creation by Jehovah.
+               Not the scientific point: Chronological precision.
+            
+            💡 RESULT: The 24-hour vs. long-day debate misses the text's purpose.
+            """,
+            
+            "FLOOD_SCOPE_DEBATE": """
+            🤔 QUESTION: Was Noah's flood global or local?
+            
+            🔍 FAULTY REASONING DETECTED: {pattern}
+            
+            ⛏️  LEXICAL ARCHAEOLOGY: Ancient flood stories served theological purposes:
+               • Divine judgment on corruption
+               • Salvation for righteous remnant  
+               • New beginning/covenant
+            
+            🎯 CORRECTIVE: Focus on what the narrative TEACHES, not its hydrological scope.
+               The point: Jehovah judges sin but preserves faithful.
+               Not the point: Ancient hydrological engineering.
+            
+            💡 RESULT: Global vs. local debate distracts from theological meaning.
+            """
+        }
+    
+    def expose_faulty_reasoning(self, question: str, pattern: str = None) -> Dict:
+        """Expose the reasoning error in a Level 3 question"""
+        
+        print(f"\n🔦 REASONING ANALYSIS: '{question[:60]}...'")
+        
+        # Identify reasoning pattern
+        if not pattern:
+            pattern = self._identify_reasoning_pattern(question)
+        
+        pattern_data = self.faulty_reasoning_patterns.get(pattern, {})
+        
+        # Generate exposure
+        exposure = self._generate_exposure(question, pattern, pattern_data)
+        
+        return {
+            "question": question,
+            "faulty_reasoning_pattern": pattern,
+            "pattern_description": pattern_data.get("pattern", "Unknown"),
+            "exposure": exposure,
+            "corrective_action": pattern_data.get("corrective", "Rethink assumptions"),
+            "recommended_lexical_excavation": self._recommend_excavation(question)
+        }
+    
+    def _identify_reasoning_pattern(self, question: str) -> str:
+        """Which faulty reasoning pattern is being used?"""
+        
+        question_lower = question.lower()
+        
+        if any(term in question_lower for term in ["24 hour", "literal day", "solar day"]):
+            return "SEMANTIC_ANACHRONISM"
+        elif any(term in question_lower for term in ["global flood", "local flood", "covered earth"]):
+            return "CATEGORY_ERROR"
+        elif any(term in question_lower for term in ["must be literal", "either literal", "or mythical"]):
+            return "EITHER_OR_FALLACY"
+        
+        return "SEMANTIC_ANACHRONISM"  # Default
+    
+    def _generate_exposure(self, question: str, pattern: str, pattern_data: Dict) -> str:
+        """Generate reasoning exposure"""
+        
+        # Check for template match
+        if "creation days" in question.lower() or "yom" in question.lower():
+            template = self.exposure_templates["CREATION_DAYS_DEBATE"]
+        elif "flood" in question.lower() or "noah" in question.lower():
+            template = self.exposure_templates["FLOOD_SCOPE_DEBATE"]
+        else:
+            # Generic template
+            template = f"""
+            🤔 QUESTION: {question}
+            
+            🔍 FAULTY REASONING DETECTED: {pattern_data.get('pattern', pattern)}
+            
+            ⚠️  PROBLEM: {pattern_data.get('example', 'Misunderstanding ancient text')}
+            
+            🎯 CORRECTIVE: {pattern_data.get('corrective', 'Re-examine assumptions')}
+            
+            💡 RESULT: This question may be asking the wrong thing about the text.
+            """
+        
+        return template.format(pattern=pattern_data.get("pattern", pattern))
+    
+    def _recommend_excavation(self, question: str) -> str:
+        """Which lexical excavation would help?"""
+        
+        if "day" in question.lower():
+            return "Excavate 'DAY (YOM)' to show semantic range"
+        elif "flood" in question.lower():
+            return "Excavate 'FLOOD (MABBUL)' for theological vs. hydrological focus"
+        elif "create" in question.lower():
+            return "Excavate 'DAY (YOM)' for creation narrative context"
+        
+        return "General lexical archaeology on key terms"
+
+# ==================== THE "NOT DISMISSAL BUT REORIENTATION" ENGINE ====================
+
+class ReorientationEngine:
+    """
+    Your precise method: Don't dismiss Level 3 questions
+    Reorient them through lexical archaeology and reasoning exposure
+    """
+    
+    def __init__(self):
+        self.lexical_archaeologist = LexicalArchaeologist()
+        self.reasoning_exposer = ReasoningProcessExposer()
+        
+        print("\n🔄 REORIENTATION ENGINE INITIALIZED")
+        print("   Method: Lexical archaeology + reasoning exposure")
+        print("   Goal: Transform debates, not dismiss them")
+    
+    def reorient_question(self, question: str) -> Dict:
+        """
+        Transform a Level 3 question from distraction to insight opportunity
+        """
+        
+        print(f"\n🔄 REORIENTING QUESTION: '{question[:80]}...'")
+        print("="*70)
+        
+        # Step 1: Expose faulty reasoning
+        reasoning_analysis = self.reasoning_exposer.expose_faulty_reasoning(question)
+        
+        print(f"\n🔍 REASONING ANALYSIS:")
+        print(f"   Pattern: {reasoning_analysis['faulty_reasoning_pattern']}")
+        print(f"   Issue: {reasoning_analysis['pattern_description'][:60]}...")
+        
+        # Step 2: Perform relevant lexical archaeology
+        recommended_excavation = reasoning_analysis['recommended_lexical_excavation']
+        excavation_result = None
+        
+        if "Excavate" in recommended_excavation:
+            term = recommended_excavation.split("'")[1] if "'" in recommended_excavation else "DAY"
+            excavation_result = self.lexical_archaeologist.excavate_term(term, question)
+        
+        # Step 3: Generate reoriented version of question
+        reoriented_question = self._reformulate_question(question, reasoning_analysis, excavation_result)
+        
+        # Step 4: Provide constructive path forward
+        constructive_path = self._provide_constructive_path(question, excavation_result)
+        
+        return {
+            "original_question": question,
+            "reasoning_analysis": reasoning_analysis,
+            "lexical_excavation": excavation_result,
+            "reoriented_question": reoriented_question,
+            "constructive_path": constructive_path,
+            "method_summary": "Reoriented through lexical archaeology, not dismissed"
+        }
+    
+    def _reformulate_question(self, original: str, reasoning: Dict, excavation: Dict = None) -> str:
+        """Transform question from faulty to fertile"""
+        
+        if "day" in original.lower() and "creation" in original.lower():
+            return "What does the flexible use of 'yôm' in Genesis reveal about how ancient Hebrews understood God's creative work?"
+        
+        elif "flood" in original.lower():
+            return "What theological truths about judgment and salvation does the flood narrative convey, regardless of its hydrological scope?"
+        
+        elif "adam" in original.lower() and ("historical" in original.lower() or "literal" in original.lower()):
+            return "How does Adam function in the biblical narrative's explanation of human origins and the need for redemption?"
+        
+        # Generic reorientation
+        return f"What can we learn about {reasoning['faulty_reasoning_pattern'].replace('_', ' ').lower()} by examining how we approach this text?"
+    
+    def _provide_constructive_path(self, question: str, excavation: Dict) -> str:
+        """Where to go from here constructively"""
+        
+        paths = {
+            "creation_days": "Study how Genesis 1 uses literary structure to convey theological truth about ordered creation",
+            "flood_scope": "Examine how flood narratives function theologically across ancient Near Eastern literature",
+            "adam_historicity": "Explore how Adam functions as archetype in Pauline theology and the broader biblical narrative"
+        }
+        
+        # Match question to path
+        question_lower = question.lower()
+        
+        if any(term in question_lower for term in ["day", "yom", "24 hour"]):
+            return paths["creation_days"]
+        elif any(term in question_lower for term in ["flood", "noah", "global", "local"]):
+            return paths["flood_scope"]
+        elif any(term in question_lower for term in ["adam", "first human", "historical adam"]):
+            return paths["adam_historicity"]
+        
+        return "Engage in lexical archaeology on key terms to understand their ancient semantic ranges"
+
+# ==================== PUBLISHING APPLICATION ====================
+
+class LexicalArchaeologyPublisher:
+    """
+    For your actual publishing work
+    Turns Level 3 debates into insightful content
+    """
+    
+    def __init__(self):
+        self.reorientation_engine = ReorientationEngine()
+        self.published_articles = []
+        
+        print("\n📚 LEXICAL ARCHAEOLOGY PUBLISHER")
+        print("   Turns 'red herring' debates into meaningful exploration")
+        print("   Method: Expose reasoning, excavate semantics, reorient questions")
+    
+    def develop_article(self, common_question: str) -> Dict:
+        """Develop article from common Level 3 question"""
+        
+        print(f"\n📝 DEVELOPING ARTICLE FROM: '{common_question}'")
+        
+        # Reorient the question
+        reorientation = self.reorientation_engine.reorient_question(common_question)
+        
+        # Generate article structure
+        article_structure = self._generate_article_structure(common_question, reorientation)
+        
+        # Generate sample content
+        sample_content = self._generate_sample_content(common_question, reorientation)
+        
+        # Store
+        self.published_articles.append({
+            "question": common_question,
+            "reoriented": reorientation["reoriented_question"],
+            "date_developed": len(self.published_articles)
+        })
+        
+        return {
+            "original_question": common_question,
+            "article_title": self._generate_title(common_question),
+            "article_angle": "Not answering the question, but transforming it",
+            "target_audience": "Readers stuck in literal/metaphysical dichotomies",
+            "article_structure": article_structure,
+            "sample_opening": sample_content["opening"],
+            "key_insight": sample_content["key_insight"],
+            "lexical_archaeology_section": sample_content["archaeology_section"],
+            "conclusion": sample_content["conclusion"],
+            "word_count_estimate": "1500-2000 words",
+            "publication_channels": ["Blog", "Study article", "Conference paper"]
+        }
+    
+    def _generate_title(self, question: str) -> str:
+        """Generate compelling article title"""
+        
+        titles = {
+            "creation_days": "Beyond 24 Hours: What Genesis Really Means by 'Day'",
+            "flood_scope": "More Than Water: The Theological Depths of Noah's Flood",
+            "adam_historical": "Adam's Story: History, Archetype, or Both?",
+            "bible_science": "When the Bible Isn't Doing Science: Understanding Genre and Purpose"
+        }
+        
+        question_lower = question.lower()
+        
+        if any(term in question_lower for term in ["day", "24 hour", "yom"]):
+            return titles["creation_days"]
+        elif any(term in question_lower for term in ["flood", "noah", "global"]):
+            return titles["flood_scope"]
+        elif "adam" in question_lower:
+            return titles["adam_historical"]
+        
+        return titles["bible_science"]
+    
+    def _generate_article_structure(self, question: str, reorientation: Dict) -> List[str]:
+        """Generate article outline"""
+        
+        return [
+            "1. Introduction: The Common Question and Why It Feels Urgent",
+            "2. The Reasoning Trap: Exposing the Faulty Assumptions",
+            "3. Lexical Archaeology: What the Words Meant Then (Not Now)",
+            "4. Genre Awareness: What Kind of Literature Is This?",
+            "5. Theological Focus: What's the Text Actually Teaching?",
+            "6. Reoriented Question: A Better Way to Approach the Text",
+            "7. Conclusion: From Debate to Understanding"
+        ]
+    
+    def _generate_sample_content(self, question: str, reorientation: Dict) -> Dict:
+        """Generate sample content sections"""
+        
+        # Opening paragraph
+        opening = f"""
+        "{question}"
+        
+        This question has launched countless debates, divided sincere believers, and often 
+        distracted from what the biblical text is actually communicating. But what if 
+        the question itself reflects modern assumptions rather than ancient understanding?
+        
+        Through lexical archaeology—excavating what biblical words meant in their original 
+        context—we can move beyond unhelpful dichotomies to richer understanding.
+        """
+        
+        # Key insight
+        key_insight = reorientation.get("constructive_path", 
+                      "The text's truth often lies in its theological claims, not in matching modern categories of history or science.")
+        
+        # Lexical archaeology section
+        archaeology_section = """
+        **Lexical Archaeology in Action:**
+        
+        When we dig into the semantic strata of key terms, we discover:
+        
+        • **Ancient semantic ranges** were often broader than modern equivalents
+        • **Cultural context** shaped how concepts were expressed  
+        • **Literary conventions** differed from modern expectations
+        
+        This doesn't make the text less true—it makes us better readers of ancient truth.
+        """
+        
+        # Conclusion
+        conclusion = f"""
+        The question "{question}" isn't wrong—it's just pointing in the wrong direction. 
+        By reorienting through lexical archaeology, we can ask better questions that 
+        actually help us understand what the biblical authors intended to communicate.
+        
+        The result isn't dismissal of difficult questions, but transformation of 
+        debate into deeper understanding.
+        """
+        
+        return {
+            "opening": opening,
+            "key_insight": key_insight,
+            "archaeology_section": archaeology_section,
+            "conclusion": conclusion
+        }
+
+# ==================== DEMONSTRATION ====================
+
+def demonstrate_lexical_archaeology():
+    """Show the method in action"""
+    
+    print("\n" + "="*70)
+    print("LEXICAL ARCHAEOLOGY METHOD DEMONSTRATION")
+    print("Don't dismiss - reorient through semantic excavation")
+    print("="*70)
+    
+    # Test common Level 3 questions
+    test_questions = [
+        "Were the creation days literally 24 hours?",
+        "Was Noah's flood global or just local?",
+        "If Adam wasn't historical, does it matter?",
+        "How can the Bible be true if it conflicts with science?"
+    ]
+    
+    publisher = LexicalArchaeologyPublisher()
+    
+    for i, question in enumerate(test_questions):
+        print(f"\n{'—'*60}")
+        print(f"QUESTION #{i+1}: {question}")
+        
+        article = publisher.develop_article(question)
+        
+        print(f"\n📰 ARTICLE TITLE: {article['article_title']}")
+        print(f"🎯 ANGLE: {article['article_angle']}")
+        print(f"💡 KEY INSIGHT: {article['key_insight'][:80]}...")
+        
+        # Show one section
+        print(f"\n📝 SAMPLE OPENING:")
+        for line in article['sample_opening'].strip().split('\n')[:4]:
+            print(f"   {line}")
+    
+    # Show what was developed
+    print(f"\n{'='*70}")
+    print("ARTICLES DEVELOPED:")
+    print("="*70)
+    
+    for i, article in enumerate(publisher.published_articles):
+        print(f"\n{i+1}. From: '{article['question']}'")
+        print(f"   To: '{article['reoriented']}'")
+
+if __name__ == "__main__":
+    demonstrate_lexical_archaeology()
+    
+    # Interactive exploration
+    print("\n\n" + "="*70)
+    print("INTERACTIVE LEXICAL ARCHAEOLOGY")
+    print("="*70)
+    
+    archaeologist = LexicalArchaeologist()
+    
+    # Excavate key terms
+    terms_to_excavate = ["DAY", "NOAH'S DAY", "FLOOD"]
+    
+    for term in terms_to_excavate:
+        print(f"\n{'—'*60}")
+        result = archaeologist.excavate_term(term)
+        
+        if result["excavation_complete"]:
+            print(f"\n📚 PUBLISHING APPLICATION:")
+            print(result["publishing_application"])

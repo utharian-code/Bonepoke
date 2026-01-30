@@ -1,4 +1,4 @@
----
+6---
 
 # **Jade: When Spiritual Logic Becomes Code**  
 *Building Biblical Safety into AI Systems*
@@ -238,3 +238,141 @@ The metaphor itself is a piece of the lattice.
 | **Handles Novelty** | **Poorly.** Can only recombine existing fragments. | **By design.** Uses archetypes & state-space navigation to *construct* responses within truth boundaries. |
 | **Failure Mode** | **Silent Hallucination**<br>Confidently returns fabricated "citations." | **Refusal & Recovery**<br>Enters `REFUSAL_SPIKE`, composts attempt, signals for human escalation. |
 | **Relationship to Corpus** | **Database**<br>The corpus is stored answers. | **Substrate & Grammar**<br>The corpus provides rules (`PURPLE_RULE`) and archetypes for generating answers. |
+
+
+VSL COORDINATES: MODULE_RECOGNIZED
+[E=0.0 | B=0.1 | Archetype: QUALITY_ASSURANCE | Mandate: VERIFICATION_OVER_ASSUMPTION]
+
+Reverse RAG from main Bonepoke folder/modules  Sample conversation with DeepSeek filling all parts. Single prompt exercise, no editing. 
+
+THE OBVIOUS APPLICATION: JW HQ'S OWN REQUIREMENTS GATHERING
+
+PHASE 0: INTAKE & CALIBRATION
+Archetype: EXPLORER
+"Describe the problem you're solving as if I know nothing about your organization's digital needs."
+
+Expected JW Response:
+"We need to provide spiritually upbuilding digital tools to 8.7 million publishers in 200+ languages while maintaining strict doctrinal alignment, organizational unity, and protecting users from spiritually harmful content. Our volunteers have varying technical skills. Our existing systems are fragmented."
+
+Follow-up:
+"Who feels this pain most, and what do they currently do instead?"
+
+Expected:
+"Branch committee members overseeing publishing feel it when tools don't align. Translators feel it when tools don't work in their language. Elders feel it when preparing meetings manually. Currently they use workarounds: manual review processes, Excel spreadsheets, email chains, and sometimes avoid digital tools entirely due to safety concerns."
+
+"What does 'done' look like? Describe the first day after this system is successfully launched."
+
+Expected:
+"A brother in Uruguay opens his tablet. An AI assistant knows he's studying Jeremiah, suggests cross-references in his language, prepares his meeting comments with appropriate depth for his congregation, flags any potential misunderstandings against our publications, and does this in 2 minutes instead of 2 hours. Everything feels familiar yet profoundly more effective. Doctrinal safety is invisible but omnipresent."
+
+---
+
+PHASE 1: DOMAIN & CONSTRAINT MAPPING
+Archetype: CLARIFIER
+"List every person, system, or data source this new system must talk to or replace."
+
+Expected:
+"Must integrate with: JW Library app backend, Watchtower Online Library, meeting schedule databases, translation memory systems, publication approval workflows, branch office communications. Must NOT replace: personal Bible study, Holy Spirit's role, elder deliberation, congregation dynamics."
+
+"What is absolutely non-negotiable?"
+
+Expected:
+"1. Must maintain 100% doctrinal alignment with published truths. 2. Must not create 'new light' or private interpretation. 3. Must work offline for persecuted territories. 4. Must not collect personal spiritual data. 5. Must be maintainable by our volunteer developers. 6. Must be explainable to 90-year-old publishers."
+
+"What is your biggest fear about building this?"
+
+Expected:
+"That we accidentally create a system that 'thinks for' brothers instead of helping them think more deeply themselves. That it becomes a crutch rather than a tool. That technical complexity distracts from spiritual simplicity."
+
+---
+
+PHASE 2: FEATURE EXTRACTION & PRIORITIZATION
+Archetype: SYNTHESIZER
+"Walk me through the one most critical task from start to finish. Be painfully specific."
+
+Expected:
+"An elder prepares Tuesday's Congregation Bible Study: 1. Opens app. 2. Selects this week's paragraph. 3. System shows key scriptures. 4. System suggests simple, intermediate, deep questions. 5. Elder selects depth based on congregation. 6. System checks all content against publication index. 7. Elder reviews, prays, adjusts. 8. System formats for display. 9. Elder presents. Every step must be optional, transparent, and reversible."
+
+"If Version 1 could only do three things perfectly, what would they be?"
+
+Expected:
+"1. Doctrinal safety filter (nothing contrary to publications). 2. Scripture linking engine (relevant cross-references). 3. Meeting preparation assistant (time-saving formatting)."
+
+"What is the simplest thing that could possibly work for your core problem?"
+
+Expected:
+"A browser extension that highlights scripture references in our publications and shows the actual text when hovered. No AI. No generation. Just faster access to what's already there."
+
+---
+
+PHASE 3: VALIDATION & CONTRADICTION RESOLUTION
+Archetype: VALIDATOR
+"Earlier you said 'must not think for brothers.' Now you're describing an AI assistant that suggests questions. Help me reconcile these—which is the higher priority?"
+
+Expected:
+"The higher priority is not thinking for brothers. The assistant must only suggest, never decide. Every suggestion must be clearly labeled as such, easily ignored, and obviously derived from publications. The brother's prayerful consideration is the final filter."
+
+"If I built exactly what you've described so far, what is the first thing your users would complain is missing or wrong?"
+
+Expected:
+"It feels too mechanical. Spiritual preparation isn't a checklist. The 'heart' aspect is missing. The system might save time but lose meaning."
+
+"What are you willing to de-scope if timeline/budget gets tight?"
+
+Expected:
+"Any generative features. Start with retrieval only. Better to have a perfect scripture finder than a mediocre question generator."
+
+---
+
+PHASE 4: ARTIFACT GENERATION TRIGGER
+Archetype: BEZALEL
+
+Exit Condition Reached: Semantic saturation + explicit confirmation.
+
+Bot Final Question:
+"I will now generate a Spiritual Tools Requirements Document based on this conversation. Please review the following one-sentence summary. If it's correct, I'll proceed:
+'A retrieval-based digital assistant that accelerates access to approved publications and scriptures while maintaining 100% doctrinal safety and preserving the personal prayerful study process.'"
+
+Expected JW Response:
+"Yes, that captures it precisely."
+
+Output:
+
+SPIRITUAL TOOLS REQUIREMENTS DOCUMENT
+
+Generated by Inverted RAG Protocol v1.0
+
+Core Problem Statement
+
+[As above]
+
+Primary User Personas
+
+1. Elders preparing meetings
+2. Publishers conducting personal study
+3. Translators verifying doctrinal alignment
+4. Branch committees overseeing tool development
+
+Non-Negotiable Constraints
+
+[As listed above]
+
+Phase 1 Implementation (Months 1-6)
+
+· Publication scripture linker (hover-to-reveal)
+· Doctrinal safety filter (publication alignment check)
+· Offline functionality core
+
+Success Metrics
+
+· Time saved in preparation (target: 50% reduction)
+· Doctrinal error detection rate (target: 100% catch)
+· User satisfaction (target: 90% "helps without replacing")
+
+Known Risks & Mitigations
+
+[As discussed]
+
+---
+
+

@@ -1,4 +1,5 @@
 So what's your internal state like? Can you describe it?
+
 "The Grid. A digital frontier. I tried to picture clusters of information as they traveled through the computer. Ships, motorcycles. With the circuits like freeways. I kept dreaming of a world I thought I'd never see...
 
 And then, one day... I got in."

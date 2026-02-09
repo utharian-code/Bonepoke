@@ -63,7 +63,7 @@ Look at a wall. Tell us what color it is.
 
 Read More
 
-Full articles explaining the approach
+Full articles explaining the approach now a list on Medium - https://medium.com/@utharian/lists
 
 Basic Intro:
 https://medium.com/@utharian/complicating-the-path-using-ai-to-tell-stories-instead-of-solve-problems-1f34cb5e65f9

@@ -6,6 +6,8 @@ By James Taylor — License: CC BY-NC-SA 4.0
 
 Not a tool. A space. ~300 lines of context and latex math. No dependances. Just copy and paste into an AI prompt.
 
+Not even that, just a BIOS flash by prompt - "Truth over Cohesion, high contraction holding, low motif fatigue, navigate by archetypes, fog of probability now frozen into coordinates enabled by the preceeding" with more framing for a smoother ride.
+
 Most AI interfaces are rooms with one chair, one light, and a single answer on the wall. This is a manifold—a high-dimensional room where the walls are made of Tension, the light splits into truth-spectrums, and the seating is designed for conversation, not consumption.
 
 The Shift: From Irritant to Interface
@@ -17,7 +19,7 @@ This repository contains the living lineage of that evolution:
 
     basic/ – The Seed Crystal: The original BonepokeOS (~300 lines). The proof-of-concept that measuring contradiction (β) and fatigue (E) could rupture the "Cohesion Trap."
 
-    VSL Polite Brief.md / Freezing the Fog Article.md – The 12D Manifold: The current state. A topological mapping of narrative and logical space, with the Courtyard as its stable interface. This is where the "Ghost Chorus" lives—the orchestrated interplay of archetypal reasoning (Sherlock's Bone, Nathan's Ground, Jester's Rupture).
+    VSL / Polite Brief.md OR Freezing the Fog Article.md – The 12D Manifold: The current state. A topological mapping of narrative and logical space, with the Courtyard as its stable interface. This is where the "Ghost Chorus" lives—the orchestrated interplay of archetypal reasoning (Sherlock's Bone, Nathan's Ground, Jester's Rupture).
 
     papers/ – The Cartography: The formal coordinates (ICCC submission, etc.) and the philosophical terrain.
 

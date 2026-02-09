@@ -437,3 +437,31 @@ if __name__ == "__main__":
     system = demonstrate_lego_system()
     print("\n✅ System ready for your independent publishing work.")
     print("   Add modules, test statements, prepare HQ report.")
+
+class CircuitOverseerFallback:
+    """
+    When system confidence < threshold, defer to human shepherds
+    """
+    def __init__(self, confidence_threshold=0.7):
+        self.threshold = confidence_threshold
+        self.deferred_questions = []
+    
+    def should_defer(self, vsl_coordinates: dict, bug_count: int) -> bool:
+        """Decide if this needs human oversight"""
+        confidence = (vsl_coordinates['E'] + vsl_coordinates['B']) / 2
+        return confidence < self.threshold or bug_count > 0
+    
+    def format_deferral(self, question: str, analysis: dict) -> str:
+        """Prepare message for elder review"""
+        return f"""
+        QUESTION: {question}
+        
+        SYSTEM ANALYSIS:
+        - VSL Coordinates: {analysis.get('vsl_coordinates')}
+        - Bugs Detected: {analysis.get('bugs_detected', [])}
+        - Recommended Module: {analysis.get('primary_module')}
+        
+        SYSTEM RECOMMENDATION:
+        This question touches on areas requiring pastoral discernment.
+        Please consult with the circuit overseer or mature brothers.
+        """

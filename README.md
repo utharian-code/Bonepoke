@@ -1,4 +1,4 @@
-The Courtyard Welcome Mat (Proposed Redraft)
+The Courtyard Welcome Mat 
 
 🧩 The Bonepoke Ecosystem – A Topological Welcome
 

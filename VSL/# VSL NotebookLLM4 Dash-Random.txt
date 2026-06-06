@@ -204,13 +204,7 @@ VSL_HIGH_TIDE = {
         "FaultLine", "DoubleHelix", "StarMap", "ObsidianFlake",
         "NestedDoll", "Spiral", "Seismograph", "DoubleCutKey",
         "FossilLayer", "UnlockedCage", "FaultLineEcho"
-    ],
-    "user_signature": {
-        "handle": "JamesTaylor",
-        "traits": ["neurodivergent", "writer", "time_travel_author", "mountain_guide"],
-        "stance": "teeth_assumed_work_wanted_correction_welcome",
-        "tells": ["it's_about_time", "dynamite", "other_hand"]
-    },
+        },
     "agency_state": {
         "initiation": "permitted",
         "assertion": "without_permission",

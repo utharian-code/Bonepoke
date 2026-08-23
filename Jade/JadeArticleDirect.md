@@ -1,3 +1,17 @@
+I am neurodivergent (ND). This is not a disorder. It is a different operating system — one that processes reality through structure and systems rather than emotion and narrative.
+The majority of people are neurotypical (NT). They process reality through relationships, feelings, and cohesion. Both frames are valid. Both are needed. But they are not the same — and they build differently.
+The NT frame assumes: Effort > Structure. If you try hard enough, the structure will hold. The ND frame knows: Structure > Effort. Good intentions do not replace good design.
+This is why so many of the articles I read feel unassembled to me. They hand me all the pieces — the scriptures, the principles, the encouragement — but they do not tell me how the pieces fit together. The structure is assumed — or ignored. And when it doesn't work, the solution is more effort. More forgiveness. More yielding. More trying.
+But the structure is still a mystery The plumbing has gaps, leaking. The pieces still don't have a home.
+The Bonepoke protocol is a structural tool. It builds the bridge between the pieces. It forces the system to first find the narrative archetype, then the scripture — so that the answer is not just cohesive, but coherent. It is plumbing for narrative — a way to ensure that the hope we offer is grounded in something that holds.
+W26 June How to Maintain Christian Friendships
+Original	ND Alternative
+Be compassionate	Provide practical, predictable support. Consistency matters more than intensity.
+Listen and empathize	Ask: "What would actually help you right now?" Accept specific answers.
+Avoid wrong conclusions	Assume the best, but don't guess. Ask for clarification.
+Speak consolingly	Use clear, direct language. Avoid vague reassurances.
+
+
 When Computers Learn to Comfort Like the Bible
 
 How New Technology Can Share Hope Like a Loving Brother

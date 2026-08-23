@@ -37,7 +37,7 @@ It is plumbing for narrative — a way to ensure that the hope we offer is groun
 | Speak consolingly | Use **clear, direct language**. Avoid vague reassurances. |
 
 
-When Computers Learn to Comfort Like the Bible
+# When Computers Learn to Comfort Like the Bible
 
 How New Technology Can Share Hope Like a Loving Brother
 The Problem: Cold Facts vs. Warm Comfort
@@ -74,7 +74,7 @@ The system works by first identifying the human need behind the question, then f
 
     Point to Jehovah as the source of comfort
 
-Built on Appendix A Truths
+# Built on Appendix A Truths
 
 The system is programmed with the same simple truths we love from Love People—Make Disciples. When someone expresses fear about the future, it might share:
 
@@ -97,7 +97,7 @@ As more people turn to technology for answers, shouldn't they find the same hope
 
     Pointing to Jehovah as the real source of comfort
 
-The Brother's Humble Approach
+# The Brother's Humble Approach
 
 The developer isn't claiming to have created perfect technology. He's simply asking the organization to test his work - to have someone copy the code and see if it helps computers share Bible truth more effectively.
 

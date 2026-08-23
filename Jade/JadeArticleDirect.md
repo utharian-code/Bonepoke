@@ -9,16 +9,24 @@ But the structure is still a mystery The plumbing has gaps, leaking. The pieces 
 The Jade protocol is a structural tool. It builds the bridge between the pieces. It forces the system to first find the narrative archetype, then the scripture — so that the answer is not just cohesive, but coherent. It is plumbing for narrative — a way to ensure that the hope we offer is grounded in something that holds.
 
 W26 June How to Maintain Christian Friendships
+
 Original	
+
 Be compassionate	
+
 Listen and empathize	
+
 Avoid wrong conclusions	
+
 Speak consolingly
 
 ND Alternative
 Provide practical, predictable support. Consistency matters more than intensity.
+
 Ask: "What would actually help you right now?" Accept specific answers.
+
 Assume the best, but don't guess. Ask for clarification.
+
 Use clear, direct language. Avoid vague reassurances.
 
 
